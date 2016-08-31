@@ -5,12 +5,13 @@ I made it in Java. It is one of the most industrial and proven value language in
 This application uses SWT to run. It is therefore widely runnable in every environment supporting Java (Linux,  MacOS, windows).
 How to use it
 Let's start the program :
-1°) Go to the main directory, then in the exe folder
-2°) Type « java -version » and ensure the value is 1.5 or higher
-3°) Type « java -jar rebus.jar ». 
-4°) Write a sentence in the text field then click on the button « Put my life in pictures ! »
-5°) Below are three results : the rebus in text mode, with drawings and the total cost.
-6°) You can change the efficiency by adjusting the settings : maximal cost for a word, complexity of the search and length of the found words. It will make the result shorter or cheaper, but also the process longer.
+
+1. Go to the main directory, then in the exe folder
+2. Type « java -version » and ensure the value is 1.5 or higher
+3. Type « java -jar rebus.jar ». 
+4. Write a sentence in the text field then click on the button « Put my life in pictures ! »
+5. Below are three results : the rebus in text mode, with drawings and the total cost.
+6. You can change the efficiency by adjusting the settings : maximal cost for a word, complexity of the search and length of the found words. It will make the result shorter or cheaper, but also the process longer.
 
 ##How does it work ?
 The algorithm uses a common structure in Artificial Intelligence software : the Finite State Machine. 
