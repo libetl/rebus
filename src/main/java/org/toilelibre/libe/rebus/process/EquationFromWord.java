@@ -30,7 +30,7 @@ public class EquationFromWord {
    * @return an equation
    */
   public static String getEquation (final Data data, final Word word) {
-    return EquationFromWord.getEquation (data.getSettings (), data.getWfs (),
+    return EquationFromWord.getEquation (data.getSettings (), data.getSortedLettersTree (),
         word);
   }
 

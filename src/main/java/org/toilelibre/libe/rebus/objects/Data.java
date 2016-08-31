@@ -1,10 +1,12 @@
 package org.toilelibre.libe.rebus.objects;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 import org.toilelibre.libe.rebus.init.ImageIndexer;
 import org.toilelibre.libe.rebus.init.WordIndexer;
+import org.toilelibre.libe.rebus.objects.structs.Word;
 
 /**
  * Contains all concrete data of the program
@@ -25,12 +27,18 @@ public class Data {
   /**
    * The FSM
    */
-  private WordsFindStruct     wfs      = null;
+  private WordsFindStruct     sortedLettersTree = null;
+
+  private List<Word> words = null;
 
   public Data () {
   }
 
-  public Map<String, String> getImages () {
+  public List<Word> getWords () {
+    return words;
+}
+
+public Map<String, String> getImages () {
     return this.images;
   }
 
@@ -38,12 +46,12 @@ public class Data {
     return this.settings;
   }
 
-  public WordsFindStruct getWfs () {
-    return this.wfs;
+  public WordsFindStruct getSortedLettersTree () {
+    return this.sortedLettersTree;
   }
 
   /**
-   * Must be called at the begining of the program. It loads an instance of the
+   * Must be called at the beginning of the program. It loads an instance of the
    * map and the FSM.
    */
   public void init () {
@@ -51,7 +59,8 @@ public class Data {
       this.settings = new Settings ();
       this.images = ImageIndexer.index (Data.class.getClassLoader (),
           "images.txt");
-      this.wfs = WordIndexer.differencesToFSM (this.images);
+      this.words = WordIndexer.index (this.images.keySet ());
+      this.sortedLettersTree = WordIndexer.differencesToFSM (this.words);
     } catch (final IOException e) {
       throw new RuntimeException (e);
     }

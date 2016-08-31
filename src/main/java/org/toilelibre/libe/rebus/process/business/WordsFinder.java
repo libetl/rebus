@@ -24,7 +24,7 @@ import org.toilelibre.libe.rebus.objects.structs.Word;
  */
 public class WordsFinder {
 
-  public static final String PATTERN_DIFF = "(\\- ([a-z0-9]+))?( )?(\\+ ([a-z0-9]+))?";
+  public static final Pattern PATTERN_DIFF = Pattern.compile ("(\\- ([a-z0-9]+))?( )?(\\+ ([a-z0-9]+))?");
 
   /**
    * Add a new pair in the struct
@@ -79,9 +79,8 @@ public class WordsFinder {
     //We need to split the paths in two 
     //{negative, positive} Strings before entering
     //addOnePath
-    final Pattern pattern = Pattern.compile (WordsFinder.PATTERN_DIFF);
-    final Matcher matcher1 = pattern.matcher (difference1to2);
-    final Matcher matcher2 = pattern.matcher (difference2to1);
+    final Matcher matcher1 = PATTERN_DIFF.matcher (difference1to2);
+    final Matcher matcher2 = PATTERN_DIFF.matcher (difference2to1);
     matcher1.find ();
     matcher2.find ();
     
@@ -315,8 +314,7 @@ public class WordsFinder {
       final int numTransitionsMissing, final int lengthDelta) {
     
     //We create the negative and positive path variables here
-    final Pattern pattern = Pattern.compile (WordsFinder.PATTERN_DIFF);
-    final Matcher matcher1 = pattern.matcher (path);
+    final Matcher matcher1 = PATTERN_DIFF.matcher (path);
     matcher1.find ();
     final String negative = (matcher1.group (2) == null ? "" : matcher1
         .group (2));
