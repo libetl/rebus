@@ -18,6 +18,7 @@ The algorithm uses a common structure in Artificial Intelligence software : the 
 It is the represention of a choice to make among several, working with paths and transitions. The algorithms needs to put a value on each possible track. Then it chooses the best one.
 
 Herein is a simplified diagram of the structure used in the program :
+![FSM](src/main/resources/FSM.svg)
 
 Doing an example step by step could be useful to explain the process . For example : on the word « this »
 
