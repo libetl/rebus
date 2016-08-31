@@ -30,6 +30,8 @@ Doing an example step by step could be useful to explain the process . For examp
 ##Complexity of the algorithms
 Indexing the data has a quadratic complexity (because it computes a path between each pair of words).
 org.toilelibre.libe.rebus.init : Method « differencesToFSM »
+
+```java
     for (final Object word1S : imagesSet) {
       for (final Object word2S : imagesSet) {
         if (!word1S.equals (word2S)) {
@@ -42,9 +44,12 @@ org.toilelibre.libe.rebus.init : Method « differencesToFSM »
           // We add the pair
           WordsFinder.addPath (fsm, word1, word2);
         }
+```
 
 However, the search process is exponential by nature. In each step of the process, every transition is scanned. In the worst case, every transition of the FSM is visited. Let's look at 
 org.toilelibre.libe.rebus.process.business.WordsFinder
+
+```java
   private static Map<String, Set<Pair<Word, Word>>> findNearestPathsData (...) {
     
     ...
@@ -77,6 +82,8 @@ org.toilelibre.libe.rebus.process.business.WordsFinder
         }
       }
     }
+```
+
 II tried several other algorithms. You will find them in the draft folder. One of them is FindBestWordsCombination.java. The algorithm tries each combination of words with a given number of words to produce in the rebus. 
 It uses both symbols + and – to combine. For each combination of word, we have C(2, k) combinations of symbols.
 If k is the number of words to combine, the complexity is O (C(2, k) * n^k).
@@ -89,8 +96,9 @@ Some rebus...
 Lowest Cost
 I took the three ones in the test case provided on the itasoftware website. I tried each one with the lowest possible cost and the maximal search potential. (Max cost if possible : 0, complexity 20, length delta 20)
 
-Is your solution optimal?
+- Is your solution optimal?
 
+```
 Is
 :stack - :tack + (:rhino - :horn)
 
@@ -103,10 +111,12 @@ solution
 optimal
 :terminal -:run + (:soup - :sea + (:game - :gem))
 
+```
 Cost : 0
 
-Outlying data points violated our weakest heuristics.
+- Outlying data points violated our weakest heuristics.
 
+```
 Outlying 
 :toungue - :eye + (:globe - :bug + (:billy - :ball + (:cake - :coke + y)))
 
@@ -128,9 +138,12 @@ weakest
 heuristics
 :stethoscope - :tape + (:rubik - :book + (:rhino - :horn + (:ocean -:cone)))
 
+```
 Cost : 1
-The quiet oenophile adored rhododendrons but loathed zoological exoticness.
 
+- The quiet oenophile adored rhododendrons but loathed zoological exoticness.
+
+```
 the
 :elephant -:plane
 
@@ -158,11 +171,15 @@ zoological
 exoticness
 :princess - :pear + (:teeth - :hot + (:mailbox - :lamb + (:boat - :bite + (:cane - :can))))
 
+```
 Cost : 5
-Shorter rebus
-Allowing the max cost to a higher value can shorten the size of our rebus. Let's try 6 by word (a vowel + a consonant, or 6 vowels can remain in the result for each word) 
-Is your solution optimal?
 
+##Shorter rebus
+Allowing the max cost to a higher value can shorten the size of our rebus. Let's try 6 by word (a vowel + a consonant, or 6 vowels can remain in the result for each word) 
+
+- Is your solution optimal?
+
+```
 Is
 :stack - :tack + i
 
@@ -175,9 +192,12 @@ solution
 optimal
 :terminal -:run + (:soup - :sea + a)
 
+```
 Cost : 6
-Outlying data points violated our weakest heuristics.
 
+- Outlying data points violated our weakest heuristics.
+
+```
 Outlying 
 :toungue - :eye + (:globe - :bug -o + yiy)
 
@@ -199,9 +219,12 @@ weakest
 heuristics
 :stethoscope - :tape + (:rubik - :book + ia)
 
+```
 Cost : 23
-The quiet oenophile adored rhododendrons but loathed zoological exoticness.
 
+- The quiet oenophile adored rhododendrons but loathed zoological exoticness.
+
+```
 the
 :elephant -:plane
 
@@ -229,5 +252,6 @@ zoological
 exoticness
 :princess - :pear + (:teeth - :hot + (:mailbox - :lamb - i + ao)
 
+```
 Cost : 30
 
