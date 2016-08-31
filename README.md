@@ -84,16 +84,25 @@ org.toilelibre.libe.rebus.process.business.WordsFinder
     }
 ```
 
-II tried several other algorithms. You will find them in the draft folder. One of them is FindBestWordsCombination.java. The algorithm tries each combination of words with a given number of words to produce in the rebus. 
+II tried several other algorithms. You will find them in the draft folder. One of them is FindBestWordsCombination.java. 
+
+The algorithm tries each combination of words with a given number of words to produce in the rebus. 
+
 It uses both symbols + and – to combine. For each combination of word, we have C(2, k) combinations of symbols.
+
 If k is the number of words to combine, the complexity is O (C(2, k) * n^k).
+
 It sure is a polynomial solution. Unfortunately, for our small amount of data, it is by far slower than our exponential solution.
+
 I also tried an algorithm to find the best similar word to the one submitted. This exponential algorithm uses a dictionary to order the words. This dictionary is a tree where a boolean indicate on each node if there is a end of word. In our scale, each execution is very fast. 
+
 The main advantage of this algorithm is that the found word tries to respect as much as possible the order of letters. It can be tested by launching the draft application (The code can be found in org.toilelibre.libe.rebus.Tests in the draft folder)
+
 I gave it also a naïve try by doing a « for » loop on a List<Word> dictionary. A tip is to compare the likeness of two words by sorting the letters in alphabetical orders (it is often used to compare homonymous words in O(n). Instead of comparing by equals, I made a « distance » method which computes how many letters are different in the words, The method « distance » uses the method « difference » which display in a mathematical form the delta between the words. In the draft folder, the source code can be found in 
 org.toilelibre.libe.rebus.objects.Word). The method is used also in my final version. It can be found in  org.toilelibre.libe.rebus.process.business.WordsDifference (I never want to keep functional code in a data object).
 Some rebus...
-Lowest Cost
+
+###Lowest Cost
 I took the three ones in the test case provided on the itasoftware website. I tried each one with the lowest possible cost and the maximal search potential. (Max cost if possible : 0, complexity 20, length delta 20)
 
 - Is your solution optimal?
@@ -174,7 +183,7 @@ exoticness
 ```
 Cost : 5
 
-##Shorter rebus
+###Shorter rebus
 Allowing the max cost to a higher value can shorten the size of our rebus. Let's try 6 by word (a vowel + a consonant, or 6 vowels can remain in the result for each word) 
 
 - Is your solution optimal?
