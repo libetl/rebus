@@ -20,12 +20,13 @@ It is the represention of a choice to make among several, working with paths and
 Herein is a simplified diagram of the structure used in the program :
 
 Doing an example step by step could be useful to explain the process . For example : on the word « this »
-	We submit to the FSM the path « +this ». Thus, we need a node with most of the letters contained in the word.
-	1°) In the FSM, the algorithm found a quite good path : – a + stih ». There is one substraction matching this node  « :ostrich -:orca ».
-	2°) The algorithm states that « this =:ostrich -:orca + a ». It will now find a match for the remaining +a path.
-	3°) There are several matches for the path « -a ». The algorithm takes one randomly : «:ocean  - :cone ».
-	4°) The algorithm give back the answer : « this =:ostrich -:orca + (:ocean -:cone).
-	5°) The algorithm computes the cost. Total cost for this word : 0. But in the settings you can set a maximal value of cost if you want the rebus to be shorter.
+
+We submit to the FSM the path « +this ». Thus, we need a node with most of the letters contained in the word.
+1. In the FSM, the algorithm found a quite good path : – a + stih ». There is one substraction matching this node  « :ostrich -:orca ».
+2. The algorithm states that « this =:ostrich -:orca + a ». It will now find a match for the remaining +a path.
+3. There are several matches for the path « -a ». The algorithm takes one randomly : «:ocean  - :cone ».
+4. The algorithm give back the answer : « this =:ostrich -:orca + (:ocean -:cone).
+5. The algorithm computes the cost. Total cost for this word : 0. But in the settings you can set a maximal value of cost if you want the rebus to be shorter.
 
 
 ##Complexity of the algorithms
