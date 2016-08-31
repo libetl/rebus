@@ -22,6 +22,7 @@ Herein is a simplified diagram of the structure used in the program :
 Doing an example step by step could be useful to explain the process . For example : on the word « this »
 
 We submit to the FSM the path « +this ». Thus, we need a node with most of the letters contained in the word.
+
 1. In the FSM, the algorithm found a quite good path : – a + stih ». There is one substraction matching this node  « :ostrich -:orca ».
 2. The algorithm states that « this =:ostrich -:orca + a ». It will now find a match for the remaining +a path.
 3. There are several matches for the path « -a ». The algorithm takes one randomly : «:ocean  - :cone ».
