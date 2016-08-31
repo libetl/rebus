@@ -266,9 +266,11 @@ public class MakeARebus {
         // We add the drawing
         final String pictureFile = data.getImages ().get (
             picture);
-        URL pictureUrl = Thread.currentThread ().getContextClassLoader ()
-            .getResource (pictureFile);
-        jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureUrl)));
+        if (pictureFile != null) {
+            URL pictureUrl = Thread.currentThread ().getContextClassLoader ()
+                    .getResource (pictureFile);
+            jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureUrl)));
+        }
         lastPos = matcher.end ();
       }
 
