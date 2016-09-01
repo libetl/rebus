@@ -94,8 +94,4 @@ public final class Word {
         return phonemes;
     }
 
-    public String getPhonemesAsString (int start) {
-        return this.phonemes.subList (start, this.phonemes.size () - 1).toString ().replace ('[', ' ').replace (']', ' ').trim ();
-    }
-
 }

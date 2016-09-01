@@ -49,11 +49,10 @@ public class WordToPhonemes {
             trues [i] = true;
         while (!Arrays.equals (trues, foundPerLetter) && found) {
             found = false;
-            String partToSee = word;
-            while (partToSee.length () > 0 && !found) {
+            while (!found) {
                 for (Entry<Pattern, Phoneme> entry : PHONEMES.entrySet ()) {
-                    Matcher matcher = entry.getKey ().matcher (partToSee);
-                    if (matcher.find ()) {
+                    Matcher matcher = entry.getKey ().matcher (word);
+                    while (matcher.find ()) {
                         if (matcher.end () - matcher.start () > lengthOfCandidate && notInAlreadyDiscoveredPatterns (foundPerLetter, matcher.start (), matcher.end ())) {
                             found = true;
                             lengthOfCandidate = matcher.end () - matcher.start ();
@@ -61,11 +60,8 @@ public class WordToPhonemes {
                         }
                     }
                 }
-                if (!found && partToSee.length () > 0) {
-                    partToSee = partToSee.substring (0, partToSee.length () - 1);
-                }
                 if (found) {
-                    Matcher matcher = candidate.matcher (partToSee);
+                    Matcher matcher = candidate.matcher (word);
                     while (matcher.find ()) {
                         for (int i = matcher.start (1); i < matcher.end (1); i++) {
                             foundPerLetter [i] = true;

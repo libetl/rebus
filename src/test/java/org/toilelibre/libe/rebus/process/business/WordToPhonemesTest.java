@@ -24,5 +24,10 @@ public class WordToPhonemesTest {
     public void squirrelled () {
         System.out.println(WordToPhonemes.wordToPhonemes ("squirrelled"));
     }
+    
+    @Test
+    public void bicycle () {
+        System.out.println(WordToPhonemes.wordToPhonemes ("bicycle"));
+    }
 
 }

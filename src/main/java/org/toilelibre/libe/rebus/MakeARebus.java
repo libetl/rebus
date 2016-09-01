@@ -33,7 +33,7 @@ import javax.swing.event.ChangeListener;
 import org.toilelibre.libe.rebus.objects.Data;
 import org.toilelibre.libe.rebus.objects.structs.Word;
 import org.toilelibre.libe.rebus.process.EquationFromWord;
-import org.toilelibre.libe.rebus.process.RebusFromWord;
+import org.toilelibre.libe.rebus.process.RebusFromPhonemes;
 
 /**
  * GUI. Made with the Google SWT Designer Plugin It is not thus respecting the
@@ -207,8 +207,8 @@ public class MakeARebus {
              */
             public void run () {
               // Getting the result here
-              final String equation = RebusFromWord.getRebus (
-                  data, word).toString ();
+              final String equation = RebusFromPhonemes.getRebus (
+                  data, word.getPhonemes ()).toString ();
               // The cost
               SubmitRebusAction.this.cost  = 0;
               // We write it
