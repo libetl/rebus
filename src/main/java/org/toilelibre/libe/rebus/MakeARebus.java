@@ -221,6 +221,7 @@ public class MakeARebus {
       // We add a new Panel to one word box
       final Container box = (Container) resultPanels
           .getComponent (i);
+      if (box.getComponentCount () == 0) return;
       final JLabel jl = (JLabel) box.getComponent (0);
       final JPanel jpTextsAndDrawings = new JPanel ();
       box.add (jpTextsAndDrawings);
