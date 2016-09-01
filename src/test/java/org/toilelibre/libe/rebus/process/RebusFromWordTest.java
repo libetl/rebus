@@ -27,5 +27,10 @@ public class RebusFromWordTest {
         System.out.println (RebusFromPhonemes.getRebusFromSentence (data, 
                 "As far as i know"));
     }
+    @Test
+    public void eyeAndWave () {
+        System.out.println (RebusFromPhonemes.getRebusFromSentence (data, 
+                "microwave"));
+    }
 
 }
