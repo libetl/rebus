@@ -8,6 +8,7 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.net.URL;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -151,13 +152,6 @@ public class MakeARebus {
      */
     private static final long serialVersionUID = -3355814052129919461L;
 
-    private int               cost             = 0;
-
-      /**
-       * Keeping an eye during the process on how many threads are still
-       * converting a word. When 0, the draw () method is called
-       */
-      private int               nbRemaining      = 0;
 
       public SubmitRebusAction () {
           putValue (Action.NAME, "I'm loading some data...");
@@ -175,31 +169,13 @@ public class MakeARebus {
         rebus
             .setText ("I'm making your sentence meaningful :) ...");
 
-        // Spliting the sentence into words
-        final String[] wordsS = EquationFromWord
-            .preparse (textField.getText ());
-
-        // Set remaining as the number of threads to be run.
-        nbRemaining = wordsS.length;
-
-        // We prepare the labels
-        final JLabel[] jlabelsResult = new JLabel[wordsS.length];
-
-        // Clear any previous result
-        cost = 0;
         resultPanels.removeAll ();
 
         // Here we launch the threads
-        for (int i = 0 ; i < jlabelsResult.length ; i++) {
-          final int j = i;
-          jlabelsResult[i] = new JLabel ("?");
-          jlabelsResult[i].setVerticalTextPosition (SwingConstants.BOTTOM);
           final JPanel jpbox = new JPanel ();
           jpbox.setBorder (new LineBorder (new Color (0, 0, 0)));
           jpbox.setLayout (new GridLayout (2, 1, 0, 0));
-          jpbox.add (jlabelsResult[i]);
           resultPanels.add (jpbox);
-          final Word word = new Word (wordsS[i]);
           new Thread () {
             @Override
             /**
@@ -207,34 +183,31 @@ public class MakeARebus {
              */
             public void run () {
               // Getting the result here
-              final String equation = RebusFromPhonemes.getRebus (
-                  data, word.getPhonemes ()).toString ();
-              // The cost
-              SubmitRebusAction.this.cost  = 0;
+              final List<Word> words = RebusFromPhonemes.getRebusFromSentence (
+                  data, textField.getText ());
               // We write it
-              jlabelsResult[j].setText ("(" + equation + ")");
-              costLabel.setText ("Cost : "
-                  + SubmitRebusAction.this.cost);
+              for (Word word : words){
+                  JLabel jlabelsResult = new JLabel ("?");
+                  jlabelsResult.setVerticalTextPosition (SwingConstants.BOTTOM);
+                  jlabelsResult.setText ("(" + word.getWord () + ")");
+                  jpbox.add (jlabelsResult);
+              }
               // And tell that the thread is over.
-              SubmitRebusAction.this.join ();
-            }
+              SubmitRebusAction.this.join();
+          }
           }.start ();
         }
 
-      }
 
       /**
        * Called when a thread is over Decreases the remaining value if 0, it calls
        * frame.draw () and bring back the submit button.
        */
       private void join () {
-        nbRemaining--;
-        if (this.nbRemaining == 0) {
-            draw ();
+          draw ();
           rebus.setEnabled (true);
           rebus.setAction (rebusAction);
           rebus.setText ("Get a rebus");
-        }
       }
   }
 
