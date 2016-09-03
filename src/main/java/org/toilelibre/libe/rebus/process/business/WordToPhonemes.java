@@ -18,6 +18,8 @@ import java.util.regex.Pattern;
 import org.toilelibre.libe.rebus.objects.structs.Phoneme;
 
 public class WordToPhonemes {
+    
+    private static final Phoneme EMPTY = new Phoneme ("//");
     private static Map<Pattern, Phoneme> PHONEMES = new HashMap<Pattern, Phoneme> ();
 
     static {
@@ -27,7 +29,7 @@ public class WordToPhonemes {
             while (line != null) {
                 String key = line.substring (0, line.indexOf ('='));
                 String value = line.substring (line.indexOf ('=') + 1);
-                PHONEMES.put (Pattern.compile (key), new Phoneme (value));
+                PHONEMES.put (Pattern.compile (key), EMPTY.getPhoneme ().equals (value) ? EMPTY : new Phoneme (value));
                 line = br.readLine ();
             }
             br.close ();
@@ -84,7 +86,7 @@ public class WordToPhonemes {
         Phoneme lastOne = list.get (0);
         result.add (list.get (0));
         for (int i = 1; i < list.size (); i++) {
-            if (list.get (i) != lastOne) {
+            if (list.get (i) != lastOne && list.get (i) != EMPTY) {
                 result.add (list.get (i));
             }
             lastOne = list.get (i);
