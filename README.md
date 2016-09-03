@@ -3,7 +3,8 @@
 ##Description
 I made it in Java. It is one of the most industrial and proven value language in the IT domain. 
 This application uses SWT to run. It is therefore widely runnable in every environment supporting Java (Linux,  MacOS, windows).
-How to use it
+
+##How to use it
 Let's start the program :
 
 1. Go to the main directory, then in the exe folder
