@@ -117,4 +117,34 @@ public class PhonemesIndexer {
         }
         return result;
     }
+    
+    public static void readFile (Data data, String fileName) {
+        try {
+            BufferedReader br = new BufferedReader (new InputStreamReader (new FileInputStream (new File ("src/main/resources/eng_phone.txt"))));
+            String line = br.readLine ();
+            while (line != null) {
+                String [] parts = line.split (":");
+                if (parts.length != 3) {
+                    line = br.readLine ();
+                    continue;
+                }
+                List<Phoneme> result = new ArrayList<Phoneme>();
+                Word word = new Word (parts [1]);
+                for (String phoneme : parts [0].replace ('[', ' ').replace(']', ' ').split (",")) {
+                   for (Phoneme phonemeValue : data.getPhonemes ().values ()) {
+                       if (phonemeValue.getPhoneme ().equals (phoneme.trim ()))
+                       result.add (phonemeValue);
+                   }
+                }
+                
+                data.getWordsAndPhonemes ().put (word, result);
+                data.getImages ().put (word.getWord (), parts [2]);
+
+                line = br.readLine ();
+            }
+            br.close ();
+        } catch (IOException ioe) {
+            
+        }
+    }
 }

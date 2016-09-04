@@ -64,6 +64,7 @@ public class Data {
       this.phonemes = PhonemesIndexer.index ();
       this.words = PhonemesIndexer.wordsToPhoneme (this, WordIndexer.index (this.images.keySet ()));
       this.sortedLettersTree = WordIndexer.differencesToFSM (this.words.keySet ());
+      PhonemesIndexer.readFile (this, "src/main/resources/found.txt");
     } catch (final IOException e) {
       throw new RuntimeException (e);
     }
