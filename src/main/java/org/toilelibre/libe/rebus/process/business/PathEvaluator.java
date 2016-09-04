@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  * @author LiBe
  * 
  */
-public class PathEvaluator {
+class PathEvaluator {
 
   /**
    * Chooses the path such as path - reference has a low cost
@@ -23,7 +23,7 @@ public class PathEvaluator {
    *          list of paths
    * @return the nearest from reference
    */
-  public static String chooseBestPathDelta (final List<String> paths,
+  static String chooseBestPathDelta (final List<String> paths,
       final String reference) {
     if (paths.size () == 0) { return ""; }
 
@@ -53,7 +53,7 @@ public class PathEvaluator {
    *          path after
    * @return remaining path
    */
-  public static String remainingPath (final String path1, final String path2) {
+  static String remainingPath (final String path1, final String path2) {
 
     // We will parse the paths to pick up the negative and
     // positive parts

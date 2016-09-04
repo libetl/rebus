@@ -1,6 +1,8 @@
 package org.toilelibre.libe.rebus.objects.structs;
 
 public class Phoneme {
+    
+    public static final Phoneme EMPTY = new Phoneme ("//");
 
     private final String phoneme;
 

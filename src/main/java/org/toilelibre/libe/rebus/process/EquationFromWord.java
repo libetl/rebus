@@ -1,8 +1,11 @@
 package org.toilelibre.libe.rebus.process;
 
+import java.util.Set;
+
 import org.toilelibre.libe.rebus.objects.Data;
 import org.toilelibre.libe.rebus.objects.Settings;
-import org.toilelibre.libe.rebus.objects.WordsFindStruct;
+import org.toilelibre.libe.rebus.objects.structs.FSM;
+import org.toilelibre.libe.rebus.objects.structs.Pair;
 import org.toilelibre.libe.rebus.objects.structs.Word;
 import org.toilelibre.libe.rebus.process.business.WordEvaluator;
 import org.toilelibre.libe.rebus.process.business.WordsFinder;
@@ -46,7 +49,7 @@ public class EquationFromWord {
    * @return an equation
    */
   private static String getEquation (final Settings settings,
-      final WordsFindStruct wfs, final Word word) {
+      final FSM<Set<Pair<Word, Word>>, String> wfs, final Word word) {
 
     // A Word can be seen as a remainder, let's put a + in front of it.
     String equation = "+ " + word.getWord ();

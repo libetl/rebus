@@ -2,7 +2,7 @@ package org.toilelibre.libe.rebus.process.business;
 
 import org.toilelibre.libe.rebus.objects.structs.Word;
 
-public class WordsDifference {
+class WordsDifference {
   /**
    * The tip is to use the sorted letters of the word. It enables it to be more
    * efficiently compared. The complexity of this method is now linear.
@@ -11,7 +11,7 @@ public class WordsDifference {
    *          the word to be compared with
    * @return the difference
    */
-  public static String difference (final Word word, final Word otherWord) {
+  static String difference (final Word word, final Word otherWord) {
 
     // With two cursors, we will compare letter by letter
     // these two words

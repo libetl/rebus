@@ -8,10 +8,20 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
+import org.toilelibre.libe.rebus.init.PhonemesIndexer;
+import org.toilelibre.libe.rebus.objects.Data;
 import org.toilelibre.libe.rebus.objects.structs.Phoneme;
 
 public class WordToPhonemesTest {
+    
+    private static Data data;
+
+    @BeforeClass
+    public static void prepareData () {
+        data = new Data ();
+    }
 
     @Test
     public void fileToPhonemes () throws IOException {
@@ -21,7 +31,7 @@ public class WordToPhonemesTest {
         String line;
         FileOutputStream fos = new FileOutputStream (new File ("src/main/resources/phonemes.txt"));
         while ((line = br.readLine ()) != null){
-            List<Phoneme> phonemes = WordToPhonemes.wordToPhonemes (line);
+            List<Phoneme> phonemes = PhonemesIndexer.wordToPhonemes (data.getPhonemes (), line);
             if (phonemes.size () <= 6) {
                 fos.write ((phonemes + ":" + line + "\r\n").toString ().getBytes ());
             }
@@ -32,27 +42,27 @@ public class WordToPhonemesTest {
     
     @Test
     public void dolphin () {
-        System.out.println(WordToPhonemes.wordToPhonemes ("dolphin"));
+        System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "dolphin"));
     }
     
     @Test
     public void miracle () {
-        System.out.println(WordToPhonemes.wordToPhonemes ("miracle"));
+        System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "miracle"));
     }
     
     @Test
     public void constitution () {
-        System.out.println(WordToPhonemes.wordToPhonemes ("constitution"));
+        System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "constitution"));
     }
     
     @Test
     public void squirrelled () {
-        System.out.println(WordToPhonemes.wordToPhonemes ("squirrelled"));
+        System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "squirrelled"));
     }
     
     @Test
     public void bicycle () {
-        System.out.println(WordToPhonemes.wordToPhonemes ("bicycle"));
+        System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "bicycle"));
     }
 
 }

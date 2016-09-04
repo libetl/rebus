@@ -240,10 +240,13 @@ public class MakeARebus {
         // We add the drawing
         final String pictureFile = data.getImages ().get (
             picture);
-        if (pictureFile != null) {
-            URL pictureUrl = Thread.currentThread ().getContextClassLoader ()
-                    .getResource (pictureFile);
+        URL pictureUrl = pictureFile == null ? null :
+            Thread.currentThread ().getContextClassLoader ()
+                .getResource (pictureFile);
+        if (pictureUrl != null) {
             jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureUrl)));
+        }else {
+            jpTextsAndDrawings.add (new JLabel (picture));
         }
         lastPos = matcher.end ();
       }
@@ -266,7 +269,7 @@ public class MakeARebus {
              * All data is loaded here
              */
             public void run () {
-                data.init ();
+                data = new Data ();
                 btnPutMyLife.setEnabled (true);
                 btnPutMyLife.setAction (action);
                 btnPutMyLife.setText ("Equation of words");
@@ -287,7 +290,7 @@ public class MakeARebus {
   private static JButton    rebus;
   private static JPanel     contentPane;
   private static JLabel     costLabel;
-  private static Data       data   = new Data ();
+  private static Data       data;
 
   private static JPanel     resultPanels;
 

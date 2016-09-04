@@ -1,0 +1,165 @@
+//
+/AA R/
+/AA/
+/AE R/
+/AE/
+/AH DH ER/
+/AH F/
+/AH M/
+/AH N/
+/AH V/
+/AH/
+/AO F/
+/AO L/
+/AO R/
+/AO S/
+/AO T/
+/AO/
+/AW ER/
+/AW/
+/AX B AX L/
+/AX L IY/
+/AX L Z/
+/AX L/
+/AX N/
+/AX P AO N/
+/AX S/
+/AX V/
+/AX/
+/AY D/
+/AY EH/
+/AY L D/
+/AY N/
+/AY R/
+/AY Z/
+/AY/
+/B IH L/
+/B IH Z/
+/B IH/
+/B IY IH NX/
+/B OW TH/
+/B/
+/CH UW/
+/CH/
+/D AH Z/
+/D AW/
+/D IH D/
+/D IH/
+/D UW IH NX/
+/D/
+/DH AE N/
+/DH AE T/
+/DH AH S/
+/DH EH M/
+/DH EH N/
+/DH EH R/
+/DH ER/
+/DH EY/
+/DH IH S/
+/DH IY Z/
+/DH OW Z/
+/DH OW/
+/EH D/
+/EH N IY/
+/EH R/
+/EH V/
+/EH/
+/ER N/
+/ER OW/
+/ER Z/
+/ER/
+/EY B AX L/
+/EY N JH/
+/EY S/
+/EY/
+/F UH L/
+/F/
+/G EH/
+/G IH V/
+/G JH EH S/
+/G R EY T/
+/G/
+/HH AW/
+/HH IY R/
+/HH OW L/
+/HH UW/
+/HH/
+/IH JH/
+/IH N/
+/IH/
+/IY AX/
+/IY D/
+/IY EH N/
+/IY ER/
+/IY K/
+/IY R IY/
+/IY V EH N/
+/IY/
+/JH UW/
+/JH/
+/K AH M/
+/K S/
+/K W AO R/
+/K W/
+/K/
+/L IY D/
+/L IY/
+/L OW/
+/L/
+/M EH N T/
+/M UW V/
+/M/
+/N JH/
+/N/
+/NX G AX L/
+/NX G/
+/NX K/
+/NX/
+/OW IH NX/
+/OW L/
+/OW V ER/
+/OW/
+/OY/
+/P AW/
+/P IY P/
+/P UH T/
+/P/
+/R IY/
+/R/
+/S AH M/
+/S AY/
+/S EH D/
+/S K/
+/S/
+/SH AX N/
+/SH ER/
+/SH UW/
+/SH/
+/T UW/
+/T/
+/TH R UW/
+/TH/
+/UH D/
+/UH K/
+/UH R/
+/UW P/
+/UW/
+/V Y UW/
+/V/
+/W AA/
+/W AH N S/
+/W AO R/
+/W ER/
+/W/
+/WH AA T/
+/WH EH R/
+/WH/
+/Y AH NX/
+/Y EH S/
+/Y UH R/
+/Y UW N/
+/Y UW/
+/Z M/
+/Z/
+/ZH AX N/
+/ZH ER/

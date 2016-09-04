@@ -10,7 +10,6 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.toilelibre.libe.rebus.objects.WordsFindStruct;
 import org.toilelibre.libe.rebus.objects.structs.FSM;
 import org.toilelibre.libe.rebus.objects.structs.Pair;
 import org.toilelibre.libe.rebus.objects.structs.Word;
@@ -24,7 +23,7 @@ import org.toilelibre.libe.rebus.objects.structs.Word;
  */
 public class WordsFinder {
 
-  public static final Pattern PATTERN_DIFF = Pattern.compile ("(\\- ([a-z0-9]+))?( )?(\\+ ([a-z0-9]+))?");
+  private static final Pattern PATTERN_DIFF = Pattern.compile ("(\\- ([a-z0-9]+))?( )?(\\+ ([a-z0-9]+))?");
 
   /**
    * Add a new pair in the struct
@@ -36,7 +35,7 @@ public class WordsFinder {
    * @param w1 first word of the pair
    * @param w2 second word of the pair
    */
-  private static void addOnePath (final WordsFindStruct wfs,
+  private static void addOnePath (final FSM<Set<Pair<Word, Word>>, String> wfs,
       final String pathNegative, final String pathPositive, final Word w1,
       final Word w2) {
     
@@ -70,7 +69,7 @@ public class WordsFinder {
    * @param w1 first word of the pair
    * @param w2 second word of the pair
    */
-  public static void addPath (final WordsFindStruct wfs, final Word w1,
+  public static void addPath (final FSM<Set<Pair<Word, Word>>, String> wfs, final Word w1,
       final Word w2) {
     //We are now picking up the paths between the two words
     final String difference1to2 = WordsDifference.difference (w1, w2);
@@ -108,7 +107,7 @@ public class WordsFinder {
    * @return The first element is a substraction between two keywords, 
    *         The second element represent the remaining letters, which can be useful for further finds
    */
-  public static String[] findNearestPair (final WordsFindStruct wfs,
+  public static String[] findNearestPair (final FSM<Set<Pair<Word, Word>>, String> wfs,
       final String path, final Word wordToAvoid, final int numLettersMissing,
       final int lengthDelta) {
     
@@ -310,7 +309,7 @@ public class WordsFinder {
    * @return all the sets of pairs arranged by paths
    */
   private static Map<String, Set<Pair<Word, Word>>> searchPairsByPath (
-      final WordsFindStruct wfs, final String path, final Word wordToAvoid,
+      final FSM<Set<Pair<Word, Word>>, String> wfs, final String path, final Word wordToAvoid,
       final int numTransitionsMissing, final int lengthDelta) {
     
     //We create the negative and positive path variables here

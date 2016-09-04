@@ -1,10 +1,12 @@
 package org.toilelibre.libe.rebus.init;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
-import org.toilelibre.libe.rebus.objects.WordsFindStruct;
+import org.toilelibre.libe.rebus.objects.structs.FSM;
+import org.toilelibre.libe.rebus.objects.structs.Pair;
 import org.toilelibre.libe.rebus.objects.structs.Word;
 import org.toilelibre.libe.rebus.process.business.WordsFinder;
 
@@ -26,9 +28,9 @@ public class WordIndexer {
      * @see org.toilelibre.libe.rebus.objects.structs.FSM
      * @see org.toilelibre.libe.rebus.objects.WordsFindStruct
      */
-    public static WordsFindStruct differencesToFSM (final List<Word> words) {
+    public static FSM<Set<Pair<Word, Word>>, String> differencesToFSM (final Collection<Word> words) {
         // The new fsm is created here.
-        final WordsFindStruct fsm = new WordsFindStruct ();
+        final FSM<Set<Pair<Word, Word>>, String> fsm = new FSM<Set<Pair<Word, Word>>, String> ();
 
         // We consider each pair of different words
         for (final Word word1 : words) {

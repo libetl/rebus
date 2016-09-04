@@ -1,9 +1,6 @@
 package org.toilelibre.libe.rebus.objects.structs;
 
 import java.util.Arrays;
-import java.util.List;
-
-import org.toilelibre.libe.rebus.process.business.WordToPhonemes;
 
 /**
  * Representation of the "Word" concept. A Word could be a String, but we need
@@ -16,10 +13,8 @@ import org.toilelibre.libe.rebus.process.business.WordToPhonemes;
  */
 public final class Word {
 
-    private boolean             keyword;
     private final String        sortedLetters;
     private final String        word;
-    private final List<Phoneme> phonemes;
 
     /**
      * We create the word but we also sort the letters to help the process of
@@ -34,7 +29,6 @@ public final class Word {
         final char [] buffer = word1.toCharArray ();
         Arrays.sort (buffer);
         this.sortedLetters = String.valueOf (buffer);
-        this.phonemes = WordToPhonemes.wordToPhonemes (word);
     }
 
     /**
@@ -87,11 +81,7 @@ public final class Word {
      * Prepends with a colon if it is a keyword
      */
     public String toString () {
-        return (this.keyword ? ":" : "") + this.word;
-    }
-
-    public List<Phoneme> getPhonemes () {
-        return phonemes;
+        return this.word;
     }
 
 }
