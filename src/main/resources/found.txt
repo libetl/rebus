@@ -19312,3 +19312,1421 @@
 
 [/G/, /AY/, /R/, /L/, /IH/]:girly:https://openclipart.org/image/250px/svg_to_png/224814/Purses-Silhouettes.png
 
+[/G/, /AY/, /R/, /T/]:girt:https://openclipart.org/image/250px/svg_to_png/185066/card-with-waves.png
+
+[/G/, /AY/, /R/, /T/, /IY/, /D/]:girted:https://openclipart.org/image/250px/svg_to_png/185066/card-with-waves.png
+
+[/G/, /AY/, /R/, /T/, /S/]:girts:https://openclipart.org/image/250px/svg_to_png/185066/card-with-waves.png
+
+[/G/, /IH/, /Y UW/, /L/, /IH/, /AE/]:giulia:https://openclipart.org/image/250px/svg_to_png/218105/bepi.png
+
+[/G/, /IH/, /AH/, /N/, /CH/, /IH/]:giunchi:https://openclipart.org/image/250px/svg_to_png/68101/giunchi.png
+
+[/G/, /AY/, /V/, /EH/]:give:https://openclipart.org/image/250px/svg_to_png/260346/BackgroundPattern154Colour3.png
+
+[/G/, /AY/, /V/, /IY/, /N/]:given:https://openclipart.org/image/250px/svg_to_png/260346/BackgroundPattern154Colour3.png
+
+[/G/, /AY/, /V/, /IY/, /N/, /Z/]:givens:https://openclipart.org/image/250px/svg_to_png/260017/Frame107Linen.png
+
+[/G/, /AY/, /V/, /ER/]:giver:https://openclipart.org/image/250px/svg_to_png/227266/bosnianwater.png
+
+[/G/, /AY/, /V/, /IY/, /R/, /Z/]:givers:https://openclipart.org/image/250px/svg_to_png/227266/bosnianwater.png
+
+[/G/, /AY/, /V/, /IY/, /S/]:gives:https://openclipart.org/image/250px/svg_to_png/260346/BackgroundPattern154Colour3.png
+
+[/G/, /AY/, /V/, /IY/, /S/, /T/]:givest:https://openclipart.org/image/250px/svg_to_png/260346/BackgroundPattern154Colour3.png
+
+[/G/, /IH/, /V/, /IH/, /NX/, /G/]:giving:https://openclipart.org/image/250px/svg_to_png/260346/BackgroundPattern154Colour3.png
+
+[/G/, /AY/, /Z/, /AE/]:giza:https://openclipart.org/image/250px/svg_to_png/23243/shokunin-world-landmarks-egipt-paris-sydney-ny-taj-mahal-7.png
+
+[/G/, /AY/, /Z/, /M/, /OW/]:gizmo:https://openclipart.org/image/250px/svg_to_png/212857/scifidevice.png
+
+[/G/, /AY/, /Z/, /M/, /OW/, /S/]:gizmos:https://openclipart.org/image/250px/svg_to_png/212857/scifidevice.png
+
+[/G/, /L/, /EY/, /S/, /EH/]:glace:https://openclipart.org/image/250px/svg_to_png/173769/Disco-Ball-Remix-by-Merlin2525.png
+
+[/G/, /L/, /EY/, /K/, /IY/, /S/]:glaces:https://openclipart.org/image/250px/svg_to_png/173769/Disco-Ball-Remix-by-Merlin2525.png
+
+[/G/, /L/, /AE/, /SH/, /AE/, /L/]:glacial:https://openclipart.org/image/250px/svg_to_png/249805/Glacial-lakes-Bhutan-2016052841.png
+
+[/G/, /L/, /EY/, /K/, /IY ER/]:glacier:https://openclipart.org/image/250px/svg_to_png/260589/Low-Poly-Snow-Capped-Mountains-Lake.png
+
+[/G/, /L/, /EY/, /D/]:glad:https://openclipart.org/image/250px/svg_to_png/258247/Simple-Smiley-Face.png
+
+[/G/, /L/, /EY/, /D/, /EH/, /D/]:gladded:https://openclipart.org/image/250px/svg_to_png/258247/Simple-Smiley-Face.png
+
+[/G/, /L/, /EY/, /D/, /ER/]:gladder:https://openclipart.org/image/250px/svg_to_png/258247/Simple-Smiley-Face.png
+
+[/G/, /L/, /EY/, /D/, /EH/]:glade:https://openclipart.org/image/250px/svg_to_png/211655/matt-icons_application-x-ui.png
+
+[/G/, /L/, /EY/, /D/, /IY/, /S/]:glades:https://openclipart.org/image/250px/svg_to_png/211655/matt-icons_application-x-ui.png
+
+[/G/, /L/, /EY/, /D/, /Z/]:glads:https://openclipart.org/image/250px/svg_to_png/258247/Simple-Smiley-Face.png
+
+[/G/, /L/, /EY/, /V/]:glaive:https://openclipart.org/image/250px/svg_to_png/66481/Glaive.png
+
+[/G/, /L/, /EY/, /V/, /D/]:glaived:https://openclipart.org/image/250px/svg_to_png/66481/Glaive.png
+
+[/G/, /L/, /EY/, /V/, /S/]:glaives:https://openclipart.org/image/250px/svg_to_png/66481/Glaive.png
+
+[/G/, /L/, /EY/, /M/]:glam:https://openclipart.org/image/250px/svg_to_png/168158/glam-girl.png
+
+[/G/, /L/, /EY/, /M/, /OW/, /R/]:glamor:https://openclipart.org/image/250px/svg_to_png/231911/Asian-Womans-Portrait.png
+
+[/G/, /L/, /AE/, /M/, /ER Z/]:glamors:https://openclipart.org/image/250px/svg_to_png/231911/Asian-Womans-Portrait.png
+
+[/G/, /L/, /EY/, /M/, /AO R/]:glamour:https://openclipart.org/image/250px/svg_to_png/252900/pinup-2.png
+
+[/G/, /L/, /EY/, /M/, /AO R/, /D/]:glamoured:https://openclipart.org/image/250px/svg_to_png/252900/pinup-2.png
+
+[/G/, /L/, /EY/, /M/, /AO R/, /S/]:glamours:https://openclipart.org/image/250px/svg_to_png/252900/pinup-2.png
+
+[/G/, /L/, /EY/, /N/]:glan:https://openclipart.org/image/250px/svg_to_png/195873/iso-aerotrain-exp01.png
+
+[/G/, /L/, /EY/, /N/, /S/, /EH/]:glance:https://openclipart.org/image/250px/svg_to_png/239400/kiwi-pose-coloring-for-adults-maze.png
+
+[/G/, /L/, /EY/, /N/, /D/]:gland:https://openclipart.org/image/250px/svg_to_png/121423/body-glands.png
+
+[/G/, /L/, /EY/, /N/, /D/, /Z/]:glands:https://openclipart.org/image/250px/svg_to_png/121423/body-glands.png
+
+[/G/, /L/, /EY/, /N/, /Z/]:glans:https://openclipart.org/image/250px/svg_to_png/195873/iso-aerotrain-exp01.png
+
+[/G/, /L/, /EY/, /R/, /EH/]:glare:https://openclipart.org/image/250px/svg_to_png/237263/USA-Flag-Typography-Sun-Glare-No-Background.png
+
+[/G/, /L/, /EY/, /R/, /EH/, /D/]:glared:https://openclipart.org/image/250px/svg_to_png/237263/USA-Flag-Typography-Sun-Glare-No-Background.png
+
+[/G/, /L/, /EY/, /R/, /IY/, /S/]:glares:https://openclipart.org/image/250px/svg_to_png/237263/USA-Flag-Typography-Sun-Glare-No-Background.png
+
+[/G/, /L/, /AE/, /Z/]:glas:https://openclipart.org/image/250px/svg_to_png/230850/Waage-mit-Messzylinder-und-gelber-Fluessigkeit.png
+
+[/G/, /L/, /EY/, /S/, /EH/]:glase:https://openclipart.org/image/250px/svg_to_png/173098/Avatar-II.png
+
+[/G/, /L/, /EY/, /S/, /ER/]:glaser:https://openclipart.org/image/250px/svg_to_png/215911/Knallgasprobe.png
+
+[/G/, /L/, /EY/, /S/, /G/, /OW/]:glasgow:https://openclipart.org/image/250px/svg_to_png/224445/Wheelbarrow.png
+
+[/G/, /L/, /EY/, /S/]:glass:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /L/, /EY/, /S/, /IY/, /D/]:glassed:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /L/, /EY/, /S/, /ER/]:glasser:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /L/, /EY/, /S/, /IY/, /S/]:glasses:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /L/, /EY/, /S/, /IY ER/]:glassier:https://openclipart.org/image/250px/svg_to_png/202773/1412356583.png
+
+[/G/, /L/, /EY/, /S/, /W AO R/, /EH/]:glassware:https://openclipart.org/image/250px/svg_to_png/260455/Albembic.png
+
+[/G/, /L/, /EY/, /V/, /EH/]:glave:https://openclipart.org/image/250px/svg_to_png/68245/wheel.png
+
+[/G/, /L/, /EY/, /Z/, /EH/]:glaze:https://openclipart.org/image/250px/svg_to_png/235715/jean-victor-balin-muffin-remix.png
+
+[/G/, /L/, /EY/, /Z/, /EH/, /D/]:glazed:https://openclipart.org/image/250px/svg_to_png/235715/jean-victor-balin-muffin-remix.png
+
+[/G/, /L/, /EY/, /Z/, /IY/, /S/]:glazes:https://openclipart.org/image/250px/svg_to_png/235715/jean-victor-balin-muffin-remix.png
+
+[/G/, /L/, /EY/, /Z/, /IY ER/]:glazier:https://openclipart.org/image/250px/svg_to_png/190763/zunftzeichen-Glaser.png
+
+[/G/, /L/, /EY/, /Z/, /IH/]:glazy:https://openclipart.org/image/250px/svg_to_png/190763/zunftzeichen-Glaser.png
+
+[/G/, /L/, /IY/, /M/]:gleam:https://openclipart.org/image/250px/svg_to_png/216325/Biochip-v1-by-Merlin2525.png
+
+[/G/, /L/, /IY/, /M/, /D/]:gleamed:https://openclipart.org/image/250px/svg_to_png/216325/Biochip-v1-by-Merlin2525.png
+
+[/G/, /L/, /EH/, /EY/, /M/, /Z/]:gleams:https://openclipart.org/image/250px/svg_to_png/216325/Biochip-v1-by-Merlin2525.png
+
+[/G/, /L/, /IY/, /N/]:glean:https://openclipart.org/image/250px/svg_to_png/232210/ElegantDesign2.png
+
+[/G/, /L/, /IY/, /N/, /D/]:gleaned:https://openclipart.org/image/250px/svg_to_png/232210/ElegantDesign2.png
+
+[/G/, /L/, /EH/, /EY/, /N/, /Z/]:gleans:https://openclipart.org/image/250px/svg_to_png/232210/ElegantDesign2.png
+
+[/G/, /L/, /IY/]:glee:https://openclipart.org/image/250px/svg_to_png/185103/The-Whore-of-Babylon-1522.png
+
+[/G/, /L/, /IY/, /Z/]:glees:https://openclipart.org/image/250px/svg_to_png/185103/The-Whore-of-Babylon-1522.png
+
+[/G/, /L/, /IY/, /S/, /AX N/]:gleeson:https://openclipart.org/image/250px/svg_to_png/14387/johnny-automatic-gerbil-in-a-chair.png
+
+[/G/, /L/, /IY/, /N/]:glen:https://openclipart.org/image/250px/svg_to_png/255753/PrinceWales-pattern2.png
+
+[/G/, /L/, /IY/, /N/]:glenn:https://openclipart.org/image/250px/svg_to_png/251617/Not-so-blindfolded_br_02.png
+
+[/G/, /L/, /IY/, /N/, /Z/]:glens:https://openclipart.org/image/250px/svg_to_png/255753/PrinceWales-pattern2.png
+
+[/G/, /L/, /AY/, /B/, /K/]:glibc:https://openclipart.org/image/250px/svg_to_png/171407/inkscaper-logo.png
+
+[/G/, /L/, /AY/, /D/, /EH/]:glide:https://openclipart.org/image/250px/svg_to_png/260577/Parachuting-Man-Silhouette.png
+
+[/G/, /L/, /AY/, /D/, /EH/, /D/]:glided:https://openclipart.org/image/250px/svg_to_png/260577/Parachuting-Man-Silhouette.png
+
+[/G/, /L/, /AY/, /D/, /ER/]:glider:https://openclipart.org/image/250px/svg_to_png/223154/FlyingPhalanger.png
+
+[/G/, /L/, /AY/, /D/, /IY/, /S/]:glides:https://openclipart.org/image/250px/svg_to_png/260577/Parachuting-Man-Silhouette.png
+
+[/G/, /L/, /AY/, /N/, /D/, /AE/]:glinda:https://openclipart.org/image/250px/svg_to_png/184595/Glinda.png
+
+[/G/, /L/, /IH/, /Z/]:glis:https://openclipart.org/image/250px/svg_to_png/159763/Ladybug.png
+
+[/G/, /L/, /AY/, /T/, /CH/]:glitch:https://openclipart.org/image/250px/svg_to_png/258733/1471308517.png
+
+[/G/, /L/, /AY/, /T/, /ER/]:glitter:https://openclipart.org/image/250px/svg_to_png/244269/00-blue-snowflake.png
+
+[/G/, /L/, /AY/, /T/, /Z/, /IH/]:glitzy:https://openclipart.org/image/250px/svg_to_png/181606/Beautiful-woman-01.png
+
+[/G/, /L/, /IH/, /W/, /IH/, /K/]:gliwice:https://openclipart.org/image/250px/svg_to_png/10095/warszawianka-Gliwice-coat-of-arms.png
+
+[/G/, /L/, /OW/, /B/]:glob:https://openclipart.org/image/250px/svg_to_png/245344/1459350392.png
+
+[/G/, /L/, /OW/, /B/, /EY/, /L/]:global:https://openclipart.org/image/250px/svg_to_png/247745/1461860058.png
+
+[/G/, /L/, /OW/, /B/, /EH/]:globe:https://openclipart.org/image/250px/svg_to_png/260595/Contemporary-World-Map-Art.png
+
+[/G/, /L/, /OW/, /B/, /EH/, /D/]:globed:https://openclipart.org/image/250px/svg_to_png/260595/Contemporary-World-Map-Art.png
+
+[/G/, /L/, /AA/, /B/, /S/]:globes:https://openclipart.org/image/250px/svg_to_png/260595/Contemporary-World-Map-Art.png
+
+[/G/, /L/, /OW/, /B/, /OW/]:globo:https://openclipart.org/image/250px/svg_to_png/255887/1468997411.png
+
+[/G/, /L/, /OW/, /B/, /Z/]:globs:https://openclipart.org/image/250px/svg_to_png/245344/1459350392.png
+
+[/G/, /L/, /OW/, /K/]:glock:https://openclipart.org/image/250px/svg_to_png/3703/Clue-Guns-Pack.png
+
+[/G/, /L/, /UW/, /M/]:gloom:https://openclipart.org/image/250px/svg_to_png/178367/gloomonahill.png
+
+[/G/, /L/, /UW/, /M/, /D/]:gloomed:https://openclipart.org/image/250px/svg_to_png/178367/gloomonahill.png
+
+[/G/, /L/, /AA/, /M/, /IY ER/]:gloomier:https://openclipart.org/image/250px/svg_to_png/244229/High-Poly-Winter-Creek.png
+
+[/G/, /L/, /AA/, /M/, /Z/]:glooms:https://openclipart.org/image/250px/svg_to_png/178367/gloomonahill.png
+
+[/G/, /L/, /UW/, /M/, /IY/]:gloomy:https://openclipart.org/image/250px/svg_to_png/244229/High-Poly-Winter-Creek.png
+
+[/G/, /L/, /OW/, /P/]:glop:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /L/, /OW/, /P/, /S/]:glops:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /L/, /OW/, /R/, /IY/, /AE/]:gloria:https://openclipart.org/image/250px/svg_to_png/240726/fossasia2016-2016021130.png
+
+[/G/, /L/, /OW/, /R/, /AY D/]:gloried:https://openclipart.org/image/250px/svg_to_png/251848/1465730243.png
+
+[/G/, /L/, /OW/, /R/, /IH/, /S/]:glories:https://openclipart.org/image/250px/svg_to_png/251848/1465730243.png
+
+[/G/, /L/, /AO R/, /IH/, /F/, /IH/]:glorify:https://openclipart.org/image/250px/svg_to_png/217871/civilwar-bigbattle.png
+
+[/G/, /L/, /OW/, /R/, /IY/, /AX S/]:glorious:https://openclipart.org/image/250px/svg_to_png/260090/Surreal-Glorious-Valley.png
+
+[/G/, /L/, /AO R/, /IY/]:glory:https://openclipart.org/image/250px/svg_to_png/251848/1465730243.png
+
+[/G/, /L/, /AO S/]:gloss:https://openclipart.org/image/250px/svg_to_png/235219/HeartFrame.png
+
+[/G/, /L/, /OW/, /S/, /ER/]:glosser:https://openclipart.org/image/250px/svg_to_png/235219/HeartFrame.png
+
+[/G/, /L/, /AA/, /S/, /S/]:glosses:https://openclipart.org/image/250px/svg_to_png/235219/HeartFrame.png
+
+[/G/, /L/, /OW/, /S/, /IY ER/]:glossier:https://openclipart.org/image/250px/svg_to_png/259126/AppServer.png
+
+[/G/, /L/, /OW/, /S/, /IH/, /S/]:glossies:https://openclipart.org/image/250px/svg_to_png/259126/AppServer.png
+
+[/G/, /L/, /AA/, /S/, /IY/]:glossy:https://openclipart.org/image/250px/svg_to_png/259126/AppServer.png
+
+[/G/, /L/, /OW/, /V/, /EH/]:glove:https://openclipart.org/image/250px/svg_to_png/259008/1471491316.png
+
+[/G/, /L/, /OW/, /V/, /EH/, /D/]:gloved:https://openclipart.org/image/250px/svg_to_png/259008/1471491316.png
+
+[/G/, /L/, /AH V/, /S/]:gloves:https://openclipart.org/image/250px/svg_to_png/259008/1471491316.png
+
+[/G/, /L/, /OW/]:glow:https://openclipart.org/image/250px/svg_to_png/258735/Moon-glowing.png
+
+[/G/, /L/, /OW/, /W/, /EH/, /D/]:glowed:https://openclipart.org/image/250px/svg_to_png/258735/Moon-glowing.png
+
+[/G/, /L/, /OW/, /W/, /Z/]:glows:https://openclipart.org/image/250px/svg_to_png/258735/Moon-glowing.png
+
+[/G/, /L/, /UW/, /EH/]:glue:https://openclipart.org/image/250px/svg_to_png/253590/1020---alat-untuk-kerajinan-tangan.png
+
+[/G/, /L/, /UW/, /D/]:glued:https://openclipart.org/image/250px/svg_to_png/253590/1020---alat-untuk-kerajinan-tangan.png
+
+[/G/, /L/, /UW/, /EH/, /Z/]:glues:https://openclipart.org/image/250px/svg_to_png/253590/1020---alat-untuk-kerajinan-tangan.png
+
+[/G/, /L/, /AH/, /K/, /S/]:gluks:https://openclipart.org/image/250px/svg_to_png/234402/v_NamskS05_happy_new_year_2016_303030_F39412_983DFF.png
+
+[/G/, /L/, /UW/, /T/, /IY/]:glutei:https://openclipart.org/image/250px/svg_to_png/254802/Get-Your-Gluteus-To-Mars.png
+
+[/G/, /L/, /UW/, /T/, /IY/, /N/]:gluten:https://openclipart.org/image/250px/svg_to_png/253455/IconoAlergenoGluten-Gluten.png
+
+[/G/, /L/, /UW/, /T/, /Y UW/, /Z/]:gluteus:https://openclipart.org/image/250px/svg_to_png/254802/Get-Your-Gluteus-To-Mars.png
+
+[/G/, /L/, /IH/, /F/, /S/]:glyphs:https://openclipart.org/image/250px/svg_to_png/245830/1459954015.png
+
+[/G/, /N/, /EY/, /R/, /L/, /IH/]:gnarly:https://openclipart.org/image/250px/svg_to_png/212855/headphoneswithtapeplayer.png
+
+[/G/, /N/, /EY/, /T/]:gnat:https://openclipart.org/image/250px/svg_to_png/246718/mosquito-gnat-midge-dengue-zika-chikungunya.png
+
+[/G/, /N/, /EY/, /T/, /S/]:gnats:https://openclipart.org/image/250px/svg_to_png/246718/mosquito-gnat-midge-dengue-zika-chikungunya.png
+
+[/G/, /N/, /EY/, /W/]:gnaw:https://openclipart.org/image/250px/svg_to_png/214412/1424212947.png
+
+[/G/, /N/, /EY/, /W/, /EH/, /D/]:gnawed:https://openclipart.org/image/250px/svg_to_png/214412/1424212947.png
+
+[/G/, /N/, /EY/, /W/, /ER/]:gnawer:https://openclipart.org/image/250px/svg_to_png/250762/Rat-enjoying-life-3.png
+
+[/G/, /N/, /EY/, /W/, /N/]:gnawn:https://openclipart.org/image/250px/svg_to_png/214412/1424212947.png
+
+[/G/, /N/, /EY/, /W/, /Z/]:gnaws:https://openclipart.org/image/250px/svg_to_png/214412/1424212947.png
+
+[/G/, /N/, /OW/, /M/, /EH/]:gnome:https://openclipart.org/image/250px/svg_to_png/251817/metrognome.png
+
+[/G/, /N/, /AA/, /M/, /S/]:gnomes:https://openclipart.org/image/250px/svg_to_png/251817/metrognome.png
+
+[/G/, /N/, /UW/, /Z/]:gnus:https://openclipart.org/image/250px/svg_to_png/260544/FLOSSophy-3-No-Background.png
+
+[/G/, /AA/, /AX L/]:goal:https://openclipart.org/image/250px/svg_to_png/255479/222-1022-Soccer-Goal-Keeper.png
+
+[/G/, /OW/, /L/, /D/]:goaled:https://openclipart.org/image/250px/svg_to_png/255479/222-1022-Soccer-Goal-Keeper.png
+
+[/G/, /AA/, /EY/, /L/, /ER/]:goaler:https://openclipart.org/image/250px/svg_to_png/255479/222-1022-Soccer-Goal-Keeper.png
+
+[/G/, /AA/, /EY/, /L/, /IY/]:goalie:https://openclipart.org/image/250px/svg_to_png/79411/1281523874.png
+
+[/G/, /AA/, /AE/, /L/, /IY/, /Z/]:goalies:https://openclipart.org/image/250px/svg_to_png/79411/1281523874.png
+
+[/G/, /AA/, /AX L Z/]:goals:https://openclipart.org/image/250px/svg_to_png/255479/222-1022-Soccer-Goal-Keeper.png
+
+[/G/, /OW/, /T/]:goat:https://openclipart.org/image/250px/svg_to_png/259545/Goat.png
+
+[/G/, /AA/, /EY/, /T/, /IY/]:goatee:https://openclipart.org/image/250px/svg_to_png/247764/42yroldguy.png
+
+[/G/, /AA/, /AE/, /T/, /IY/, /Z/]:goatees:https://openclipart.org/image/250px/svg_to_png/247764/42yroldguy.png
+
+[/G/, /AA/, /EY/, /T/, /S/]:goats:https://openclipart.org/image/250px/svg_to_png/259545/Goat.png
+
+[/G/, /OW/, /B/, /EY/, /N/]:goban:https://openclipart.org/image/250px/svg_to_png/227932/Go-Board-19-X19.png
+
+[/G/, /OW/, /B/, /EY/, /NX/, /G/]:gobang:https://openclipart.org/image/250px/svg_to_png/227932/Go-Board-19-X19.png
+
+[/G/, /OW/, /B/, /EH/, /D/]:gobbed:https://openclipart.org/image/250px/svg_to_png/253764/goblin-chibi-1.png
+
+[/G/, /OW/, /B/, /IY/, /NX/, /G/]:gobbing:https://openclipart.org/image/250px/svg_to_png/253764/goblin-chibi-1.png
+
+[/G/, /AA/, /B/, /AX L/, /IY/, /D/]:gobbled:https://openclipart.org/image/250px/svg_to_png/204508/nobelturkey.png
+
+[/G/, /AA/, /B/, /AX L/, /ER/]:gobbler:https://openclipart.org/image/250px/svg_to_png/10722/johnny-automatic-Mr.-Gobbler.png
+
+[/G/, /AA/, /B/, /L/, /S/]:gobbles:https://openclipart.org/image/250px/svg_to_png/204508/nobelturkey.png
+
+[/G/, /AA/, /B/, /IY/]:gobby:https://openclipart.org/image/250px/svg_to_png/253764/goblin-chibi-1.png
+
+[/G/, /AA/, /B/, /AX L/, /IY/, /T/]:goblet:https://openclipart.org/image/250px/svg_to_png/239753/tazza2.png
+
+[/G/, /AA/, /B/, /AX L/, /IY/, /N/]:goblin:https://openclipart.org/image/250px/svg_to_png/253767/goblin-chibi-3.png
+
+[/G/, /OW/, /B/, /Z/]:gobs:https://openclipart.org/image/250px/svg_to_png/253764/goblin-chibi-1.png
+
+[/G/, /OW/, /D/, /EY/, /R/, /D/]:goddard:https://openclipart.org/image/250px/svg_to_png/215253/20150303_23828_Pictomago.png
+
+[/G/, /AA/, /D/, /D IH D/, /D/]:godded:https://openclipart.org/image/250px/svg_to_png/260462/Artemis.png
+
+[/G/, /OW/, /D/, /IY/, /N/]:godden:https://openclipart.org/image/250px/svg_to_png/218984/Hokusai-Fugaku-36-views-29.png
+
+[/G/, /OW/, /D/, /IY/, /S/]:goddess:https://openclipart.org/image/250px/svg_to_png/260463/Athena.png
+
+[/G/, /OW/, /D/, /IY/, /NX/, /G/]:godding:https://openclipart.org/image/250px/svg_to_png/260462/Artemis.png
+
+[/G/, /OW/, /D/, /IY/, /N/, /AE/]:godina:https://openclipart.org/image/250px/svg_to_png/173798/cestitka.png
+
+[/G/, /OW/, /D/, /IY/, /N/, /UW/]:godinu:https://openclipart.org/image/250px/svg_to_png/173798/cestitka.png
+
+[/G/, /OW/, /D/, /OW/]:godo:https://openclipart.org/image/250px/svg_to_png/211600/Godo-Gifu-chapter.png
+
+[/G/, /OW/, /D/, /OW/, /N/]:godown:https://openclipart.org/image/250px/svg_to_png/216733/airport-hangar.png
+
+[/G/, /OW/, /D/, /OW/, /N/, /Z/]:godowns:https://openclipart.org/image/250px/svg_to_png/216733/airport-hangar.png
+
+[/G/, /OW/, /D/, /Z/]:gods:https://openclipart.org/image/250px/svg_to_png/260462/Artemis.png
+
+[/G/, /AA/, /IY/, /R/, /Z/]:goers:https://openclipart.org/image/250px/svg_to_png/77281/you-boy.png
+
+[/G/, /OW/, /EH/, /Z/]:goes:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /OW/, /EH/, /TH/, /EH/]:goethe:https://openclipart.org/image/250px/svg_to_png/60475/qubodup-GoetheFarbkreisFreshCompact.png
+
+[/G/, /AA/, /G/, /AX L/, /IY/, /D/]:goggled:https://openclipart.org/image/250px/svg_to_png/258710/1471302473.png
+
+[/G/, /AA/, /G/, /AX L/, /ER/]:goggler:https://openclipart.org/image/250px/svg_to_png/258710/1471302473.png
+
+[/G/, /AA/, /G/, /L/, /S/]:goggles:https://openclipart.org/image/250px/svg_to_png/258710/1471302473.png
+
+[/G/, /AA/, /G/, /AX L/, /IY ER/]:gogglier:https://openclipart.org/image/250px/svg_to_png/190937/yellow-bird.png
+
+[/G/, /AA/, /G/, /AX L/, /IH/]:goggly:https://openclipart.org/image/250px/svg_to_png/190937/yellow-bird.png
+
+[/G/, /AA/, /G/, /AA/, /L/]:gogol:https://openclipart.org/image/250px/svg_to_png/168569/1330291774.png
+
+[/G/, /OY/, /N/]:goin:https://openclipart.org/image/250px/svg_to_png/214384/rocketblastoff.png
+
+[/G/, /OW IH NX/, /G/]:going:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /OW IH NX/, /G/, /S/]:goings:https://openclipart.org/image/250px/svg_to_png/256931/habsburgflag.png
+
+[/G/, /AA/, /IY/, /N/, /Z/]:goins:https://openclipart.org/image/250px/svg_to_png/214384/rocketblastoff.png
+
+[/G/, /OW/, /L/, /AE/]:gola:https://openclipart.org/image/250px/svg_to_png/251830/cocar-gola-aldezir-fixed.png
+
+[/G/, /OW/, /L/, /EY/, /N/]:golan:https://openclipart.org/image/250px/svg_to_png/184224/Eli Cohen at the Golan Heights thumbnail.png
+
+[/G/, /OW/, /L/, /EY/, /S/]:golas:https://openclipart.org/image/250px/svg_to_png/251830/cocar-gola-aldezir-fixed.png
+
+[/G/, /OW L/, /D/]:gold:https://openclipart.org/image/250px/svg_to_png/260556/Gold-Outline-Abstract-Tree-No-Background.png
+
+[/G/, /AA/, /L/, /D IH D/]:golded:https://openclipart.org/image/250px/svg_to_png/260556/Gold-Outline-Abstract-Tree-No-Background.png
+
+[/G/, /OW/, /L/, /D/, /IY/, /N/]:golden:https://openclipart.org/image/250px/svg_to_png/260590/Low-Poly-Golden-Sunset-2.png
+
+[/G/, /OW/, /L/, /D/, /ER/]:golder:https://openclipart.org/image/250px/svg_to_png/260556/Gold-Outline-Abstract-Tree-No-Background.png
+
+[/G/, /OW/, /L/, /D/, /Z/]:golds:https://openclipart.org/image/250px/svg_to_png/260556/Gold-Outline-Abstract-Tree-No-Background.png
+
+[/G/, /OW/, /L/, /IY/, /M/]:golem:https://openclipart.org/image/250px/svg_to_png/251866/rock-monster.png
+
+[/G/, /OW/, /L/, /IY/, /M/, /Z/]:golems:https://openclipart.org/image/250px/svg_to_png/251866/rock-monster.png
+
+[/G/, /OW/, /L/, /F/]:golf:https://openclipart.org/image/250px/svg_to_png/237977/mangolfing-colour.png
+
+[/G/, /OW/, /L/, /F/, /IY/, /D/]:golfed:https://openclipart.org/image/250px/svg_to_png/237977/mangolfing-colour.png
+
+[/G/, /OW/, /L/, /F/, /ER/]:golfer:https://openclipart.org/image/250px/svg_to_png/237761/golfer.png
+
+[/G/, /OW/, /L/, /F/, /S/]:golfs:https://openclipart.org/image/250px/svg_to_png/237977/mangolfing-colour.png
+
+[/G/, /OW/, /L/, /G/, /IH/]:golgi:https://openclipart.org/image/250px/svg_to_png/210276/misc-golgi-apparatus.png
+
+[/G/, /OW/, /L/, /IY/, /EY/, /TH/]:goliath:https://openclipart.org/image/250px/svg_to_png/228732/GoliathAtlas.png
+
+[/G/, /OW/, /L/, /OW/]:golo:https://openclipart.org/image/250px/svg_to_png/192920/Emergency-Rescue-Ambulance-by-Merlin2525.png
+
+[/G/, /OW/, /L/, /P/, /EH/]:golpe:https://openclipart.org/image/250px/svg_to_png/251852/1465733368.png
+
+[/G/, /OW/, /M/, /AE/]:goma:https://openclipart.org/image/250px/svg_to_png/175039/borragoma.png
+
+[/G/, /OW/, /M/, /IY/, /Z/]:gomez:https://openclipart.org/image/250px/svg_to_png/242572/bikerhead.png
+
+[/G/, /OW/, /M/, /AO R/, /R/, /EY/]:gomorrah:https://openclipart.org/image/250px/svg_to_png/229243/Modern-Day-Tower-Of-Babel.png
+
+[/G/, /OW/, /N/, /D/, /AO R/]:gondor:https://openclipart.org/image/250px/svg_to_png/182528/Escudo Gondor.png
+
+[/G/, /AH/, /N/, /EH/]:gone:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /OW/, /NX G/, /G/, /EH/, /D/]:gonged:https://openclipart.org/image/250px/svg_to_png/214997/gong-xi-02.png
+
+[/G/, /OW/, /NX/, /G/, /S/]:gongs:https://openclipart.org/image/250px/svg_to_png/214997/gong-xi-02.png
+
+[/G/, /OW/, /N/, /AE/]:gonna:https://openclipart.org/image/250px/svg_to_png/258865/The-Taste-Is-Gonna-Get-Ya.png
+
+[/G/, /AA/, /B/, /IY/, /R/, /Z/]:goobers:https://openclipart.org/image/250px/svg_to_png/189704/peanut-inkscape-colour-2.png
+
+[/G/, /AA/, /CH/]:gooch:https://openclipart.org/image/250px/svg_to_png/227039/WaterCarrier.png
+
+[/G/, /UH D/]:good:https://openclipart.org/image/250px/svg_to_png/260176/IntergalacticAdventure2.png
+
+[/G/, /AA/, /D/, /B/, /IH/]:goodbye:https://openclipart.org/image/250px/svg_to_png/218573/Image1.png
+
+[/G/, /UH D/, /B/, /IH/, /EH/, /Z/]:goodbyes:https://openclipart.org/image/250px/svg_to_png/218573/Image1.png
+
+[/G/, /AA/, /D/, /IY/]:goodie:https://openclipart.org/image/250px/svg_to_png/238499/Hearts-In-Heart-Rejuvenated.png
+
+[/G/, /AA/, /D/, /IY ER/]:goodier:https://openclipart.org/image/250px/svg_to_png/226953/The-Five-Dimensional-Box-Of-Goodies.png
+
+[/G/, /AA/, /D/, /IY/, /Z/]:goodies:https://openclipart.org/image/250px/svg_to_png/238499/Hearts-In-Heart-Rejuvenated.png
+
+[/G/, /AA/, /D/, /M/, /EY/, /N/]:goodman:https://openclipart.org/image/250px/svg_to_png/206134/berry-snowman.png
+
+[/G/, /AA/, /D/, /M/, /IY/, /N/]:goodmen:https://openclipart.org/image/250px/svg_to_png/206134/berry-snowman.png
+
+[/G/, /AA/, /D/, /N/, /IY/, /S/]:goodness:https://openclipart.org/image/250px/svg_to_png/241312/Sun-Drenched-Furry-Ball-Of-Goodness.png
+
+[/G/, /AA/, /D/, /N/, /AA/, /OW/]:goodnow:https://openclipart.org/image/250px/svg_to_png/8990/johnny-automatic-dental-exam.png
+
+[/G/, /UH D/, /S/]:goods:https://openclipart.org/image/250px/svg_to_png/260176/IntergalacticAdventure2.png
+
+[/G/, /AA/, /D/, /W/, /IY/, /N/]:goodwin:https://openclipart.org/image/250px/svg_to_png/225273/FlowerBowl.png
+
+[/G/, /UW/, /IY/]:gooey:https://openclipart.org/image/250px/svg_to_png/190745/maplesyrup.png
+
+[/G/, /UW/, /F/, /D/]:goofed:https://openclipart.org/image/250px/svg_to_png/179435/slapped.png
+
+[/G/, /AA/, /F/, /IY ER/]:goofier:https://openclipart.org/image/250px/svg_to_png/251528/beady-eye.png
+
+[/G/, /AA/, /F/, /IY/, /NX/, /G/]:goofing:https://openclipart.org/image/250px/svg_to_png/179435/slapped.png
+
+[/G/, /AA/, /AO F/, /S/]:goofs:https://openclipart.org/image/250px/svg_to_png/179435/slapped.png
+
+[/G/, /UW/, /F/, /IY/]:goofy:https://openclipart.org/image/250px/svg_to_png/251528/beady-eye.png
+
+[/G/, /AA/, /G/, /IY/]:googie:https://openclipart.org/image/250px/svg_to_png/217487/Googie-Flowers.png
+
+[/G/, /UW/, /G/, /AX L/, /EH/]:google:https://openclipart.org/image/250px/svg_to_png/259514/SVGtext.png
+
+[/G/, /UW/, /G/, /AX L/, /IH/, /S/]:googlies:https://openclipart.org/image/250px/svg_to_png/258803/1471392647.png
+
+[/G/, /UW/, /G/, /AX L/, /IH/]:googly:https://openclipart.org/image/250px/svg_to_png/258803/1471392647.png
+
+[/G/, /UW/, /IY ER/]:gooier:https://openclipart.org/image/250px/svg_to_png/190745/maplesyrup.png
+
+[/G/, /UW/, /IY/, /IY/, /S/, /T/]:gooiest:https://openclipart.org/image/250px/svg_to_png/190745/maplesyrup.png
+
+[/G/, /AA/, /AX N/]:goon:https://openclipart.org/image/250px/svg_to_png/205140/todayskanji-168-rei.png
+
+[/G/, /AA/, /N/, /Z/]:goons:https://openclipart.org/image/250px/svg_to_png/205140/todayskanji-168-rei.png
+
+[/G/, /UW/, /P/]:goop:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /AA/, /P/, /S/]:goops:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /UW/, /Z/]:goos:https://openclipart.org/image/250px/svg_to_png/260515/casino-war-tank-maze-coloring-for-grown-ups.png
+
+[/G/, /UW/, /Z/, /EH/]:goose:https://openclipart.org/image/250px/svg_to_png/259546/Goose.png
+
+[/G/, /UW/, /S/, /D/]:goosed:https://openclipart.org/image/250px/svg_to_png/259546/Goose.png
+
+[/G/, /UW/, /S/, /S/]:gooses:https://openclipart.org/image/250px/svg_to_png/259546/Goose.png
+
+[/G/, /AA/, /S/, /IY/, /NX/, /G/]:goosing:https://openclipart.org/image/250px/svg_to_png/259546/Goose.png
+
+[/G/, /OW/, /F/, /ER/]:gopher:https://openclipart.org/image/250px/svg_to_png/237555/Gopher-Tortoise-2016011640.png
+
+[/G/, /OW/, /F/, /IY/, /R/, /Z/]:gophers:https://openclipart.org/image/250px/svg_to_png/237555/Gopher-Tortoise-2016011640.png
+
+[/G/, /OW/, /R/, /AE/]:gora:https://openclipart.org/image/250px/svg_to_png/10349/warszawianka-Zielona-Gora-Coat-of-arms.png
+
+[/G/, /OW/, /R/, /D/]:gord:https://openclipart.org/image/250px/svg_to_png/179323/Hummingbird.png
+
+[/G/, /OW/, /R/, /D/, /IY/, /N/]:gorden:https://openclipart.org/image/250px/svg_to_png/213719/scifimonster.png
+
+[/G/, /OW/, /R/, /D/, /OW/]:gordo:https://openclipart.org/image/250px/svg_to_png/219930/jhgvjcv.png
+
+[/G/, /AO R/, /D/, /AX N/]:gordon:https://openclipart.org/image/250px/svg_to_png/235234/Flower14.png
+
+[/G/, /OW/, /R/, /EH/]:gore:https://openclipart.org/image/250px/svg_to_png/231074/Al-Gore-Caricature.png
+
+[/G/, /OW/, /R/, /EH/, /D/]:gored:https://openclipart.org/image/250px/svg_to_png/231074/Al-Gore-Caricature.png
+
+[/G/, /AO R/, /S/]:gores:https://openclipart.org/image/250px/svg_to_png/231074/Al-Gore-Caricature.png
+
+[/G/, /OW/, /R/, /G/, /EH/]:gorge:https://openclipart.org/image/250px/svg_to_png/245645/High-Poly-Forest-Gorge.png
+
+[/G/, /OW/, /R/, /G/, /EH/, /D/]:gorged:https://openclipart.org/image/250px/svg_to_png/245645/High-Poly-Forest-Gorge.png
+
+[/G/, /OW/, /R/, /G/, /EH/, /AX S/]:gorgeous:https://openclipart.org/image/250px/svg_to_png/250759/Rat-enjoying-life-2.png
+
+[/G/, /AO R/, /G/, /S/]:gorges:https://openclipart.org/image/250px/svg_to_png/245645/High-Poly-Forest-Gorge.png
+
+[/G/, /OW/, /R/, /G/, /G EH/, /T/]:gorget:https://openclipart.org/image/250px/svg_to_png/219982/Soviet-emblem-of-the-Signal-Troops-by-Rones.png
+
+[/G/, /AO R/, /G/, /AX N/]:gorgon:https://openclipart.org/image/250px/svg_to_png/833/liftarn-Perseus.png
+
+[/G/, /OW/, /R/, /IY ER/, /R/]:gorier:https://openclipart.org/image/250px/svg_to_png/164341/mountain-view-poland.png
+
+[/G/, /OW/, /R/, /IH/, /L/, /AE/]:gorilla:https://openclipart.org/image/250px/svg_to_png/252482/hang-on.png
+
+[/G/, /OW/, /R/, /IY/, /NX/, /G/]:goring:https://openclipart.org/image/250px/svg_to_png/231074/Al-Gore-Caricature.png
+
+[/G/, /OW/, /R/, /AE/]:gorra:https://openclipart.org/image/250px/svg_to_png/229885/gorra.png
+
+[/G/, /OW/, /R/, /Z/, /OW/]:gorzow:https://openclipart.org/image/250px/svg_to_png/10097/warszawianka-Gorzow-Wilekopolski-coat-of-arms.png
+
+[/G/, /OW/, /S/, /P/, /IY/, /L/]:gospel:https://openclipart.org/image/250px/svg_to_png/217128/fist-palm-group.png
+
+[/G/, /AO S/]:goss:https://openclipart.org/image/250px/svg_to_png/226522/Zouave.png
+
+[/G/, /AA/, /S/, /S/]:gosses:https://openclipart.org/image/250px/svg_to_png/226522/Zouave.png
+
+[/G/, /OW/, /S/, /IY/, /P/]:gossip:https://openclipart.org/image/250px/svg_to_png/231491/Chinwaggers.png
+
+[/G/, /OW/, /S/, /IY/, /P/, /S/]:gossips:https://openclipart.org/image/250px/svg_to_png/231491/Chinwaggers.png
+
+[/G/, /OW/, /S/, /T/]:gost:https://openclipart.org/image/250px/svg_to_png/217671/GOST-Electronic-symbols-8-Audio-outlines.png
+
+[/G/, /OW/, /T/, /CH/, /AE/]:gotcha:https://openclipart.org/image/250px/svg_to_png/31969/twitter-gotcha.png
+
+[/G/, /OW/, /TH/]:goth:https://openclipart.org/image/250px/svg_to_png/250905/melaniko-clown.png
+
+[/G/, /OW/, /T/, /HH/, /AE/]:gotha:https://openclipart.org/image/250px/svg_to_png/485/jzedlitz-flag-duchy-sachsen-coburg-gotha-1826-1911.png
+
+[/G/, /OW/, /TH/, /EY/, /M/]:gotham:https://openclipart.org/image/250px/svg_to_png/224348/bwfilters3.png
+
+[/G/, /OW/, /T/, /HH/, /IY/, /K/]:gothic:https://openclipart.org/image/250px/svg_to_png/250862/Gothic-Castle-Silhouette.png
+
+[/G/, /OW/, /TH/, /IY/, /K/, /S/]:gothics:https://openclipart.org/image/250px/svg_to_png/250862/Gothic-Castle-Silhouette.png
+
+[/G/, /OW/, /TH/, /S/]:goths:https://openclipart.org/image/250px/svg_to_png/250905/melaniko-clown.png
+
+[/G/, /OW/, /T UW/]:goto:https://openclipart.org/image/250px/svg_to_png/211767/matt-icons_go-top.png
+
+[/G/, /AA/, /T/, /AA/, /S/]:gotos:https://openclipart.org/image/250px/svg_to_png/211767/matt-icons_go-top.png
+
+[/G/, /OW/, /T/]:gott:https://openclipart.org/image/250px/svg_to_png/185545/gott-mit-uns.png
+
+[/G/, /OW/, /T/, /AE/]:gotta:https://openclipart.org/image/250px/svg_to_png/229234/Widowmaker.png
+
+[/G/, /OW/, /T/, /EH/]:gotte:https://openclipart.org/image/250px/svg_to_png/226247/ICHTHYS.png
+
+[/G/, /OW/, /T/, /IY/, /N/]:gotten:https://openclipart.org/image/250px/svg_to_png/258865/The-Taste-Is-Gonna-Get-Ya.png
+
+[/G/, /AA/, /T/, /AX L/, /AA/, /B/]:gottlob:https://openclipart.org/image/250px/svg_to_png/250930/Bertrand_Russell.png
+
+[/G/, /AW/, /Y UW/, /D/, /IY/, /Y UW/]:goudeau:https://openclipart.org/image/250px/svg_to_png/258152/WeddingReception.png
+
+[/G/, /AW/, /D/, /IY/]:goudy:https://openclipart.org/image/250px/svg_to_png/191842/william-morris-letter-v.png
+
+[/G/, /AW/, /G/]:gouge:https://openclipart.org/image/250px/svg_to_png/203768/Five-Scratch.png
+
+[/G/, /AW/, /G/, /D/]:gouged:https://openclipart.org/image/250px/svg_to_png/203768/Five-Scratch.png
+
+[/G/, /AW/, /G/, /S/]:gouges:https://openclipart.org/image/250px/svg_to_png/203768/Five-Scratch.png
+
+[/G/, /AW/, /G/, /IY/, /NX/, /G/]:gouging:https://openclipart.org/image/250px/svg_to_png/203768/Five-Scratch.png
+
+[/G/, /UH D/]:gould:https://openclipart.org/image/250px/svg_to_png/243259/fung.png
+
+[/G/, /AW/, /N/, /OW/, /D/]:gounod:https://openclipart.org/image/250px/svg_to_png/217957/And-Satan-leads-the-concert.png
+
+[/G/, /AO R/, /EY/, /M/, /IH/]:gourami:https://openclipart.org/image/250px/svg_to_png/166774/gourami.png
+
+[/G/, /AO R/, /D/]:gourd:https://openclipart.org/image/250px/svg_to_png/242082/gourd.png
+
+[/G/, /AO R/, /D/, /Z/]:gourds:https://openclipart.org/image/250px/svg_to_png/242082/gourd.png
+
+[/G/, /AO R/, /M/, /IY/, /T/]:gourmet:https://openclipart.org/image/250px/svg_to_png/236798/Chef.png
+
+[/G/, /AO R/, /M/, /IY/, /T/, /S/]:gourmets:https://openclipart.org/image/250px/svg_to_png/236798/Chef.png
+
+[/G/, /AW/, /T/]:gout:https://openclipart.org/image/250px/svg_to_png/203438/flamethrowerstream.png
+
+[/G/, /AW/, /T/, /IY ER/]:goutier:https://openclipart.org/image/250px/svg_to_png/240262/GoutyStemTree.png
+
+[/G/, /AW/, /T/, /IY/, /NX/, /G/]:gouting:https://openclipart.org/image/250px/svg_to_png/203438/flamethrowerstream.png
+
+[/G/, /AA/, /AH/, /T/, /S/]:gouts:https://openclipart.org/image/250px/svg_to_png/203438/flamethrowerstream.png
+
+[/G/, /AA/, /AH/, /T/]:goutte:https://openclipart.org/image/250px/svg_to_png/172157/colibri.png
+
+[/G/, /AW/, /T/, /IY/]:gouty:https://openclipart.org/image/250px/svg_to_png/240262/GoutyStemTree.png
+
+[/G/, /OW/, /V/, /IY/, /R/, /N/]:govern:https://openclipart.org/image/250px/svg_to_png/206111/Fourth549-560.png
+
+[/G/, /OW/, /V/, /ER/, /N/, /ER Z/]:governors:https://openclipart.org/image/250px/svg_to_png/246837/fundacion-city-argentine.png
+
+[/G/, /OW/, /W/, /N/]:gown:https://openclipart.org/image/250px/svg_to_png/255871/Black-Princess.png
+
+[/G/, /OW/, /W/, /N/, /EH/, /D/]:gowned:https://openclipart.org/image/250px/svg_to_png/255871/Black-Princess.png
+
+[/G/, /OW/, /W/, /N/, /Z/]:gowns:https://openclipart.org/image/250px/svg_to_png/255871/Black-Princess.png
+
+[/G/, /OY/, /AE/]:goya:https://openclipart.org/image/250px/svg_to_png/220612/okinawanfruitveggies.png
+
+[/G/, /R/, /EY/, /B/]:grab:https://openclipart.org/image/250px/svg_to_png/260392/moon-over-the-bridge.png
+
+[/G/, /R/, /EY/, /B/, /EH/, /D/]:grabbed:https://openclipart.org/image/250px/svg_to_png/260392/moon-over-the-bridge.png
+
+[/G/, /R/, /EY/, /B/, /ER/, /R/]:grabber:https://openclipart.org/image/250px/svg_to_png/167182/money-grabber.png
+
+[/G/, /R/, /EY/, /B/, /IY ER/, /R/]:grabbier:https://openclipart.org/image/250px/svg_to_png/204503/grabbyhand.png
+
+[/G/, /R/, /EY/, /B/, /IH/]:grabby:https://openclipart.org/image/250px/svg_to_png/204503/grabbyhand.png
+
+[/G/, /R/, /EY B AX L/]:grable:https://openclipart.org/image/250px/svg_to_png/181946/pinup3.png
+
+[/G/, /R/, /EY/, /B/, /Z/]:grabs:https://openclipart.org/image/250px/svg_to_png/260392/moon-over-the-bridge.png
+
+[/G/, /R/, /EY/, /S/, /EH/]:grace:https://openclipart.org/image/250px/svg_to_png/243263/GrievingCouple.png
+
+[/G/, /R/, /EY/, /K/, /IY/, /D/]:graced:https://openclipart.org/image/250px/svg_to_png/243263/GrievingCouple.png
+
+[/G/, /R/, /EY/, /K/, /IY/, /F UH L/]:graceful:https://openclipart.org/image/250px/svg_to_png/250833/Floral-Graceful-Ballerina-Silhouette.png
+
+[/G/, /R/, /EY/, /K/, /IY/, /S/]:graces:https://openclipart.org/image/250px/svg_to_png/243263/GrievingCouple.png
+
+[/G/, /R/, /AE/, /SH/, /AE/]:gracia:https://openclipart.org/image/250px/svg_to_png/248495/lets-mix-together.png
+
+[/G/, /R/, /AE/, /SH/, /AE/, /S/]:gracias:https://openclipart.org/image/250px/svg_to_png/248495/lets-mix-together.png
+
+[/G/, /R/, /EY/, /K/, /IY/, /AX S/]:gracious:https://openclipart.org/image/250px/svg_to_png/232057/Harp3.png
+
+[/G/, /R/, /EY/, /D/]:grad:https://openclipart.org/image/250px/svg_to_png/192613/wetterpictogramme.png
+
+[/G/, /R/, /EY/, /D/, /EH/]:grade:https://openclipart.org/image/250px/svg_to_png/248073/Chinese-factory-directly-supply-dry-mushroom-Porcini-Shiitake-Champignons-2016050356.png
+
+[/G/, /R/, /EY/, /D/, /EH/, /D/]:graded:https://openclipart.org/image/250px/svg_to_png/248073/Chinese-factory-directly-supply-dry-mushroom-Porcini-Shiitake-Champignons-2016050356.png
+
+[/G/, /R/, /EY/, /D/, /ER/, /R/]:grader:https://openclipart.org/image/250px/svg_to_png/227580/What-Time-Is-It.png
+
+[/G/, /R/, /EY/, /D/, /IY/, /S/]:grades:https://openclipart.org/image/250px/svg_to_png/248073/Chinese-factory-directly-supply-dry-mushroom-Porcini-Shiitake-Champignons-2016050356.png
+
+[/G/, /R/, /EY/, /D/, /Z/]:grads:https://openclipart.org/image/250px/svg_to_png/192613/wetterpictogramme.png
+
+[/G/, /R/, /AE/, /JH UW/, /AE/, /T/]:graduate:https://openclipart.org/image/250px/svg_to_png/240733/techskills.png
+
+[/G/, /R/, /EY/, /F/]:graf:https://openclipart.org/image/250px/svg_to_png/244718/Temperament-pie-chart-according-to-Eysenck_Czech.png
+
+[/G/, /R/, /EY/, /F/]:graff:https://openclipart.org/image/250px/svg_to_png/225135/RaseOne_Graffiti_M.png
+
+[/G/, /R/, /EY/, /F/, /IY/, /D/]:graffed:https://openclipart.org/image/250px/svg_to_png/225135/RaseOne_Graffiti_M.png
+
+[/G/, /R/, /EY/, /F/, /IY/, /T UW/]:graffito:https://openclipart.org/image/250px/svg_to_png/258794/SprayCanGraffiti.png
+
+[/G/, /R/, /EY/, /F/, /T/]:graft:https://openclipart.org/image/250px/svg_to_png/231230/Paris-graft-tile-2015103002.png
+
+[/G/, /R/, /EY/, /F/, /T/, /S/]:grafts:https://openclipart.org/image/250px/svg_to_png/231230/Paris-graft-tile-2015103002.png
+
+[/G/, /R/, /AE/, /HH/, /AE/, /M/]:graham:https://openclipart.org/image/250px/svg_to_png/259732/1472048636.png
+
+[/G/, /R/, /AE/, /HH/, /AE/, /M/]:grahame:https://openclipart.org/image/250px/svg_to_png/235496/LargeHat3.png
+
+[/G/, /R/, /AE/, /IY/, /AE/]:graia:https://openclipart.org/image/250px/svg_to_png/223364/Isle-Of-Graia.png
+
+[/G/, /R/, /AE/, /IY/, /L/]:grail:https://openclipart.org/image/250px/svg_to_png/214242/smokecup.png
+
+[/G/, /R/, /AE/, /IY/, /L/, /Z/]:grails:https://openclipart.org/image/250px/svg_to_png/214242/smokecup.png
+
+[/G/, /R/, /AE/, /IY/, /N/]:grain:https://openclipart.org/image/250px/svg_to_png/258435/wood-grain-megapack-fixed.png
+
+[/G/, /R/, /EY/, /N/, /D/]:grained:https://openclipart.org/image/250px/svg_to_png/258435/wood-grain-megapack-fixed.png
+
+[/G/, /R/, /AE/, /IY/, /N/, /Z/]:grains:https://openclipart.org/image/250px/svg_to_png/258435/wood-grain-megapack-fixed.png
+
+[/G/, /R/, /EY/, /N/, /IY/]:grainy:https://openclipart.org/image/250px/svg_to_png/253196/Gold-Sand-Border--Arvin61r58.png
+
+[/G/, /R/, /EY/, /M/]:gram:https://openclipart.org/image/250px/svg_to_png/226316/If-Oxytocin-Was-A-Drug-Id-Sell-It-By-The-Gram.png
+
+[/G/, /R/, /AE/, /M/, /AE/]:grama:https://openclipart.org/image/250px/svg_to_png/214605/flor-de-mato.png
+
+[/G/, /R/, /AE/, /M/, /AE/]:gramma:https://openclipart.org/image/250px/svg_to_png/119785/grampa-39-n-gramma-celso-02.png
+
+[/G/, /R/, /EY/, /M/, /AA R/, /R/]:grammar:https://openclipart.org/image/250px/svg_to_png/228152/GrammarSchool.png
+
+[/G/, /R/, /EY/, /M/, /ER/, /R/]:grammer:https://openclipart.org/image/250px/svg_to_png/106465/Tamil-palm-leaf-300-BC.png
+
+[/G/, /R/, /EY/, /M/, /P/]:gramp:https://openclipart.org/image/250px/svg_to_png/138625/old.png
+
+[/G/, /R/, /AE/, /M/, /P/, /AE/]:grampa:https://openclipart.org/image/250px/svg_to_png/119785/grampa-39-n-gramma-celso-02.png
+
+[/G/, /R/, /EY/, /M/, /P/, /S/]:gramps:https://openclipart.org/image/250px/svg_to_png/138625/old.png
+
+[/G/, /R/, /EY/, /M/, /Z/]:grams:https://openclipart.org/image/250px/svg_to_png/226316/If-Oxytocin-Was-A-Drug-Id-Sell-It-By-The-Gram.png
+
+[/G/, /R/, /EY/, /N/]:gran:https://openclipart.org/image/250px/svg_to_png/224143/GRANPAVESE_ALL-FLAGS.png
+
+[/G/, /R/, /AE/, /N/, /AE/]:grana:https://openclipart.org/image/250px/svg_to_png/214606/dinheiro.png
+
+[/G/, /R/, /EY/, /N/, /D/]:grand:https://openclipart.org/image/250px/svg_to_png/257980/Surreal-Grand-Canyon.png
+
+[/G/, /R/, /EY/, /N/, /D/, /EH/]:grande:https://openclipart.org/image/250px/svg_to_png/258188/uliana lag.png
+
+[/G/, /R/, /EY/, /N/, /D/, /Z/]:grands:https://openclipart.org/image/250px/svg_to_png/257980/Surreal-Grand-Canyon.png
+
+[/G/, /R/, /EY/, /NX G/, /G/, /EH/]:grange:https://openclipart.org/image/250px/svg_to_png/216408/ferme-industrielle.png
+
+[/G/, /R/, /AE/, /N/, /M/, /AE/]:granma:https://openclipart.org/image/250px/svg_to_png/161371/oldlady.png
+
+[/G/, /R/, /EY/, /N/, /ER/, /R/]:granner:https://openclipart.org/image/250px/svg_to_png/224143/GRANPAVESE_ALL-FLAGS.png
+
+[/G/, /R/, /EY/, /N/, /IH/, /S/]:grannies:https://openclipart.org/image/250px/svg_to_png/241432/1455666434.png
+
+[/G/, /R/, /EY/, /N/, /IH/]:granny:https://openclipart.org/image/250px/svg_to_png/241432/1455666434.png
+
+[/G/, /R/, /EY/, /N/, /OW/]:grano:https://openclipart.org/image/250px/svg_to_png/253454/IconoAlergenoGranosSesamo-SesameGrains.png
+
+[/G/, /R/, /EY/, /N/, /T/]:grant:https://openclipart.org/image/250px/svg_to_png/253967/Wisconsin-Stars.png
+
+[/G/, /R/, /EY/, /N/, /T/, /S/]:grants:https://openclipart.org/image/250px/svg_to_png/253967/Wisconsin-Stars.png
+
+[/G/, /R/, /EY/, /N/, /UW/, /L/]:granule:https://openclipart.org/image/250px/svg_to_png/96847/1290199886.png
+
+[/G/, /R/, /EY/, /P/, /EH/]:grape:https://openclipart.org/image/250px/svg_to_png/255415/Grapes-Illustration.png
+
+[/G/, /R/, /EY/, /P/, /IY/, /D/]:graped:https://openclipart.org/image/250px/svg_to_png/255415/Grapes-Illustration.png
+
+[/G/, /R/, /EY/, /P/, /IY/, /S/]:grapes:https://openclipart.org/image/250px/svg_to_png/255415/Grapes-Illustration.png
+
+[/G/, /R/, /EY/, /F/]:graph:https://openclipart.org/image/250px/svg_to_png/259999/PLoS-One-transgender-study-incidence-only.png
+
+[/G/, /R/, /EY/, /F/, /IY/, /D/]:graphed:https://openclipart.org/image/250px/svg_to_png/259999/PLoS-One-transgender-study-incidence-only.png
+
+[/G/, /R/, /EY/, /F/, /IY/, /K/]:graphic:https://openclipart.org/image/250px/svg_to_png/260501/ilnanny.png
+
+[/G/, /R/, /EY/, /F/, /S/]:graphs:https://openclipart.org/image/250px/svg_to_png/259999/PLoS-One-transgender-study-incidence-only.png
+
+[/G/, /R/, /EY/, /P/, /L/, /EH/]:grapple:https://openclipart.org/image/250px/svg_to_png/203975/MMA-Grappling--Illustration.png
+
+[/G/, /R/, /AE/, /Z/]:gras:https://openclipart.org/image/250px/svg_to_png/244912/Transparent-Magenta-Loveheart.png
+
+[/G/, /R/, /EY/, /S/, /P/]:grasp:https://openclipart.org/image/250px/svg_to_png/241812/design-copy.png
+
+[/G/, /R/, /EY/, /S/, /P/, /S/]:grasps:https://openclipart.org/image/250px/svg_to_png/241812/design-copy.png
+
+[/G/, /R/, /EY/, /S/]:grass:https://openclipart.org/image/250px/svg_to_png/260351/Park.png
+
+[/G/, /R/, /EY/, /S/, /IY/, /D/]:grassed:https://openclipart.org/image/250px/svg_to_png/260351/Park.png
+
+[/G/, /R/, /EY/, /S/, /IY/, /S/]:grasses:https://openclipart.org/image/250px/svg_to_png/260351/Park.png
+
+[/G/, /R/, /EY/, /S/, /IY ER/, /R/]:grassier:https://openclipart.org/image/250px/svg_to_png/251204/groddle-meadow-scene-remix.png
+
+[/G/, /R/, /EY/, /S/, /IH/]:grassy:https://openclipart.org/image/250px/svg_to_png/251204/groddle-meadow-scene-remix.png
+
+[/G/, /R/, /EY/, /T/, /EH/]:grate:https://openclipart.org/image/250px/svg_to_png/260601/Grate-Again.png
+
+[/G/, /R/, /EY/, /T/, /IY/, /D/]:grated:https://openclipart.org/image/250px/svg_to_png/260601/Grate-Again.png
+
+[/G/, /R/, /EY/, /T/, /IY/, /F UH L/]:grateful:https://openclipart.org/image/250px/svg_to_png/251841/city-guard-2.png
+
+[/G/, /R/, /EY/, /T/, /IY/, /S/]:grates:https://openclipart.org/image/250px/svg_to_png/260601/Grate-Again.png
+
+[/G/, /R/, /EY/, /T/, /AY Z/]:gratis:https://openclipart.org/image/250px/svg_to_png/246718/mosquito-gnat-midge-dengue-zika-chikungunya.png
+
+[/G/, /R/, /AO/]:grau:https://openclipart.org/image/250px/svg_to_png/240869/Valentinskarte.png
+
+[/G/, /R/, /AO/, /ER/, /R/]:grauer:https://openclipart.org/image/250px/svg_to_png/213649/drache.png
+
+[/G/, /R/, /EY/, /V/, /EH/]:grave:https://openclipart.org/image/250px/svg_to_png/256931/habsburgflag.png
+
+[/G/, /R/, /EY/, /V/, /EH/, /D/]:graved:https://openclipart.org/image/250px/svg_to_png/256931/habsburgflag.png
+
+[/G/, /R/, /EY/, /V/, /IY/, /L/]:gravel:https://openclipart.org/image/250px/svg_to_png/238882/1453901760.png
+
+[/G/, /R/, /EY/, /V/, /IY/, /N/]:graven:https://openclipart.org/image/250px/svg_to_png/256931/habsburgflag.png
+
+[/G/, /R/, /EY/, /V/, /ER/, /R/]:graver:https://openclipart.org/image/250px/svg_to_png/256931/habsburgflag.png
+
+[/G/, /R/, /EY/, /V/, /IY/, /S/]:graves:https://openclipart.org/image/250px/svg_to_png/256931/habsburgflag.png
+
+[/G/, /R/, /EY/, /V/, /IH/, /S/]:gravies:https://openclipart.org/image/250px/svg_to_png/209702/food-wavy-gravy.png
+
+[/G/, /R/, /EY/]:gray:https://openclipart.org/image/250px/svg_to_png/260382/SectionedBorder-fix--Arvin61r58.png
+
+[/G/, /R/, /EY/, /D/]:grayed:https://openclipart.org/image/250px/svg_to_png/260382/SectionedBorder-fix--Arvin61r58.png
+
+[/G/, /R/, /EY/, /ER/, /R/]:grayer:https://openclipart.org/image/250px/svg_to_png/260382/SectionedBorder-fix--Arvin61r58.png
+
+[/G/, /R/, /EY/, /IY/, /S/, /T/]:grayest:https://openclipart.org/image/250px/svg_to_png/260382/SectionedBorder-fix--Arvin61r58.png
+
+[/G/, /R/, /EY/, /IY/, /NX/, /G/]:graying:https://openclipart.org/image/250px/svg_to_png/260382/SectionedBorder-fix--Arvin61r58.png
+
+[/G/, /R/, /EY/, /AY Z/]:grayish:https://openclipart.org/image/250px/svg_to_png/215369/NEW-HOLI.png
+
+[/G/, /R/, /EY/, /N/, /IY/, /S/]:grayness:https://openclipart.org/image/250px/svg_to_png/195950/Minimal-Landscape.png
+
+[/G/, /R/, /EY/, /Z/]:grays:https://openclipart.org/image/250px/svg_to_png/260382/SectionedBorder-fix--Arvin61r58.png
+
+[/G/, /R/, /EY/, /Z/, /EH/]:graze:https://openclipart.org/image/250px/svg_to_png/252762/geese---slow.png
+
+[/G/, /R/, /EY/, /Z/, /EH/, /D/]:grazed:https://openclipart.org/image/250px/svg_to_png/252762/geese---slow.png
+
+[/G/, /R/, /EY/, /Z/, /IY/, /S/]:grazes:https://openclipart.org/image/250px/svg_to_png/252762/geese---slow.png
+
+[/G/, /R/, /EY/, /Z/, /IY/]:grazie:https://openclipart.org/image/250px/svg_to_png/215761/Openclipart_ThankYou.png
+
+[/G/, /R/, /EH/, /IY/, /Z/, /EH/]:grease:https://openclipart.org/image/250px/svg_to_png/243754/Mortar-And-Pestle-Silhouette-2.png
+
+[/G/, /R/, /IY/, /S/, /D/]:greased:https://openclipart.org/image/250px/svg_to_png/243754/Mortar-And-Pestle-Silhouette-2.png
+
+[/G/, /R/, /IY/, /S/, /S/]:greases:https://openclipart.org/image/250px/svg_to_png/243754/Mortar-And-Pestle-Silhouette-2.png
+
+[/G/, /R/, /IY/, /Z/, /IH/]:greasy:https://openclipart.org/image/250px/svg_to_png/209588/food-greasy-frybread.png
+
+[/G R EY T/]:great:https://openclipart.org/image/250px/svg_to_png/257821/he auritius lag.png
+
+[/G R EY T/, /ER/]:greater:https://openclipart.org/image/250px/svg_to_png/257821/he auritius lag.png
+
+[/G R EY T/, /L/, /IH/]:greatly:https://openclipart.org/image/250px/svg_to_png/237636/queenofthejungle.png
+
+[/G R EY T/, /S/]:greats:https://openclipart.org/image/250px/svg_to_png/257821/he auritius lag.png
+
+[/G/, /R/, /IY/, /B/]:greb:https://openclipart.org/image/250px/svg_to_png/249771/BonsaiTridentMaple-2016052811.png
+
+[/G/, /R/, /EH/, /B/, /EH/, /S/]:grebes:https://openclipart.org/image/250px/svg_to_png/237532/horned-grebe-2016011620.png
+
+[/G/, /R/, /IY/, /K/]:grec:https://openclipart.org/image/250px/svg_to_png/203459/atlas-god.png
+
+[/G/, /R/, /EH/, /S/, /EH/]:grece:https://openclipart.org/image/250px/svg_to_png/233448/Ionic-order-by-Rones.png
+
+[/G/, /R/, /IY/, /SH/, /AE/]:grecia:https://openclipart.org/image/250px/svg_to_png/184504/justicia.png
+
+[/G/, /R/, /IY/, /K/, /OW/]:greco:https://openclipart.org/image/250px/svg_to_png/184630/greco.png
+
+[/G/, /R/, /IY/]:gree:https://openclipart.org/image/250px/svg_to_png/179467/ax74799-created.png
+
+[/G/, /R/, /IY/, /K/]:greece:https://openclipart.org/image/250px/svg_to_png/260463/Athena.png
+
+[/G/, /R/, /EH/, /D/]:greed:https://openclipart.org/image/250px/svg_to_png/257126/Corruption-Rings.png
+
+[/G/, /R/, /EH/, /D/, /Z/]:greeds:https://openclipart.org/image/250px/svg_to_png/257126/Corruption-Rings.png
+
+[/G/, /R/, /IY/, /D/, /IY/]:greedy:https://openclipart.org/image/250px/svg_to_png/216459/no_olympics_money.png
+
+[/G/, /R/, /EH/, /K/]:greek:https://openclipart.org/image/250px/svg_to_png/260463/Athena.png
+
+[/G/, /R/, /EH/, /K/, /S/]:greeks:https://openclipart.org/image/250px/svg_to_png/260463/Athena.png
+
+[/G/, /R/, /EH/, /N/]:green:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /R/, /IY/, /N/, /D/]:greened:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /R/, /EH/, /N/, /EH/, /R/]:greener:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /R/, /EH/, /N/, /AY Z/]:greenish:https://openclipart.org/image/250px/svg_to_png/251708/yyb.png
+
+[/G/, /R/, /EH/, /N/, /Z/]:greens:https://openclipart.org/image/250px/svg_to_png/260513/standingman6.png
+
+[/G/, /R/, /EH/, /N/, /W/, /UH D/]:greenwood:https://openclipart.org/image/250px/svg_to_png/227738/Commerce.png
+
+[/G/, /R/, /EH/, /T/]:greet:https://openclipart.org/image/250px/svg_to_png/258691/backpackwaving.png
+
+[/G/, /R/, /IY/, /T/, /D/]:greeted:https://openclipart.org/image/250px/svg_to_png/258691/backpackwaving.png
+
+[/G/, /R/, /EH/, /T/, /EH/, /R/]:greeter:https://openclipart.org/image/250px/svg_to_png/252124/andriod-1.png
+
+[/G/, /R/, /EH/, /T/, /S/]:greets:https://openclipart.org/image/250px/svg_to_png/258691/backpackwaving.png
+
+[/G/, /R/, /IY/, /G/]:greg:https://openclipart.org/image/250px/svg_to_png/223318/Dreamcatcher-with-Web.png
+
+[/G/, /R/, /IY/, /G/, /OW/, /R/]:gregor:https://openclipart.org/image/250px/svg_to_png/224689/LionWrestling.png
+
+[/G/, /R/, /IY/, /N/, /IY ER/, /R/]:grenier:https://openclipart.org/image/250px/svg_to_png/154417/1312875955.png
+
+[/G/, /R/, /IY/, /P/]:grep:https://openclipart.org/image/250px/svg_to_png/215822/Abstract-Tux-Avatar.png
+
+[/G/, /R/, /IY/, /S/]:gress:https://openclipart.org/image/250px/svg_to_png/28700/hrum-landscape.png
+
+[/G/, /R/, /UW/]:grew:https://openclipart.org/image/250px/svg_to_png/260515/casino-war-tank-maze-coloring-for-grown-ups.png
+
+[/G/, /R/, /IY/]:grey:https://openclipart.org/image/250px/svg_to_png/260504/japanese-pay-phone.png
+
+[/G/, /R/, /IY/, /D/]:greyed:https://openclipart.org/image/250px/svg_to_png/260504/japanese-pay-phone.png
+
+[/G/, /R/, /IY/, /ER/, /R/]:greyer:https://openclipart.org/image/250px/svg_to_png/154735/faltige-frau.png
+
+[/G/, /R/, /IY/, /IY/, /S/, /T/]:greyest:https://openclipart.org/image/250px/svg_to_png/260504/japanese-pay-phone.png
+
+[/G/, /R/, /IY/, /IY/, /NX/, /G/]:greying:https://openclipart.org/image/250px/svg_to_png/260504/japanese-pay-phone.png
+
+[/G/, /R/, /IY/, /AY Z/]:greyish:https://openclipart.org/image/250px/svg_to_png/190587/volcano3.png
+
+[/G/, /R/, /IY/, /Z/]:greys:https://openclipart.org/image/250px/svg_to_png/260504/japanese-pay-phone.png
+
+[/G/, /R/, /AY/, /D/]:grid:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /R/, /AY/, /D/, /EH/, /D/]:gridded:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /R/, /AY/, /D/, /Z/]:grids:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /R/, /AY/, /IY/, /F/]:grief:https://openclipart.org/image/250px/svg_to_png/254144/bomb.png
+
+[/G/, /R/, /AY/, /IY/, /F/, /S/]:griefs:https://openclipart.org/image/250px/svg_to_png/254144/bomb.png
+
+[/G/, /R/, /AY/, /IY/, /G/, /OW/]:griego:https://openclipart.org/image/250px/svg_to_png/170831/Golden-Maiden-Layered-Remix-2-by-Merlin2525.png
+
+[/G/, /R/, /AY/, /ER/, /R/]:grier:https://openclipart.org/image/250px/svg_to_png/260504/japanese-pay-phone.png
+
+[/G/, /R/, /AY/, /EH/, /V/, /EH/]:grieve:https://openclipart.org/image/250px/svg_to_png/251123/Brazil_democracy_grieving_fight.png
+
+[/G/, /R/, /AY/, /F/]:griff:https://openclipart.org/image/250px/svg_to_png/218138/12d2II.png
+
+[/G/, /R/, /IH/, /F/, /IH/, /N/]:griffin:https://openclipart.org/image/250px/svg_to_png/249375/Vivid-Polychromatic-Vintage-Griffin-Silhouette.png
+
+[/G/, /R/, /AY/, /F/, /AY Z/]:griffis:https://openclipart.org/image/250px/svg_to_png/228311/TableSpread.png
+
+[/G/, /R/, /AY/, /F/, /OW/, /N/]:griffon:https://openclipart.org/image/250px/svg_to_png/233383/Heraldic-banner-of-Outlanders-by-Rones.png
+
+[/G/, /R/, /AY/, /G/]:grigg:https://openclipart.org/image/250px/svg_to_png/249972/Pahoeoe-fountain-original-2016052811.png
+
+[/G/, /R/, /AY/, /G/, /S/]:griggs:https://openclipart.org/image/250px/svg_to_png/249972/Pahoeoe-fountain-original-2016052811.png
+
+[/G/, /R/, /IH/, /G/, /IH/, /OW/]:grigio:https://openclipart.org/image/250px/svg_to_png/135799/Gas-Cylinder-003-Grey-Dark-Green-Argon.png
+
+[/G/, /R/, /AY/, /L/]:gril:https://openclipart.org/image/250px/svg_to_png/196031/3.png
+
+[/G/, /R/, /AY/, /L/]:grill:https://openclipart.org/image/250px/svg_to_png/257153/kitchen-exhaust.png
+
+[/G/, /R/, /AY/, /L/, /EH/, /D/]:grilled:https://openclipart.org/image/250px/svg_to_png/257153/kitchen-exhaust.png
+
+[/G/, /R/, /AY/, /L/, /ER/, /R/]:griller:https://openclipart.org/image/250px/svg_to_png/257153/kitchen-exhaust.png
+
+[/G/, /R/, /AY/, /L/, /IY/, /S/]:grilles:https://openclipart.org/image/250px/svg_to_png/254573/barbecue.png
+
+[/G/, /R/, /AY/, /L/, /OW/]:grillo:https://openclipart.org/image/250px/svg_to_png/189609/1387466450.png
+
+[/G/, /R/, /AY/, /L/, /S/]:grills:https://openclipart.org/image/250px/svg_to_png/257153/kitchen-exhaust.png
+
+[/G/, /R/, /AY/, /M/]:grim:https://openclipart.org/image/250px/svg_to_png/249533/Reaperferatu.png
+
+[/G/, /R/, /AY/, /M/, /EH/, /D/]:grimed:https://openclipart.org/image/250px/svg_to_png/213831/grimebackground.png
+
+[/G/, /R/, /AY/, /M/, /IY/, /S/]:grimes:https://openclipart.org/image/250px/svg_to_png/213831/grimebackground.png
+
+[/G/, /R/, /AY/, /M/]:grimm:https://openclipart.org/image/250px/svg_to_png/190850/GrimmReaper.png
+
+[/G/, /R/, /AY/, /M/, /ER/, /R/]:grimmer:https://openclipart.org/image/250px/svg_to_png/249533/Reaperferatu.png
+
+[/G/, /R/, /AY/, /N/]:grin:https://openclipart.org/image/250px/svg_to_png/257299/Smiling-Girl-White-for-T-Shirt-2.png
+
+[/G/, /R/, /AY/, /N/, /CH/]:grinch:https://openclipart.org/image/250px/svg_to_png/212787/refusedsanta-colored1.png
+
+[/G/, /R/, /AY/, /N/, /D/]:grind:https://openclipart.org/image/250px/svg_to_png/260391/155mm-FH70.png
+
+[/G/, /R/, /AY/, /N/, /D/, /Z/]:grinds:https://openclipart.org/image/250px/svg_to_png/260391/155mm-FH70.png
+
+[/G/, /R/, /AY/, /N/, /EH/, /D/]:grinned:https://openclipart.org/image/250px/svg_to_png/257299/Smiling-Girl-White-for-T-Shirt-2.png
+
+[/G/, /R/, /AY/, /N/, /Z/]:grins:https://openclipart.org/image/250px/svg_to_png/257299/Smiling-Girl-White-for-T-Shirt-2.png
+
+[/G/, /R/, /AY/, /P/]:grip:https://openclipart.org/image/250px/svg_to_png/246324/Snoeischaar.png
+
+[/G/, /R/, /AY/, /P/, /IY/, /D/]:gripped:https://openclipart.org/image/250px/svg_to_png/246324/Snoeischaar.png
+
+[/G/, /R/, /AY/, /P/, /S/]:grips:https://openclipart.org/image/250px/svg_to_png/246324/Snoeischaar.png
+
+[/G/, /R/, /IH/, /Z/]:gris:https://openclipart.org/image/250px/svg_to_png/240752/Dots-squares-01.png
+
+[/G/, /R/, /AY/, /Z/, /L/, /IH/]:grizzly:https://openclipart.org/image/250px/svg_to_png/212862/cariboumoosebear.png
+
+[/G/, /R/, /OW/, /N/]:groan:https://openclipart.org/image/250px/svg_to_png/190538/GET-YOUR-HANDS-OFF-AFRICA.png
+
+[/G/, /R/, /OW/, /N/, /D/]:groaned:https://openclipart.org/image/250px/svg_to_png/190538/GET-YOUR-HANDS-OFF-AFRICA.png
+
+[/G/, /R/, /AA/, /EY/, /N/, /Z/]:groans:https://openclipart.org/image/250px/svg_to_png/190538/GET-YOUR-HANDS-OFF-AFRICA.png
+
+[/G/, /R/, /OW/, /G/]:grog:https://openclipart.org/image/250px/svg_to_png/209157/drink-spicy-grog.png
+
+[/G/, /R/, /OW/, /G/, /Z/]:grogs:https://openclipart.org/image/250px/svg_to_png/209157/drink-spicy-grog.png
+
+[/G/, /R/, /OW/, /M/]:grom:https://openclipart.org/image/250px/svg_to_png/196058/MalaFLotaENex.png
+
+[/G/, /R/, /UW/, /M/]:groom:https://openclipart.org/image/250px/svg_to_png/258152/WeddingReception.png
+
+[/G/, /R/, /UW/, /M/, /D/]:groomed:https://openclipart.org/image/250px/svg_to_png/258152/WeddingReception.png
+
+[/G/, /R/, /AA/, /M/, /Z/]:grooms:https://openclipart.org/image/250px/svg_to_png/258152/WeddingReception.png
+
+[/G/, /R/, /AA/, /AH V/]:groove:https://openclipart.org/image/250px/svg_to_png/248724/Wavey-Grooves--Arvin61r58.png
+
+[/G/, /R/, /AA/, /AH V/, /D/]:grooved:https://openclipart.org/image/250px/svg_to_png/248724/Wavey-Grooves--Arvin61r58.png
+
+[/G/, /R/, /AA/, /AH V/, /S/]:grooves:https://openclipart.org/image/250px/svg_to_png/248724/Wavey-Grooves--Arvin61r58.png
+
+[/G/, /R/, /AA/, /V/, /IY ER/, /R/]:groovier:https://openclipart.org/image/250px/svg_to_png/259365/Groovy-Love--Arvin61r58.png
+
+[/G/, /R/, /AA/, /AH V/, /IY/]:groovy:https://openclipart.org/image/250px/svg_to_png/259365/Groovy-Love--Arvin61r58.png
+
+[/G/, /R/, /OW/, /P/, /EH/]:grope:https://openclipart.org/image/250px/svg_to_png/210731/Sixth898-909.png
+
+[/G/, /R/, /OW/, /P/, /IY/, /D/]:groped:https://openclipart.org/image/250px/svg_to_png/210731/Sixth898-909.png
+
+[/G/, /R/, /AA/, /P/, /S/]:gropes:https://openclipart.org/image/250px/svg_to_png/210731/Sixth898-909.png
+
+[/G/, /R/, /AA/, /Z/]:gros:https://openclipart.org/image/250px/svg_to_png/227299/boys_n_ball.png
+
+[/G/, /R/, /AA/, /Z/, /EH/]:grose:https://openclipart.org/image/250px/svg_to_png/4671/ryanlerch-Catapult.png
+
+[/G/, /R/, /AO S/]:gross:https://openclipart.org/image/250px/svg_to_png/247328/milestone.png
+
+[/G/, /R/, /OW/, /S/, /EH/]:grosse:https://openclipart.org/image/250px/svg_to_png/174189/punaise-mauve.png
+
+[/G/, /R/, /OW/, /S/, /IY/, /D/]:grossed:https://openclipart.org/image/250px/svg_to_png/247328/milestone.png
+
+[/G/, /R/, /OW/, /S/, /IY/, /N/]:grossen:https://openclipart.org/image/250px/svg_to_png/153679/Bag-002-Paper.png
+
+[/G/, /R/, /OW/, /S/, /ER/, /R/]:grosser:https://openclipart.org/image/250px/svg_to_png/247328/milestone.png
+
+[/G/, /R/, /AA/, /S/, /S/]:grosses:https://openclipart.org/image/250px/svg_to_png/247328/milestone.png
+
+[/G/, /R/, /OW/, /T/, /T UW/]:grotto:https://openclipart.org/image/250px/svg_to_png/251835/shelter.png
+
+[/G/, /R/, /AA/, /T/, /AA/, /S/]:grottoes:https://openclipart.org/image/250px/svg_to_png/251835/shelter.png
+
+[/G/, /R/, /AA/, /T/, /AA/, /S/]:grottos:https://openclipart.org/image/250px/svg_to_png/251835/shelter.png
+
+[/G/, /R/, /AA/, /AH/, /CH/, /AA/]:groucho:https://openclipart.org/image/250px/svg_to_png/189069/Groucho-Marx-Arvin61r58.png
+
+[/G/, /R/, /AA/, /AH/, /CH/, /IY/]:grouchy:https://openclipart.org/image/250px/svg_to_png/217965/Grouchy-Red-Army-soldier-with-AK-by-Rones.png
+
+[/G/, /R/, /AA/, /AH/, /N/, /D/]:ground:https://openclipart.org/image/250px/svg_to_png/260391/155mm-FH70.png
+
+[/G/, /R/, /AW/, /N/, /D IH D/]:grounded:https://openclipart.org/image/250px/svg_to_png/260391/155mm-FH70.png
+
+[/G/, /R/, /UW P/]:group:https://openclipart.org/image/250px/svg_to_png/260188/dbb_steps_blue_arrow.png
+
+[/G/, /R/, /UW P/, /D/]:grouped:https://openclipart.org/image/250px/svg_to_png/260188/dbb_steps_blue_arrow.png
+
+[/G/, /R/, /UW P/, /IY/, /NX/, /G/]:grouping:https://openclipart.org/image/250px/svg_to_png/260188/dbb_steps_blue_arrow.png
+
+[/G/, /R/, /UW P/, /S/]:groups:https://openclipart.org/image/250px/svg_to_png/260188/dbb_steps_blue_arrow.png
+
+[/G/, /R/, /AW/, /Z/, /EH/]:grouse:https://openclipart.org/image/250px/svg_to_png/237587/Ruffled-Grouse-Wings-Outstretched-2016011615.png
+
+[/G/, /R/, /AX S/, /D/]:groused:https://openclipart.org/image/250px/svg_to_png/237587/Ruffled-Grouse-Wings-Outstretched-2016011615.png
+
+[/G/, /R/, /AX S/, /S/, /S/]:grouses:https://openclipart.org/image/250px/svg_to_png/237587/Ruffled-Grouse-Wings-Outstretched-2016011615.png
+
+[/G/, /R/, /AW/, /T/]:grout:https://openclipart.org/image/250px/svg_to_png/165662/British-monetary-unit.png
+
+[/G/, /R/, /AW/, /T/, /D/]:grouted:https://openclipart.org/image/250px/svg_to_png/165662/British-monetary-unit.png
+
+[/G/, /R/, /AA/, /AH/, /T/, /S/]:grouts:https://openclipart.org/image/250px/svg_to_png/165662/British-monetary-unit.png
+
+[/G/, /R/, /OW/, /V/, /EH/]:grove:https://openclipart.org/image/250px/svg_to_png/154405/Grove-Gas-Battery.png
+
+[/G/, /R/, /OW/, /V/, /EH/, /D/]:groved:https://openclipart.org/image/250px/svg_to_png/154405/Grove-Gas-Battery.png
+
+[/G/, /R/, /AH V/, /S/]:groves:https://openclipart.org/image/250px/svg_to_png/154405/Grove-Gas-Battery.png
+
+[/G/, /R/, /OW/]:grow:https://openclipart.org/image/250px/svg_to_png/260515/casino-war-tank-maze-coloring-for-grown-ups.png
+
+[/G/, /R/, /OW/, /W/, /EH/, /D/]:growed:https://openclipart.org/image/250px/svg_to_png/260515/casino-war-tank-maze-coloring-for-grown-ups.png
+
+[/G/, /R/, /OW/, /W/, /ER/, /R/]:grower:https://openclipart.org/image/250px/svg_to_png/253306/vegetable_grower.png
+
+[/G/, /R/, /OW/, /AX L/, /IY/, /D/]:growled:https://openclipart.org/image/250px/svg_to_png/235374/roaringbearlarger.png
+
+[/G/, /R/, /OW/, /AX L/, /S/]:growls:https://openclipart.org/image/250px/svg_to_png/235374/roaringbearlarger.png
+
+[/G/, /R/, /OW/, /W/, /N/]:grown:https://openclipart.org/image/250px/svg_to_png/260515/casino-war-tank-maze-coloring-for-grown-ups.png
+
+[/G/, /R/, /OW/, /W/, /Z/]:grows:https://openclipart.org/image/250px/svg_to_png/260515/casino-war-tank-maze-coloring-for-grown-ups.png
+
+[/G/, /R/, /OW/, /W/, /TH/]:growth:https://openclipart.org/image/250px/svg_to_png/256922/109.-statistic-pack.png
+
+[/G/, /R/, /OW/, /W/, /TH/, /S/]:growths:https://openclipart.org/image/250px/svg_to_png/256922/109.-statistic-pack.png
+
+[/G/, /R/, /AH/, /B/, /IY ER/, /R/]:grubbier:https://openclipart.org/image/250px/svg_to_png/251115/Glitch-subway-reconstructed.png
+
+[/G/, /R/, /AH/, /B/, /Z/]:grubbs:https://openclipart.org/image/250px/svg_to_png/182494/Grubbs Catalyst 1st Generation.png
+
+[/G/, /R/, /AH/, /B/, /IY/]:grubby:https://openclipart.org/image/250px/svg_to_png/251115/Glitch-subway-reconstructed.png
+
+[/G/, /R/, /UW/, /IY/, /L/]:gruel:https://openclipart.org/image/250px/svg_to_png/209706/food-yummy-gruel.png
+
+[/G/, /R/, /UW/, /IY/, /L/, /Z/]:gruels:https://openclipart.org/image/250px/svg_to_png/209706/food-yummy-gruel.png
+
+[/G/, /R/, /AH/, /F/, /D/]:gruffed:https://openclipart.org/image/250px/svg_to_png/26672/johnny-automatic-gruff-man.png
+
+[/G/, /R/, /AH/, /F/, /ER/, /R/]:gruffer:https://openclipart.org/image/250px/svg_to_png/26672/johnny-automatic-gruff-man.png
+
+[/G/, /R/, /AH/, /F/, /S/]:gruffs:https://openclipart.org/image/250px/svg_to_png/26672/johnny-automatic-gruff-man.png
+
+[/G/, /R/, /AH/, /M/, /P/]:grump:https://openclipart.org/image/250px/svg_to_png/27912/kablam-monster07.png
+
+[/G/, /R/, /AH/, /M/, /P/, /D/]:grumped:https://openclipart.org/image/250px/svg_to_png/27912/kablam-monster07.png
+
+[/G/, /R/, /AH/, /M/, /P/, /S/]:grumps:https://openclipart.org/image/250px/svg_to_png/27869/kablam-monster01.png
+
+[/G/, /R/, /AH/, /M/, /P/, /IY/]:grumpy:https://openclipart.org/image/250px/svg_to_png/246818/ug-fish.png
+
+[/G/, /R/, /UW/, /N/]:grun:https://openclipart.org/image/250px/svg_to_png/216902/Card-Symbols-by-Merlin2525.png
+
+[/G/, /R/, /UW/, /N/, /IY/, /N/]:grunen:https://openclipart.org/image/250px/svg_to_png/142387/Carrot-001-Orange-w-Green-Leafs.png
+
+[/G/, /R/, /UW/, /N/, /ER/, /R/]:gruner:https://openclipart.org/image/250px/svg_to_png/216902/Card-Symbols-by-Merlin2525.png
+
+[/G/, /R/, /AH/, /NX/, /G/]:grunge:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /R/, /AH/, /NX/, /G/, /IY/]:grungy:https://openclipart.org/image/250px/svg_to_png/250931/grungy-rtadiation-warning.png
+
+[/G/, /R/, /AH/, /N/, /T/, /D/]:grunted:https://openclipart.org/image/250px/svg_to_png/188474/menplayingpool.png
+
+[/G/, /R/, /AH/, /N/, /T/, /S/]:grunts:https://openclipart.org/image/250px/svg_to_png/188474/menplayingpool.png
+
+[/G/, /R/, /UW/, /Z/]:grus:https://openclipart.org/image/250px/svg_to_png/4052/ryanlerch-3-Whooping-Cranes.png
+
+[/G/, /R/, /AY/, /EH/, /R/, /EH/]:gruyere:https://openclipart.org/image/250px/svg_to_png/179992/gruyerecastel.png
+
+[/G/, /R/, /IH/, /F/, /AX N/]:gryphon:https://openclipart.org/image/250px/svg_to_png/222506/Gryphon-Line-Art.png
+
+[/G/, /S/, /F/, /K/]:gsfc:https://openclipart.org/image/250px/svg_to_png/226885/NASA-WMAP-Five-Year-Microwave-Sky.png
+
+[/G/, /EY/, /G/, /EH/]:guage:https://openclipart.org/image/250px/svg_to_png/192787/MachineValvesWheelsGuages.png
+
+[/G/, /AE/, /JH/, /AY R/, /AE/]:guajira:https://openclipart.org/image/250px/svg_to_png/142969/indio.png
+
+[/G/, /AE/, /N/, /AE/, /K/, /OW/]:guanaco:https://openclipart.org/image/250px/svg_to_png/105175/Guanaco-.png
+
+[/G/, /EY/, /N/, /OW/]:guano:https://openclipart.org/image/250px/svg_to_png/210287/misc-guano.png
+
+[/G/, /EY/, /N/, /OW/, /S/]:guanos:https://openclipart.org/image/250px/svg_to_png/210287/misc-guano.png
+
+[/G/, /EY/, /N/, /K S/, /IH/]:guanxi:https://openclipart.org/image/250px/svg_to_png/35137/guanxi-characters.png
+
+[/G/, /EY/, /R/, /D/]:guard:https://openclipart.org/image/250px/svg_to_png/256796/TemplarCrossTwo.png
+
+[/G/, /AE/, /R/, /D/, /AE/]:guarda:https://openclipart.org/image/250px/svg_to_png/226893/clipart30.png
+
+[/G/, /EY/, /R/, /D/, /EH/, /D/]:guarded:https://openclipart.org/image/250px/svg_to_png/256796/TemplarCrossTwo.png
+
+[/G/, /EY/, /R/, /D/, /Z/]:guards:https://openclipart.org/image/250px/svg_to_png/256796/TemplarCrossTwo.png
+
+[/G/, /AE/, /V/, /AE/]:guava:https://openclipart.org/image/250px/svg_to_png/209594/food-guava-striped.png
+
+[/G/, /AE/, /V/, /AE/, /S/]:guavas:https://openclipart.org/image/250px/svg_to_png/209594/food-guava-striped.png
+
+[/G/, /K/, /IH/]:gucci:https://openclipart.org/image/250px/svg_to_png/178230/Gucci Chinese calligraphy.png
+
+[/G/, /K/]:guck:https://openclipart.org/image/250px/svg_to_png/129523/ussgerdforce.png
+
+[/G/, /K/, /S/]:gucks:https://openclipart.org/image/250px/svg_to_png/129523/ussgerdforce.png
+
+[/G/, /D/, /EH/]:gude:https://openclipart.org/image/250px/svg_to_png/203668/bolas-de-gude.png
+
+[/G/, /D/, /G/, /EH/, /AX N/]:gudgeon:https://openclipart.org/image/250px/svg_to_png/105181/Gudgeon-.png
+
+[/G/, /IY/, /N/, /DH ER/]:guenther:https://openclipart.org/image/250px/svg_to_png/183837/Posters 1977-1988 No. 137-2.png
+
+[/G/, /IY/, /R/, /IH/, /L/, /AE/]:guerilla:https://openclipart.org/image/250px/svg_to_png/260148/militia.png
+
+[/G/, /IY/, /R/, /AE/]:guerra:https://openclipart.org/image/250px/svg_to_png/243135/Luminor.png
+
+[/G/, /EH/, /R/, /EH/]:guerre:https://openclipart.org/image/250px/svg_to_png/202059/Croix-de-guerre.png
+
+[/G/, /IY/, /R/, /EH R/, /R/, /OW/]:guerrero:https://openclipart.org/image/250px/svg_to_png/258439/1471209621.png
+
+[/G/, /IY/, /R/, /IH/, /L/, /AE/]:guerrilla:https://openclipart.org/image/250px/svg_to_png/258439/1471209621.png
+
+[/G/, /IY/, /S/]:guess:https://openclipart.org/image/250px/svg_to_png/251382/ninja-2.png
+
+[/G/, /EH/, /S/, /EH/, /D/]:guessed:https://openclipart.org/image/250px/svg_to_png/251382/ninja-2.png
+
+[/G/, /IY/, /S/, /ER/]:guesser:https://openclipart.org/image/250px/svg_to_png/251382/ninja-2.png
+
+[/G/, /EH/, /S/, /EH/, /S/]:guesses:https://openclipart.org/image/250px/svg_to_png/251382/ninja-2.png
+
+[/G/, /IY/, /S/, /IY/, /NX/, /G/]:guessing:https://openclipart.org/image/250px/svg_to_png/251382/ninja-2.png
+
+[/G/, /IY/, /S/, /T/]:guest:https://openclipart.org/image/250px/svg_to_png/230172/mephisto2.png
+
+[/G/, /EH/, /S/, /T/, /EH/, /D/]:guested:https://openclipart.org/image/250px/svg_to_png/230172/mephisto2.png
+
+[/G/, /IY/, /S/, /T/, /ER/]:guester:https://openclipart.org/image/250px/svg_to_png/230172/mephisto2.png
+
+[/G/, /IY/, /S/, /T/, /S/]:guests:https://openclipart.org/image/250px/svg_to_png/230172/mephisto2.png
+
+[/G/, /IY/, /V/, /AE/, /R/, /AE/]:guevara:https://openclipart.org/image/250px/svg_to_png/252332/che-4-card-3.png
+
+[/G/, /F/, /IH/]:guffy:https://openclipart.org/image/250px/svg_to_png/125005/Gufo.png
+
+[/G/, /Y UW/, /G/, /Y UW/]:gugu:https://openclipart.org/image/250px/svg_to_png/172661/gas-bottle-fullsize.png
+
+[/G/, /IY/, /AE/, /N/, /AE/]:guiana:https://openclipart.org/image/250px/svg_to_png/235794/French-Guiana-Map-Flag.png
+
+[/G/, /AY/, /D/, /EH/]:guide:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /AY/, /D/, /EH/, /D/]:guided:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /AY/, /D/, /IY/, /S/]:guides:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /AY/, /D/, /IY/, /S/, /T/]:guidest:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /IH/, /D/, /IH/, /NX/, /G/]:guiding:https://openclipart.org/image/250px/svg_to_png/260095/Mandala0a.png
+
+[/G/, /AY/, /D/, /OW/]:guido:https://openclipart.org/image/250px/svg_to_png/171781/Saturn1.png
+
+[/G/, /IY/, /L/, /D/]:guild:https://openclipart.org/image/250px/svg_to_png/251059/Water_trader_final.png
+
+[/G/, /IY/, /L/, /D/, /Z/]:guilds:https://openclipart.org/image/250px/svg_to_png/251059/Water_trader_final.png
+
+[/G/, /IY/, /L/, /AO/, /M/]:guillaume:https://openclipart.org/image/250px/svg_to_png/24024/Anonymous-Cloud.png
+
+[/G/, /IY/, /L/, /OW/, /CH/, /EH/]:guilloche:https://openclipart.org/image/250px/svg_to_png/248257/1462549870.png
+
+[/G/, /IY/, /L/, /T/]:guilt:https://openclipart.org/image/250px/svg_to_png/208509/Fifth761-772.png
+
+[/G/, /IY/, /L/, /T/, /IY ER/]:guiltier:https://openclipart.org/image/250px/svg_to_png/227280/brokenrifle.png
+
+[/G/, /IY/, /L/, /T/, /S/]:guilts:https://openclipart.org/image/250px/svg_to_png/208509/Fifth761-772.png
+
+[/G/, /IY/, /L/, /T/, /IH/]:guilty:https://openclipart.org/image/250px/svg_to_png/227280/brokenrifle.png
+
+[/G/, /IY/, /N/, /D/, /AE/]:guinda:https://openclipart.org/image/250px/svg_to_png/217107/picotas.png
+
+[/G/, /IH/, /N/, /IY/]:guinea:https://openclipart.org/image/250px/svg_to_png/259994/Guinea-flag-linear-2016082503.png
+
+[/G/, /IY/, /N/, /IY/, /S/]:guineas:https://openclipart.org/image/250px/svg_to_png/259994/Guinea-flag-linear-2016082503.png
+
+[/G/, /AY R/, /OW/]:guiro:https://openclipart.org/image/250px/svg_to_png/166534/Guiro.png
+
+[/G/, /IY/, /T/, /AA R/]:guitar:https://openclipart.org/image/250px/svg_to_png/260219/violao.png
+
+[/G/, /IY/, /T/, /EY/, /R/, /EH/]:guitare:https://openclipart.org/image/250px/svg_to_png/210835/Merry-Christmas-Card-Front-by-Merlin2525.png
+
+[/G/, /IY/, /T/, /EY/, /R/, /Z/]:guitars:https://openclipart.org/image/250px/svg_to_png/260219/violao.png
+
+[/G/, /JH/, /AE/, /R/, /AE/, /T/]:gujarat:https://openclipart.org/image/250px/svg_to_png/192765/modi.png
+
+[/G/, /L/, /AA R/]:gular:https://openclipart.org/image/250px/svg_to_png/229612/flyingpelicans.png
+
+[/G/, /L/, /IY/, /S/]:gules:https://openclipart.org/image/250px/svg_to_png/203798/Argent-Ermined-Gules.png
+
+[/G/, /L/, /F/]:gulf:https://openclipart.org/image/250px/svg_to_png/243132/Eastern_bluebird.png
+
+[/G/, /L/, /F/, /IY/, /D/]:gulfed:https://openclipart.org/image/250px/svg_to_png/243132/Eastern_bluebird.png
+
+[/G/, /L/, /F/, /IY/, /NX/, /G/]:gulfing:https://openclipart.org/image/250px/svg_to_png/243132/Eastern_bluebird.png
+
+[/G/, /L/, /F/, /S/]:gulfs:https://openclipart.org/image/250px/svg_to_png/243132/Eastern_bluebird.png
+
+[/G/, /L/]:gull:https://openclipart.org/image/250px/svg_to_png/246779/SeagullSilhouette2.png
+
+[/G/, /L/, /EH/, /D/]:gulled:https://openclipart.org/image/250px/svg_to_png/246779/SeagullSilhouette2.png
+
+[/G/, /L/, /IY/, /NX/, /G/]:gulling:https://openclipart.org/image/250px/svg_to_png/246779/SeagullSilhouette2.png
+
+[/G/, /L/, /S/]:gulls:https://openclipart.org/image/250px/svg_to_png/246779/SeagullSilhouette2.png
+
+[/G/, /L/, /P/]:gulp:https://openclipart.org/image/250px/svg_to_png/203348/drinkdownthecoffee.png
+
+[/G/, /L/, /P/, /IY/, /D/]:gulped:https://openclipart.org/image/250px/svg_to_png/203348/drinkdownthecoffee.png
+
+[/G/, /L/, /P/, /IY/, /NX/, /G/]:gulping:https://openclipart.org/image/250px/svg_to_png/203348/drinkdownthecoffee.png
+
+[/G/, /L/, /P/, /S/]:gulps:https://openclipart.org/image/250px/svg_to_png/203348/drinkdownthecoffee.png
+
+[/G/, /M/, /B/, /AE/]:gumba:https://openclipart.org/image/250px/svg_to_png/129913/lkjhgfds.png
+
+[/G/, /M/, /B/, /IY/, /L/]:gumbel:https://openclipart.org/image/250px/svg_to_png/182646/Gumbel Cumulative.png
+
+[/G/, /M/, /B/, /OW/, /S/]:gumbos:https://openclipart.org/image/250px/svg_to_png/217046/1428764201.png
+
+[/G/, /M/, /EH/, /D/]:gummed:https://openclipart.org/image/250px/svg_to_png/243698/gumball_doodle_1978.png
+
+[/G/, /M/, /IY ER/]:gummier:https://openclipart.org/image/250px/svg_to_png/251049/Alphabet8.png
+
+[/G/, /M/, /IY/, /IY/, /S/, /T/]:gummiest:https://openclipart.org/image/250px/svg_to_png/251049/Alphabet8.png
+
+[/G/, /M/, /IY/, /NX/, /G/]:gumming:https://openclipart.org/image/250px/svg_to_png/243698/gumball_doodle_1978.png
+
+[/G/, /M/, /IH/]:gummy:https://openclipart.org/image/250px/svg_to_png/251049/Alphabet8.png
+
+[/G/, /M/, /P/]:gump:https://openclipart.org/image/250px/svg_to_png/60715/rebus05.png
+
+[/G/, /M/, /Z/]:gums:https://openclipart.org/image/250px/svg_to_png/243698/gumball_doodle_1978.png
+
+[/G/, /N/, /AE/]:guna:https://openclipart.org/image/250px/svg_to_png/243638/Guna-logo-2016031000.png
+
+[/G/, /N/, /ER/]:guner:https://openclipart.org/image/250px/svg_to_png/260450/Bofors.png
+
+[/G/, /N/, /IY/, /S/]:gunes:https://openclipart.org/image/250px/svg_to_png/142501/Umbrella-001-Beach-Pink.png
+
+[/G/, /NX/, /G/]:gung:https://openclipart.org/image/250px/svg_to_png/190426/chinesenewyeardragon-greeting.png
+
+[/G/, /NX G/, /G/, /EH/]:gunge:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /NX K/, /S/]:gunks:https://openclipart.org/image/250px/svg_to_png/259100/Splat-15--NicholasJudy456.png
+
+[/G/, /N/, /M/, /EY/, /N/]:gunman:https://openclipart.org/image/250px/svg_to_png/231946/1446980456.png
+
+[/G/, /N/, /EH/, /D/]:gunned:https://openclipart.org/image/250px/svg_to_png/260450/Bofors.png
+
+[/G/, /N/, /IH/, /S/]:gunnies:https://openclipart.org/image/250px/svg_to_png/146053/No-hook-please.png
+
+[/G/, /N/, /IY/, /N/, /G/]:gunning:https://openclipart.org/image/250px/svg_to_png/260450/Bofors.png
+
+[/G/, /N/, /IH/]:gunny:https://openclipart.org/image/250px/svg_to_png/146053/No-hook-please.png
+
+[/G/, /N/, /Z/]:guns:https://openclipart.org/image/250px/svg_to_png/260450/Bofors.png
+
+[/G/, /N/, /S/, /HH/, /IY/, /P/]:gunship:https://openclipart.org/image/250px/svg_to_png/219020/red_pennant_vladivostok.png
+
+[/G/, /N/, /S/, /HH/, /OW/, /T/]:gunshot:https://openclipart.org/image/250px/svg_to_png/167218/shotinthehead.png
+
+[/G/, /N/, /T/, /OW/, /N/]:gunton:https://openclipart.org/image/250px/svg_to_png/233150/GuntonPark.png
+
+[/G/, /N/, /AH/, /N/, /G/]:gunung:https://openclipart.org/image/250px/svg_to_png/194752/boot-camp-shoes.png
+
+[/G/, /R/, /IY/, /K/, /AE/]:gurica:https://openclipart.org/image/250px/svg_to_png/206014/African-Game-reserve.png
+
+[/G/, /R/, /L/]:gurl:https://openclipart.org/image/250px/svg_to_png/245272/Punk-girl-14-2016032942.png
+
+[/G/, /R/, /L/, /IH/]:gurly:https://openclipart.org/image/250px/svg_to_png/224370/gurly-drink-glitch.png
+
+[/G/, /R/, /UW/]:guru:https://openclipart.org/image/250px/svg_to_png/228702/Celestial-Ribbon.png
+
+[/G/, /R/, /AH/, /NX/, /G/]:gurung:https://openclipart.org/image/250px/svg_to_png/248898/Birju-Gurung.png
+
+[/G/, /R/, /AH/, /NX/, /G/, /S/]:gurungs:https://openclipart.org/image/250px/svg_to_png/248898/Birju-Gurung.png
+
+[/G/, /R/, /UW/, /S/]:gurus:https://openclipart.org/image/250px/svg_to_png/228702/Celestial-Ribbon.png
+
+[/G/, /S/, /EY/, /N/]:gusan:https://openclipart.org/image/250px/svg_to_png/142363/Apple-002-Red-Green-Leaf-w-Worm.png
+
+[/G/, /S/, /EY/, /N/, /OW/, /S/]:gusanos:https://openclipart.org/image/250px/svg_to_png/144649/gusano.png
+
+[/G/, /S/, /T/]:gust:https://openclipart.org/image/250px/svg_to_png/223735/1438088040.png
+
+[/G/, /S/, /T/, /AE/]:gusta:https://openclipart.org/image/250px/svg_to_png/222444/Back-in-parking.png
+
+[/G/, /S/, /T/, /EY/, /F/]:gustaf:https://openclipart.org/image/250px/svg_to_png/226296/GentlemanSilhouette4.png
+
+[/G/, /S/, /T/, /EY/, /V/, /OW/]:gustavo:https://openclipart.org/image/250px/svg_to_png/225071/Divider33.png
+
+[/G/, /S/, /T/, /IY/, /D/]:gusted:https://openclipart.org/image/250px/svg_to_png/223735/1438088040.png
+
+[/G/, /S/, /T/, /IY/, /NX/, /G/]:gusting:https://openclipart.org/image/250px/svg_to_png/223735/1438088040.png
+
+[/G/, /S/, /T/, /AA/, /S/]:gustoes:https://openclipart.org/image/250px/svg_to_png/247698/plantilla-caras.png
+
+[/G/, /S/, /T/, /S/]:gusts:https://openclipart.org/image/250px/svg_to_png/223735/1438088040.png
+
+[/G/, /T/, /S/]:guts:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /T/, /IY/, /D/]:gutted:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /T/, /ER/]:gutter:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /T/, /EH R/, /AE/]:guttera:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /T/, /EH/, /R/, /EH/, /D/]:guttered:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /T/, /IY/, /R/, /Z/]:gutters:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /T/, /IY/, /NX/, /G/]:gutting:https://openclipart.org/image/250px/svg_to_png/252105/curb-and-gutter.png
+
+[/G/, /IH/, /IY/, /D/]:guyed:https://openclipart.org/image/250px/svg_to_png/259698/portrait.png
+
+[/G/, /IH/, /EH/, /N/, /EH/]:guyenne:https://openclipart.org/image/250px/svg_to_png/175410/guyenne-classic.png
+
+[/G/, /IH/, /IY/, /NX/, /G/]:guying:https://openclipart.org/image/250px/svg_to_png/259698/portrait.png
+
+[/G/, /IH/, /Z/]:guys:https://openclipart.org/image/250px/svg_to_png/259698/portrait.png
+
+[/G/, /W/, /IY/, /N/]:gwen:https://openclipart.org/image/250px/svg_to_png/137467/1304887060.png
+
+[/G/, /W/, /IY/, /N/]:gwenn:https://openclipart.org/image/250px/svg_to_png/27803/sillius-flag-of-britain-france.png
+
+[/JH/, /IH/, /M/, /Z/]:gyms:https://openclipart.org/image/250px/svg_to_png/241218/Kettlebell.png
+
+[/JH/, /IH/, /P/, /S/, /AY D/]:gypsied:https://openclipart.org/image/250px/svg_to_png/227254/ladywithcrystalball.png
+
+[/JH/, /IH/, /P/, /S/, /IY/, /S/]:gypsies:https://openclipart.org/image/250px/svg_to_png/227254/ladywithcrystalball.png
+
+[/JH/, /IH/, /P/, /S/, /IH/]:gypsy:https://openclipart.org/image/250px/svg_to_png/227254/ladywithcrystalball.png
+
+[/G/, /AY/, /R/, /IH/]:gyri:https://openclipart.org/image/250px/svg_to_png/254917/1468125196.png
+
+[/G/, /AY/, /R/, /OW/]:gyro:https://openclipart.org/image/250px/svg_to_png/19543/Startright-Piper-Gyro-Suction-Gage.png
+
+[/JH/, /IH/, /R/, /AX N/, /N/, /IH/]:gyronny:https://openclipart.org/image/250px/svg_to_png/203803/Gyronny16.png
+
+[/G/, /AY/, /R/, /AA/, /S/]:gyros:https://openclipart.org/image/250px/svg_to_png/19543/Startright-Piper-Gyro-Suction-Gage.png
+
+[/G/, /AY/, /R/, /UW/, /S/]:gyrus:https://openclipart.org/image/250px/svg_to_png/254917/1468125196.png
+
+[/G/, /Z/, /AY/, /P/]:gzip:https://openclipart.org/image/250px/svg_to_png/150025/7zipClassic-gzip.png
+
+[/HH/, /AE/, /Z/]:haas:https://openclipart.org/image/250px/svg_to_png/240793/SimpleDesign17.png
+
+[/AE/, /B/, /AE/, /N/, /AE/]:habana:https://openclipart.org/image/250px/svg_to_png/251422/habana-cuba-6.png
+
+[/EY/, /B/, /EH/]:habe:https://openclipart.org/image/250px/svg_to_png/34087/computer001-rahmen.png
+
+[/EY/, /B/, /IY/, /T/]:habit:https://openclipart.org/image/250px/svg_to_png/253332/Dress-zm.png
+
+[/EY/, /B/, /IY/, /T/, /S/]:habits:https://openclipart.org/image/250px/svg_to_png/253332/Dress-zm.png
+
