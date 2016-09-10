@@ -14,6 +14,8 @@ import org.toilelibre.libe.rebus.init.PhonemesIndexer;
 import org.toilelibre.libe.rebus.objects.Data;
 import org.toilelibre.libe.rebus.objects.structs.Phoneme;
 
+import org.junit.Assert;
+
 public class WordToPhonemesTest {
     
     private static Data data;
@@ -63,6 +65,32 @@ public class WordToPhonemesTest {
     @Test
     public void bicycle () {
         System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "bicycle"));
+    }
+    
+    @Test
+    public void capture () {
+        List<Phoneme> phonemes = PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "capture");
+        Assert.assertEquals ("/CH ER/", phonemes.get(3).getPhoneme ());
+    }
+    
+    @Test
+    public void suture () {
+        System.out.println(PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "suture"));
+    }
+    
+    @Test
+    public void crick () {
+        Assert.assertEquals ("[/K/, /R/, /IH/, /K/]", PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "crick").toString ());
+    }
+    
+    @Test
+    public void anchorable () {
+        Assert.assertEquals ("[/AE/, /N/, /CH/, /AO R/, /AX B AX L/]", PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "anchorable").toString ());
+    }
+    
+    @Test
+    public void smutted () {
+        Assert.assertEquals ("[/S/, /M/, /Y UW/, /T IH D/]", PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "smutted").toString ());
     }
 
 }

@@ -19,4 +19,16 @@ public class Phoneme {
         return phoneme;
     }
     
+    public boolean endsWith (Phoneme otherPhoneme) {
+        return this.phoneme.replace ('/', ' ').trim ().endsWith (
+                otherPhoneme.getPhoneme ().replace ('/', ' ').trim ()) &&
+                otherPhoneme.getPhoneme ().indexOf (' ') == -1;
+    }
+
+    public boolean startsWith (Phoneme otherPhoneme) {
+        return this.phoneme.replace ('/', ' ').trim ().startsWith (
+                otherPhoneme.getPhoneme ().replace ('/', ' ').trim ()) &&
+                otherPhoneme.getPhoneme ().indexOf (' ') == -1;
+    }
+    
 }

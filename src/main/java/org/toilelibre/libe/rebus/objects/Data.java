@@ -61,7 +61,7 @@ public class Data {
       this.settings = new Settings ();
       this.images = ImageIndexer.index (Data.class.getClassLoader (),
           "images.txt");
-      this.phonemes = PhonemesIndexer.index ();
+      this.phonemes = PhonemesIndexer.index ("src/main/resources/eng_phone.txt");
       this.words = PhonemesIndexer.wordsToPhoneme (this, WordIndexer.index (this.images.keySet ()));
       this.sortedLettersTree = WordIndexer.differencesToFSM (this.words.keySet ());
       PhonemesIndexer.readFile (this, "src/main/resources/found.txt");

@@ -21,15 +21,39 @@ import org.toilelibre.libe.rebus.objects.structs.Word;
 
 public class PhonemesIndexer {
 
-    public static Map<Pattern, Phoneme> index () {
+    private static class PhonemeMatch {
+
+        private final int     lengthOfCandidateMatcher;
+        private final int     lengthOfCandidateGroup;
+        private final Pattern candidate;
+        private final Matcher foundMatcher;
+
+        public PhonemeMatch () {
+            this (0, 0, null, null);
+        }
+
+        public PhonemeMatch (int lengthOfCandidateMatcher, int lengthOfCandidateGroup, Pattern candidate, Matcher foundMatcher) {
+            this.lengthOfCandidateMatcher = lengthOfCandidateMatcher;
+            this.lengthOfCandidateGroup = lengthOfCandidateGroup;
+            this.candidate = candidate;
+            this.foundMatcher = foundMatcher;
+        }
+
+    }
+
+    public static Map<Pattern, Phoneme> index (String phoneticRulesFilename) {
+        Map<String, Phoneme> allPhonemes = new HashMap<String, Phoneme> ();
         Map<Pattern, Phoneme> phonemes = new HashMap<Pattern, Phoneme> ();
         try {
-            BufferedReader br = new BufferedReader (new InputStreamReader (new FileInputStream (new File ("src/main/resources/eng_phone.txt"))));
+            BufferedReader br = new BufferedReader (new InputStreamReader (new FileInputStream (new File (phoneticRulesFilename))));
             String line = br.readLine ();
             while (line != null) {
                 String key = line.substring (0, line.indexOf ('='));
                 String value = line.substring (line.indexOf ('=') + 1);
-                phonemes.put (Pattern.compile (key), Phoneme.EMPTY.getPhoneme ().equals (value) ? Phoneme.EMPTY : new Phoneme (value));
+                if (!allPhonemes.containsKey (value)) {
+                    allPhonemes.put (value, new Phoneme (value));
+                }
+                phonemes.put (Pattern.compile (key), Phoneme.EMPTY.getPhoneme ().equals (value) ? Phoneme.EMPTY : allPhonemes.get (value));
                 line = br.readLine ();
             }
             br.close ();
@@ -40,49 +64,56 @@ public class PhonemesIndexer {
     }
 
     public static List<Phoneme> wordToPhonemes (Data data, Word word) {
-        if (data.getWordsAndPhonemes () != null &&
-                data.getWordsAndPhonemes ().containsKey (word)) {
+        if (data.getWordsAndPhonemes () != null && data.getWordsAndPhonemes ().containsKey (word)) {
             return data.getWordsAndPhonemes ().get (word);
         }
         return wordToPhonemes (data.getPhonemes (), word.getWord ());
     }
-    
+
     public static List<Phoneme> wordToPhonemes (Map<Pattern, Phoneme> knownPhonemes, String word) {
-        boolean found = true;
-        Pattern candidate = null;
-        int lengthOfCandidate = 0;
         Phoneme [] phonemePerLetter = new Phoneme [word.length ()];
-        boolean [] foundPerLetter = new boolean [word.length ()];
-        boolean [] trues = new boolean [word.length ()];
-        for (int i = 0; i < trues.length; i++)
-            trues [i] = true;
-        while (!Arrays.equals (trues, foundPerLetter) && found) {
-            found = false;
-            while (!found) {
-                for (Entry<Pattern, Phoneme> entry : knownPhonemes.entrySet ()) {
-                    Matcher matcher = entry.getKey ().matcher (word);
-                    while (matcher.find ()) {
-                        if (matcher.end () - matcher.start () > lengthOfCandidate && notInAlreadyDiscoveredPatterns (foundPerLetter, matcher.start (), matcher.end ())) {
-                            found = true;
-                            lengthOfCandidate = matcher.end () - matcher.start ();
-                            candidate = entry.getKey ();
-                        }
-                    }
+
+        PhonemeMatch phonemeMatch = new PhonemeMatch ();
+        do {
+            phonemeMatch = extractPhonemeFromMatch (knownPhonemes, phonemePerLetter, searchBestCandidate (knownPhonemes, word, phonemePerLetter));
+            phonemeMatch = new PhonemeMatch (0, 0, null, phonemeMatch.foundMatcher);
+        } while (hasMissingPhoneme (phonemePerLetter) && phonemeMatch.foundMatcher != null);
+        return removeDuplicates (Arrays.asList (phonemePerLetter));
+    }
+
+    private static PhonemeMatch extractPhonemeFromMatch (Map<Pattern, Phoneme> knownPhonemes, Phoneme [] phonemePerLetter, PhonemeMatch phonemeMatch) {
+        if (phonemeMatch.foundMatcher != null) {
+            phonemeMatch.foundMatcher.reset ();
+            while (phonemeMatch.foundMatcher.find ()) {
+                if (inAlreadyDiscoveredPatterns (phonemePerLetter, phonemeMatch.foundMatcher.start (), phonemeMatch.foundMatcher.end ())) {
+                    continue;
                 }
-                if (found) {
-                    Matcher matcher = candidate.matcher (word);
-                    while (matcher.find ()) {
-                        for (int i = matcher.start (1); i < matcher.end (1); i++) {
-                            foundPerLetter [i] = true;
-                            phonemePerLetter [i] = knownPhonemes.get (candidate);
-                        }
-                    }
+                for (int i = phonemeMatch.foundMatcher.start (1) ; i < phonemeMatch.foundMatcher.end (1) ; i++) {
+                    phonemePerLetter [i] = knownPhonemes.get (phonemeMatch.candidate);
                 }
-                candidate = null;
-                lengthOfCandidate = 0;
             }
         }
-        return removeDuplicates (Arrays.asList (phonemePerLetter));
+        return phonemeMatch;
+    }
+
+    private static boolean hasMissingPhoneme (Phoneme [] phonemePerLetter) {
+        return Arrays.toString (phonemePerLetter).contains ("null");
+    }
+
+    private static PhonemeMatch searchBestCandidate (Map<Pattern, Phoneme> knownPhonemes, String word, Phoneme [] phonemePerLetter) {
+        PhonemeMatch phonemeMatch = new PhonemeMatch ();
+        for (Entry<Pattern, Phoneme> entry : knownPhonemes.entrySet ()) {
+            Matcher matcher = entry.getKey ().matcher (word);
+            while (matcher.find ()) {
+                int lengthOfCurrentMatcher = entry.getKey ().pattern ().contains (".*") ? 0 : matcher.end () - matcher.start ();
+                int lengthOfCurrentGroup = entry.getKey ().pattern ().contains (".*") ? 0 : matcher.end (1) - matcher.start (1);
+                boolean worthIt = lengthOfCurrentGroup > phonemeMatch.lengthOfCandidateGroup || (lengthOfCurrentGroup == phonemeMatch.lengthOfCandidateGroup && lengthOfCurrentMatcher >= phonemeMatch.lengthOfCandidateMatcher);
+                if (worthIt && !inAlreadyDiscoveredPatterns (phonemePerLetter, matcher.start (), matcher.end ())) {
+                    phonemeMatch = new PhonemeMatch (matcher.end () - matcher.start (), matcher.end (1) - matcher.start (1), entry.getKey (), matcher);
+                }
+            }
+        }
+        return phonemeMatch;
     }
 
     private static List<Phoneme> removeDuplicates (List<Phoneme> list) {
@@ -92,22 +123,27 @@ public class PhonemesIndexer {
         }
         Phoneme lastOne = list.get (0);
         result.add (list.get (0));
-        for (int i = 1; i < list.size (); i++) {
+        for (int i = 1 ; i < list.size () ; i++) {
             if (list.get (i) != lastOne && list.get (i) != Phoneme.EMPTY) {
-                result.add (list.get (i));
+                if (list.get (i).startsWith (lastOne)) {
+                    result.remove (result.size () - 1);
+                    result.add (list.get (i));
+                } else if (!lastOne.endsWith (list.get (i))) {
+                    result.add (list.get (i));
+                }
             }
             lastOne = list.get (i);
         }
         return result;
     }
 
-    private static boolean notInAlreadyDiscoveredPatterns (boolean [] phonemePerLetter, int start, int end) {
-        for (int i = start; i < end; i++) {
-            if (phonemePerLetter [i] == true) {
-                return false;
+    private static boolean inAlreadyDiscoveredPatterns (Phoneme [] phonemePerLetter, int start, int end) {
+        for (int i = start ; i < end ; i++) {
+            if (phonemePerLetter [i] != null) {
+                return true;
             }
         }
-        return true;
+        return false;
     }
 
     public static Map<Word, List<Phoneme>> wordsToPhoneme (Data data, List<Word> index) {
@@ -117,7 +153,7 @@ public class PhonemesIndexer {
         }
         return result;
     }
-    
+
     public static void readFile (Data data, String fileName) {
         try {
             BufferedReader br = new BufferedReader (new InputStreamReader (new FileInputStream (new File ("src/main/resources/eng_phone.txt"))));
@@ -128,23 +164,29 @@ public class PhonemesIndexer {
                     line = br.readLine ();
                     continue;
                 }
-                List<Phoneme> result = new ArrayList<Phoneme>();
-                Word word = new Word (parts [1]);
-                for (String phoneme : parts [0].replace ('[', ' ').replace(']', ' ').split (",")) {
-                   for (Phoneme phonemeValue : data.getPhonemes ().values ()) {
-                       if (phonemeValue.getPhoneme ().equals (phoneme.trim ()))
-                       result.add (phonemeValue);
-                   }
-                }
-                
-                data.getWordsAndPhonemes ().put (word, result);
-                data.getImages ().put (word.getWord (), parts [2]);
+                saveWordFromTextLine (data, parts);
 
                 line = br.readLine ();
             }
             br.close ();
         } catch (IOException ioe) {
-            
+
         }
+    }
+
+    private static void saveWordFromTextLine (Data data, String [] parts) {
+
+        List<Phoneme> result = new ArrayList<Phoneme> ();
+        for (String phoneme : parts [0].replace ('[', ' ').replace (']', ' ').split (",")) {
+            for (Phoneme phonemeValue : data.getPhonemes ().values ()) {
+                if (phonemeValue.getPhoneme ().equals (phoneme.trim ()))
+                    result.add (phonemeValue);
+            }
+        }
+
+        Word word = new Word (parts [1]);
+        data.getWordsAndPhonemes ().put (word, result);
+        data.getImages ().put (word.getWord (), parts [2]);
+
     }
 }
