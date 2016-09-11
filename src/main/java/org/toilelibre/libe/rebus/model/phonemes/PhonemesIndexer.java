@@ -127,7 +127,7 @@ public class PhonemesIndexer {
         result.add (list.get (0));
         for (int i = 1 ; i < list.size () ; i++) {
             if (list.get (i) != lastOne && list.get (i) != Phoneme.EMPTY) {
-                if (list.get (i).startsWith (lastOne)) {
+                if (list.get (i).startsWith (lastOne) && lastOne != Phoneme.EMPTY) {
                     result.remove (result.size () - 1);
                     result.add (list.get (i));
                 } else if (!lastOne.endsWith (list.get (i))) {

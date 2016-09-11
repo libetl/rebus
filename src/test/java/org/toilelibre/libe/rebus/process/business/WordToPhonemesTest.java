@@ -80,6 +80,11 @@ public class WordToPhonemesTest {
     }
     
     @Test
+    public void behoa () {
+        Assert.assertEquals ("[/B IH/, /OW/]", PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "behoa").toString ());
+    }
+    
+    @Test
     public void crick () {
         Assert.assertEquals ("[/K/, /R/, /IH/, /K/]", PhonemesIndexer.wordToPhonemes (data.getPhonemes (), "crick").toString ());
     }
