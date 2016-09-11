@@ -7,6 +7,7 @@ import java.awt.EventQueue;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -76,7 +77,7 @@ public class OldUserInterface {
         public void actionPerformed (final ActionEvent e) {
             // Prevent the user from clicking twice
             OldUserInterface.btnPutMyLife.setEnabled (false);
-            OldUserInterface.btnPutMyLife.setText ("I'm making your sentence meaningful :) ...");
+            OldUserInterface.btnPutMyLife.setText ("Computing");
 
             // Spliting the sentence into words
             final String [] wordsS = BuildEquationFromSentence.preparse (OldUserInterface.textField.getText ());
@@ -132,7 +133,7 @@ public class OldUserInterface {
             if (this.nbRemaining == 0) {
                 OldUserInterface.draw ();
                 OldUserInterface.btnPutMyLife.setEnabled (true);
-                OldUserInterface.btnPutMyLife.setText ("Put my life in pictures !");
+                OldUserInterface.btnPutMyLife.setText ("Equation of words");
             }
         }
     }
@@ -157,7 +158,7 @@ public class OldUserInterface {
         public void actionPerformed (final ActionEvent e) {
             // Prevent the user from clicking twice
             OldUserInterface.rebus.setEnabled (false);
-            OldUserInterface.rebus.setText ("I'm making your sentence meaningful :) ...");
+            OldUserInterface.rebus.setText ("Computing");
 
             OldUserInterface.resultPanels.removeAll ();
 
@@ -227,7 +228,11 @@ public class OldUserInterface {
 
                 // We add the drawing
                 final String pictureFile = LoadData.getPicture (picture);
-                final URL pictureUrl = pictureFile == null ? null : Thread.currentThread ().getContextClassLoader ().getResource (pictureFile);
+                URL pictureUrl= null;
+                try {
+                    pictureUrl = pictureFile == null ? null : new URL ("https://openclipart.org/image/250px/svg_to_png/" + pictureFile + ".png");
+                } catch (MalformedURLException e) {
+                }
                 if (pictureUrl != null) {
                     jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureUrl)));
                 } else {

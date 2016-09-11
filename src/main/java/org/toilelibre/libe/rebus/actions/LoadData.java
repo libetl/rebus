@@ -18,11 +18,11 @@ public class LoadData {
     }
 
     private synchronized static Data buildEnglishData () {
-        return new Data ("src/main/resources/images.txt", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
+        return new Data ("src/main/resources/images.txt", "src/main/resources/wordsForEquations.txt", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
     }
 
     public static Data onlyEnglishRebusData () {
-        LoadData.INSTANCE = new Data ("", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
+        LoadData.INSTANCE = new Data ("", "src/main/resources/wordsForEquations.txt", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
         return LoadData.INSTANCE;
     }
 

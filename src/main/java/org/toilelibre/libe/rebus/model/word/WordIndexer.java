@@ -1,7 +1,15 @@
 package org.toilelibre.libe.rebus.model.word;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -50,6 +58,21 @@ public class WordIndexer {
             result.add (new Word (wordAsString));
         }
         return result;
+    }
+
+    public static List<Word> index (String wordsForEquationsFileName) {
+        BufferedReader br;
+        try {
+            br = new BufferedReader (new InputStreamReader (
+                    new FileInputStream (new File (wordsForEquationsFileName))));
+            Set<String> result = new HashSet<String>(Arrays.asList (br.readLine ().split (" ")));
+            br.close ();
+            return index(result);
+        } catch (FileNotFoundException e) {
+            return new ArrayList<Word>(0);
+        } catch (IOException e) {
+            throw new RuntimeException (e);
+        }
     }
 
 }

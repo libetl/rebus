@@ -28,6 +28,10 @@ public class Data {
      */
     private final Map<String, String>                images;
     /**
+     * Words only
+     */
+    private final List<Word>                         wordsForEquations;
+    /**
      * Settings choosen by the user
      */
     private final Settings                           settings;
@@ -61,14 +65,15 @@ public class Data {
      * Must be called at the beginning of the program. It loads an instance of
      * the map and the FSM.
      */
-    public Data (final String imageFileName, final String phoneticsFileName, final String phonemesFileName) {
+    public Data (final String imageFileName, final String wordsForEquationsFileName, final String phoneticsFileName, final String phonemesFileName) {
         try {
             this.settings = new Settings ();
             this.images = ImageIndexer.index (imageFileName);
+            this.wordsForEquations = WordIndexer.index (wordsForEquationsFileName);
+            this.sortedLettersTree = WordIndexer.differencesToFSM (this.wordsForEquations);
             this.phonemes = PhonemesIndexer.index (phoneticsFileName);
             this.phonemesFromText = PhonemesIndexer.buildPatternsFromText (this.phonemes);
             this.words = PhonemesIndexer.wordsToPhoneme (this, WordIndexer.index (this.images.keySet ()));
-            this.sortedLettersTree = WordIndexer.differencesToFSM (this.words.keySet ());
             PhonemesIndexer.readFile (this, phonemesFileName);
         } catch (final IOException e) {
             throw new RuntimeException (e);
