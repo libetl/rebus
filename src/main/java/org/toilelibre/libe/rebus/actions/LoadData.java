@@ -7,18 +7,21 @@ public class LoadData {
     private static Data INSTANCE;
 
     public static Data ensureEnglishDataLoaded () {
-        if (LoadData.INSTANCE != null) {
-            return LoadData.INSTANCE;
+        if (LoadData.INSTANCE == null) {
+            LoadData.INSTANCE = buildEnglishData ();
         }
-        return buildEnglishData ();
+        return LoadData.INSTANCE;
     }
-    
+
     public static Data getLoadedData () {
         return LoadData.INSTANCE;
     }
-    
+
     private synchronized static Data buildEnglishData () {
         return new Data ("src/main/resources/images.txt", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
+    }
 
+    public static Data onlyEnglishRebusData () {
+        return new Data ("", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
     }
 }

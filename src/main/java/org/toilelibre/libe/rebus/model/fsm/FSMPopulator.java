@@ -92,10 +92,10 @@ public class FSMPopulator {
     }
 
     /**
-     * Public method to find a good pair (substraction) of words to replace a
+     * Public method to find a good pair (subtraction) of words to replace a
      * path
      *
-     * @param wfs
+     * @param fsm
      *            the struct
      * @param path
      *            the path to explore in our struct
@@ -110,7 +110,7 @@ public class FSMPopulator {
      *         second element represent the remaining letters, which can be
      *         useful for further finds
      */
-    public static String [] findNearestPair (final FSM<Set<Pair<Word, Word>>, String> wfs, final String path, final Word wordToAvoid, final int numLettersMissing, final int lengthDelta) {
+    public static String [] findNearestPair (final FSM<Set<Pair<Word, Word>>, String> fsm, final String path, final Word wordToAvoid, final int numLettersMissing, final int lengthDelta) {
 
         // If no path, do not waste time by adding a :earth - :heart
         // or a :lemon - :melon or a :plaster - :stapler
@@ -120,7 +120,7 @@ public class FSMPopulator {
 
         // Now, we retrieve each interesting path according to the two
         // integers specified (numLettersMissing and lengthDelta)
-        final Map<String, Set<Pair<Word, Word>>> map = FSMPopulator.searchPairsByPath (wfs, path, wordToAvoid, numLettersMissing, lengthDelta);
+        final Map<String, Set<Pair<Word, Word>>> map = FSMPopulator.searchPairsByPath (fsm, path, wordToAvoid, numLettersMissing, lengthDelta);
 
         // We choose the best matching path to our path parameter
         final String bestPath = PathEvaluator.chooseBestPathDelta (new LinkedList<String> (map.keySet ()), path);

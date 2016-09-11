@@ -12,19 +12,20 @@ public class RebusFromWordTest {
 
     @BeforeClass
     public static void prepareData () {
-        RebusFromWordTest.data = LoadData.ensureEnglishDataLoaded ();
+        RebusFromWordTest.data = LoadData.onlyEnglishRebusData ();
     }
-    
+
     @Test
     public void miracleNotFound () {
         System.out.println (BuildRebusFromSentence.getRebus (data, 
                 PhonemesIndexer.wordToPhonemes (data, new Word ("miracle"))));
     }
-    
+
     @Test
     public void sea () {
         System.out.println (BuildRebusFromSentence.getWordsRebusFromSentence (data, "As far as i know"));
     }
+
     @Test
     public void eyeAndWave () {
         System.out.println (BuildRebusFromSentence.getRebus (data, 

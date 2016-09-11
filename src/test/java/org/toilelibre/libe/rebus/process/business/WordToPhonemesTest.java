@@ -22,10 +22,9 @@ public class WordToPhonemesTest {
 
     @BeforeClass
     public static void prepareData () {
-        data = LoadData.ensureEnglishDataLoaded ();
+        data = LoadData.onlyEnglishRebusData ();
     }
 
-    @Test
     public void fileToPhonemes () throws IOException {
         new File ("src/main/resources/phonemes.txt").delete ();
         BufferedReader br =

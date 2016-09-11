@@ -2,6 +2,7 @@ package org.toilelibre.libe.rebus.model.images;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -35,7 +36,10 @@ public class ImageIndexer {
 
         final Properties props = new Properties ();
         // This method is supposed to deal with reading the file
-        props.load (new FileInputStream (new File (fileName)));
+        try {
+            props.load (new FileInputStream (new File (fileName)));
+        } catch (FileNotFoundException e) {
+        } 
 
         for (final Entry<Object, Object> entry : props.entrySet ()) {
             indexMap.put (entry.getKey ().toString (), entry.getValue ().toString ());
