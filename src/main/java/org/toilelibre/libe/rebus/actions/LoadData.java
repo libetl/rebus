@@ -8,7 +8,7 @@ public class LoadData {
 
     public static Data ensureEnglishDataLoaded () {
         if (LoadData.INSTANCE == null) {
-            LoadData.INSTANCE = buildEnglishData ();
+            LoadData.INSTANCE = LoadData.buildEnglishData ();
         }
         return LoadData.INSTANCE;
     }
@@ -22,6 +22,23 @@ public class LoadData {
     }
 
     public static Data onlyEnglishRebusData () {
-        return new Data ("", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
+        LoadData.INSTANCE = new Data ("", "src/main/resources/eng_phone.txt", "src/main/resources/phonemes.txt");
+        return LoadData.INSTANCE;
+    }
+
+    public static void setRemainingCost (final int value) {
+        LoadData.INSTANCE.getSettings ().setRemainingCost (value);
+    }
+
+    public static void setLettersMissing (final int value) {
+        LoadData.INSTANCE.getSettings ().setLettersMissing (value);
+    }
+
+    public static void setLengthDelta (final int value) {
+        LoadData.INSTANCE.getSettings ().setLengthDelta (value);
+    }
+
+    public static String getPicture (final String picture) {
+        return LoadData.INSTANCE.getImages ().get (picture);
     }
 }

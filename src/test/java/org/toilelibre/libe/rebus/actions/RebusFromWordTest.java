@@ -17,19 +17,17 @@ public class RebusFromWordTest {
 
     @Test
     public void miracleNotFound () {
-        System.out.println (BuildRebusFromSentence.getRebus (data, 
-                PhonemesIndexer.wordToPhonemes (data, new Word ("miracle"))));
+        System.out.println (BuildRebusFromSentence.getRebus (RebusFromWordTest.data, PhonemesIndexer.wordToPhonemes (RebusFromWordTest.data, new Word ("miracle"))));
     }
 
     @Test
-    public void sea () {
-        System.out.println (BuildRebusFromSentence.getWordsRebusFromSentence (data, "As far as i know"));
+    public void aahzPharAahzKnow () {
+        System.out.println (BuildRebusFromSentence.getWordsRebusFromSentence ("As far as i know"));
     }
 
     @Test
-    public void eyeAndWave () {
-        System.out.println (BuildRebusFromSentence.getRebus (data, 
-                PhonemesIndexer.wordToPhonemes (data, new Word ("microwave"))));
+    public void mickFromMicrowave () {
+        System.out.println (BuildRebusFromSentence.getRebus (RebusFromWordTest.data, PhonemesIndexer.wordToPhonemes (RebusFromWordTest.data, new Word ("microwave"))));
     }
 
 }

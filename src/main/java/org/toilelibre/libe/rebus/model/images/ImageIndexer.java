@@ -38,8 +38,8 @@ public class ImageIndexer {
         // This method is supposed to deal with reading the file
         try {
             props.load (new FileInputStream (new File (fileName)));
-        } catch (FileNotFoundException e) {
-        } 
+        } catch (final FileNotFoundException e) {
+        }
 
         for (final Entry<Object, Object> entry : props.entrySet ()) {
             indexMap.put (entry.getKey ().toString (), entry.getValue ().toString ());

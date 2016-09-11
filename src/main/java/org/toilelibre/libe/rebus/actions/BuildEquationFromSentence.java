@@ -26,17 +26,19 @@ public class BuildEquationFromSentence {
     /**
      * Transforms a sentence into an equation
      *
-     * @param data
-     *            the data contains a FSM, the pictures map and the settings
      * @param sentence
      *            the sentence to transform
      * @return an equation
      */
-    public static String getEquation (final Data data, final String sentence) {
+    public static String getEquation (final String sentence) {
+        return BuildEquationFromSentence.getEquation (sentence, LoadData.getLoadedData ());
+    }
+
+    public static String getEquation (final String sentence, final Data data) {
         final String [] wordsAsString = BuildEquationFromSentence.preparse (sentence);
         final StringBuilder resultBuilder = new StringBuilder ();
         for (final String wordAsString : wordsAsString) {
-            resultBuilder.append (BuildEquationFromSentence.getEquation (data, new Word (wordAsString)));
+            resultBuilder.append (BuildEquationFromSentence.getEquation (new Word (wordAsString), data));
         }
         return resultBuilder.toString ();
     }
@@ -50,7 +52,7 @@ public class BuildEquationFromSentence {
      *            the word to transform
      * @return an equation
      */
-    public static String getEquation (final Data data, final Word word) {
+    private static String getEquation (final Word word, final Data data) {
         return BuildEquationFromSentence.getEquation (data.getSettings (), data.getSortedLettersTree (), word);
     }
 

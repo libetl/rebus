@@ -109,7 +109,7 @@ public class OldUserInterface {
                      */
                     public void run () {
                         // Getting the result here
-                        final String equation = BuildEquationFromSentence.getEquation (LoadData.getLoadedData(), word);
+                        final String equation = BuildEquationFromSentence.getEquation (word);
                         // The cost
                         SubmitSentenceAction.this.cost += BuildEquationFromSentence.getCost (equation);
                         // We write it
@@ -173,7 +173,7 @@ public class OldUserInterface {
                  */
                 public void run () {
                     // Getting the result here
-                    final String [] words = BuildRebusFromSentence.getRebusFromSentence (LoadData.getLoadedData(), OldUserInterface.textField.getText ());
+                    final String [] words = BuildRebusFromSentence.getRebusFromSentence (OldUserInterface.textField.getText ());
                     // We write it
                     for (final String word : words) {
                         final JLabel jlabelsResult = new JLabel ("?");
@@ -226,7 +226,7 @@ public class OldUserInterface {
                 final String picture = matcher.group (1);
 
                 // We add the drawing
-                final String pictureFile = LoadData.getLoadedData().getImages ().get (picture);
+                final String pictureFile = LoadData.getPicture (picture);
                 final URL pictureUrl = pictureFile == null ? null : Thread.currentThread ().getContextClassLoader ().getResource (pictureFile);
                 if (pictureUrl != null) {
                     jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureUrl)));
@@ -354,7 +354,7 @@ public class OldUserInterface {
             // @Override
             @Override
             public void stateChanged (final ChangeEvent e) {
-                LoadData.getLoadedData().getSettings ().setRemainingCost ((Integer) ((SpinnerNumberModel) e.getSource ()).getValue ());
+                LoadData.setRemainingCost ((Integer) ((SpinnerNumberModel) e.getSource ()).getValue ());
             }
         });
         spinner.setModel (spinnerModel);
@@ -372,7 +372,7 @@ public class OldUserInterface {
 
             @Override
             public void stateChanged (final ChangeEvent e) {
-                LoadData.getLoadedData().getSettings ().setLettersMissing ((Integer) ((SpinnerNumberModel) e.getSource ()).getValue ());
+                LoadData.setLettersMissing ((Integer) ((SpinnerNumberModel) e.getSource ()).getValue ());
             }
         });
         spinner1.setModel (spinnerModel1);
@@ -390,7 +390,7 @@ public class OldUserInterface {
 
             @Override
             public void stateChanged (final ChangeEvent e) {
-                LoadData.getLoadedData().getSettings ().setLengthDelta ((Integer) ((SpinnerNumberModel) e.getSource ()).getValue ());
+                LoadData.setLengthDelta ((Integer) ((SpinnerNumberModel) e.getSource ()).getValue ());
             }
         });
         spinner2.setModel (spinnerModel2);

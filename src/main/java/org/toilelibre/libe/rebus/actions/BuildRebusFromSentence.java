@@ -14,8 +14,12 @@ public class BuildRebusFromSentence {
         return phonemes.subList (start, phonemes.size ()).toString ().replace ('[', ' ').replace (']', ' ').trim ();
     }
 
-    public static String [] getRebusFromSentence (final Data data, final String sentence) {
-        final List<Word> words = BuildRebusFromSentence.getWordsRebusFromSentence (data, sentence);
+    public static String [] getRebusFromSentence (final String sentence) {
+        return BuildRebusFromSentence.getRebusFromSentence (sentence, LoadData.getLoadedData ());
+    }
+
+    public static String [] getRebusFromSentence (final String sentence, final Data data) {
+        final List<Word> words = BuildRebusFromSentence.getWordsRebusFromSentence (sentence);
         final String [] result = new String [words.size ()];
         int i = 0;
         for (final Word word : words) {
@@ -24,7 +28,11 @@ public class BuildRebusFromSentence {
         return result;
     }
 
-    public static List<Word> getWordsRebusFromSentence (final Data data, final String sentence) {
+    public static List<Word> getWordsRebusFromSentence (final String sentence) {
+        return BuildRebusFromSentence.getWordsRebusFromSentence (sentence, LoadData.getLoadedData ());
+    }
+
+    public static List<Word> getWordsRebusFromSentence (final String sentence, final Data data) {
         final List<Phoneme> phonemes = new ArrayList<Phoneme> ();
         final String [] wordsAsString = sentence.toLowerCase ().split (" ");
         for (final String wordAsString : wordsAsString) {
