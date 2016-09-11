@@ -25,7 +25,6 @@ public class WordToPhonemesTest {
         data = new Data ();
     }
 
-    @Test
     public void fileToPhonemes () throws IOException {
         new File ("src/main/resources/phonemes.txt").delete ();
         BufferedReader br =
@@ -35,7 +34,7 @@ public class WordToPhonemesTest {
         while ((line = br.readLine ()) != null){
             List<Phoneme> phonemes = PhonemesIndexer.wordToPhonemes (data.getPhonemes (), line);
             if (phonemes.size () <= 6) {
-                fos.write ((phonemes + ":" + line + "\r\n").toString ().getBytes ());
+                fos.write ((line + '=' + phonemes + "\n").toString ().getBytes ());
             }
         }
         br.close ();
