@@ -64,7 +64,7 @@ public class Data {
     public Data (final String imageFileName, final String phoneticsFileName, final String phonemesFileName) {
         try {
             this.settings = new Settings ();
-            this.images = ImageIndexer.index (Data.class.getClassLoader (), imageFileName);
+            this.images = ImageIndexer.index (imageFileName);
             this.phonemes = PhonemesIndexer.index (phoneticsFileName);
             this.phonemesFromText = PhonemesIndexer.buildPatternsFromText (this.phonemes);
             this.words = PhonemesIndexer.wordsToPhoneme (this, WordIndexer.index (this.images.keySet ()));

@@ -31,7 +31,7 @@ public class ImageIndexer {
      * @throws IOException
      *             if the file could not be read
      */
-    public static Map<String, String> index (final ClassLoader cl, final String fileName) throws IOException {
+    public static Map<String, String> index (final String fileName) throws IOException {
         final Map<String, String> indexMap = new HashMap<String, String> ();
 
         final Properties props = new Properties ();
