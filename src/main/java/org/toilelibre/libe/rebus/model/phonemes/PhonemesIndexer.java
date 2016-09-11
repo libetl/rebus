@@ -178,7 +178,6 @@ public class PhonemesIndexer {
 
         final Word word = new Word (line.getKey ().toString ());
         data.getWordsAndPhonemes ().put (word, result);
-        data.getImages ().put (word.getWord (), line.getKey ().toString ());
     }
 
     public static Map<String, Pattern> buildPatternsFromText (final Map<Pattern, Phoneme> phonemes) {
