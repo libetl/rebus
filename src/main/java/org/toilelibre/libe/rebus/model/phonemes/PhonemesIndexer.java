@@ -23,14 +23,14 @@ public class PhonemesIndexer {
 
     private static class PhonemeMatch {
 
-        private final int     lengthOfCandidateMatcher;
-        private final int     lengthOfCandidateGroup;
-        private final Pattern candidate;
-        private final Matcher foundMatcher;
-        
+        private final int                 lengthOfCandidateMatcher;
+        private final int                 lengthOfCandidateGroup;
+        private final Pattern             candidate;
+        private final Matcher             foundMatcher;
+
         private static final PhonemeMatch NONE = new PhonemeMatch (0, 0, null, null);
 
-        public PhonemeMatch (int lengthOfCandidateMatcher, int lengthOfCandidateGroup, Pattern candidate, Matcher foundMatcher) {
+        public PhonemeMatch (final int lengthOfCandidateMatcher, final int lengthOfCandidateGroup, final Pattern candidate, final Matcher foundMatcher) {
             this.lengthOfCandidateMatcher = lengthOfCandidateMatcher;
             this.lengthOfCandidateGroup = lengthOfCandidateGroup;
             this.candidate = candidate;
@@ -39,15 +39,15 @@ public class PhonemesIndexer {
 
     }
 
-    public static Map<Pattern, Phoneme> index (String phoneticRulesFilename) {
-        Map<String, Phoneme> allPhonemes = new HashMap<String, Phoneme> ();
-        Map<Pattern, Phoneme> phonemes = new HashMap<Pattern, Phoneme> ();
+    public static Map<Pattern, Phoneme> index (final String phoneticRulesFilename) {
+        final Map<String, Phoneme> allPhonemes = new HashMap<String, Phoneme> ();
+        final Map<Pattern, Phoneme> phonemes = new HashMap<Pattern, Phoneme> ();
         try {
-            BufferedReader br = new BufferedReader (new InputStreamReader (new FileInputStream (new File (phoneticRulesFilename))));
+            final BufferedReader br = new BufferedReader (new InputStreamReader (new FileInputStream (new File (phoneticRulesFilename))));
             String line = br.readLine ();
             while (line != null) {
-                String key = line.substring (0, line.indexOf ('='));
-                String value = line.substring (line.indexOf ('=') + 1);
+                final String key = line.substring (0, line.indexOf ('='));
+                final String value = line.substring (line.indexOf ('=') + 1);
                 if (!allPhonemes.containsKey (value)) {
                     allPhonemes.put (value, new Phoneme (value));
                 }
@@ -55,39 +55,37 @@ public class PhonemesIndexer {
                 line = br.readLine ();
             }
             br.close ();
-        } catch (FileNotFoundException e) {
+        } catch (final FileNotFoundException e) {
             throw new RuntimeException (e);
-        } catch (IOException e) {
+        } catch (final IOException e) {
             throw new RuntimeException (e);
         }
         return phonemes;
     }
 
-    public static List<Phoneme> wordToPhonemes (Data data, Word word) {
+    public static List<Phoneme> wordToPhonemes (final Data data, final Word word) {
         if (data.getWordsAndPhonemes () != null && data.getWordsAndPhonemes ().containsKey (word)) {
             return data.getWordsAndPhonemes ().get (word);
         }
-        return wordToPhonemes (data.getPhonemes (), word.getWord ());
+        return PhonemesIndexer.wordToPhonemes (data.getPhonemes (), word.getWord ());
     }
 
-    public static List<Phoneme> wordToPhonemes (Map<Pattern, Phoneme> knownPhonemes, String word) {
-        Phoneme [] result = new Phoneme [word.length ()];
+    public static List<Phoneme> wordToPhonemes (final Map<Pattern, Phoneme> knownPhonemes, final String word) {
+        final Phoneme [] result = new Phoneme [word.length ()];
 
         PhonemeMatch phonemeMatch;
         do {
-            phonemeMatch = 
-                    extractPhonemeFromMatch (knownPhonemes, 
-                            searchBestCandidate (knownPhonemes, word, result), result);
-        } while (hasMissingPhoneme (result) && phonemeMatch != PhonemeMatch.NONE);
-        
-        return removeDuplicates (Arrays.asList (result));
+            phonemeMatch = PhonemesIndexer.extractPhonemeFromMatch (knownPhonemes, PhonemesIndexer.searchBestCandidate (knownPhonemes, word, result), result);
+        } while (PhonemesIndexer.hasMissingPhoneme (result) && phonemeMatch != PhonemeMatch.NONE);
+
+        return PhonemesIndexer.removeDuplicates (Arrays.asList (result));
     }
 
-    private static PhonemeMatch extractPhonemeFromMatch (Map<Pattern, Phoneme> knownPhonemes, PhonemeMatch phonemeMatch, Phoneme [] target) {
+    private static PhonemeMatch extractPhonemeFromMatch (final Map<Pattern, Phoneme> knownPhonemes, final PhonemeMatch phonemeMatch, final Phoneme [] target) {
         if (phonemeMatch.foundMatcher != null) {
             phonemeMatch.foundMatcher.reset ();
             while (phonemeMatch.foundMatcher.find ()) {
-                if (inAlreadyDiscoveredPatterns (target, phonemeMatch.foundMatcher.start (), phonemeMatch.foundMatcher.end ())) {
+                if (PhonemesIndexer.inAlreadyDiscoveredPatterns (target, phonemeMatch.foundMatcher.start (), phonemeMatch.foundMatcher.end ())) {
                     continue;
                 }
                 for (int i = phonemeMatch.foundMatcher.start (1) ; i < phonemeMatch.foundMatcher.end (1) ; i++) {
@@ -98,19 +96,19 @@ public class PhonemesIndexer {
         return phonemeMatch;
     }
 
-    private static boolean hasMissingPhoneme (Phoneme [] phonemePerLetter) {
+    private static boolean hasMissingPhoneme (final Phoneme [] phonemePerLetter) {
         return Arrays.toString (phonemePerLetter).contains ("null");
     }
 
-    private static PhonemeMatch searchBestCandidate (Map<Pattern, Phoneme> knownPhonemes, String word, Phoneme [] phonemePerLetter) {
+    private static PhonemeMatch searchBestCandidate (final Map<Pattern, Phoneme> knownPhonemes, final String word, final Phoneme [] phonemePerLetter) {
         PhonemeMatch phonemeMatch = PhonemeMatch.NONE;
-        for (Entry<Pattern, Phoneme> entry : knownPhonemes.entrySet ()) {
-            Matcher matcher = entry.getKey ().matcher (word);
+        for (final Entry<Pattern, Phoneme> entry : knownPhonemes.entrySet ()) {
+            final Matcher matcher = entry.getKey ().matcher (word);
             while (matcher.find ()) {
-                int lengthOfCurrentMatcher = entry.getKey ().pattern ().contains (".*") ? 0 : matcher.end () - matcher.start ();
-                int lengthOfCurrentGroup = entry.getKey ().pattern ().contains (".*") ? 0 : matcher.end (1) - matcher.start (1);
-                boolean worthIt = lengthOfCurrentGroup > phonemeMatch.lengthOfCandidateGroup || (lengthOfCurrentGroup == phonemeMatch.lengthOfCandidateGroup && lengthOfCurrentMatcher >= phonemeMatch.lengthOfCandidateMatcher);
-                if (worthIt && !inAlreadyDiscoveredPatterns (phonemePerLetter, matcher.start (), matcher.end ())) {
+                final int lengthOfCurrentMatcher = entry.getKey ().pattern ().contains (".*") ? 0 : matcher.end () - matcher.start ();
+                final int lengthOfCurrentGroup = entry.getKey ().pattern ().contains (".*") ? 0 : matcher.end (1) - matcher.start (1);
+                final boolean worthIt = lengthOfCurrentGroup > phonemeMatch.lengthOfCandidateGroup || lengthOfCurrentGroup == phonemeMatch.lengthOfCandidateGroup && lengthOfCurrentMatcher >= phonemeMatch.lengthOfCandidateMatcher;
+                if (worthIt && !PhonemesIndexer.inAlreadyDiscoveredPatterns (phonemePerLetter, matcher.start (), matcher.end ())) {
                     phonemeMatch = new PhonemeMatch (matcher.end () - matcher.start (), matcher.end (1) - matcher.start (1), entry.getKey (), matcher);
                 }
             }
@@ -118,8 +116,8 @@ public class PhonemesIndexer {
         return phonemeMatch;
     }
 
-    private static List<Phoneme> removeDuplicates (List<Phoneme> list) {
-        List<Phoneme> result = new ArrayList<Phoneme> ();
+    private static List<Phoneme> removeDuplicates (final List<Phoneme> list) {
+        final List<Phoneme> result = new ArrayList<Phoneme> ();
         if (list.size () <= 1) {
             return list;
         }
@@ -139,7 +137,7 @@ public class PhonemesIndexer {
         return result;
     }
 
-    private static boolean inAlreadyDiscoveredPatterns (Phoneme [] phonemePerLetter, int start, int end) {
+    private static boolean inAlreadyDiscoveredPatterns (final Phoneme [] phonemePerLetter, final int start, final int end) {
         for (int i = start ; i < end ; i++) {
             if (phonemePerLetter [i] != null) {
                 return true;
@@ -148,49 +146,49 @@ public class PhonemesIndexer {
         return false;
     }
 
-    public static Map<Word, List<Phoneme>> wordsToPhoneme (Data data, List<Word> index) {
-        Map<Word, List<Phoneme>> result = new HashMap<Word, List<Phoneme>> ();
-        for (Word word : index) {
+    public static Map<Word, List<Phoneme>> wordsToPhoneme (final Data data, final List<Word> index) {
+        final Map<Word, List<Phoneme>> result = new HashMap<Word, List<Phoneme>> ();
+        for (final Word word : index) {
             result.put (word, PhonemesIndexer.wordToPhonemes (data, word));
         }
         return result;
     }
 
-    public static void readFile (Data data, String fileName) {
-        Properties properties = new Properties ();
+    public static void readFile (final Data data, final String fileName) {
+        final Properties properties = new Properties ();
         try {
             properties.load (new FileInputStream (new File (fileName)));
-        } catch (FileNotFoundException e) {
-        } catch (IOException e) {
+        } catch (final FileNotFoundException e) {
+        } catch (final IOException e) {
             throw new RuntimeException (e);
         }
-        for (Entry<Object, Object> line : properties.entrySet ()) {
-            saveWordFromProperty (data, line);
+        for (final Entry<Object, Object> line : properties.entrySet ()) {
+            PhonemesIndexer.saveWordFromProperty (data, line);
         }
     }
 
-    private static void saveWordFromProperty (Data data, Entry<Object, Object> line) {
+    private static void saveWordFromProperty (final Data data, final Entry<Object, Object> line) {
 
-        List<String> asString = Arrays.asList (line.getValue ().toString ().replace ('[', ' ').replace (']', ' ').trim ().split("\\s*,\\s*"));
-        List<Phoneme> result = new ArrayList<Phoneme> (asString.size ());
-        
-        for (String phoneme : asString) {
+        final List<String> asString = Arrays.asList (line.getValue ().toString ().replace ('[', ' ').replace (']', ' ').trim ().split ("\\s*,\\s*"));
+        final List<Phoneme> result = new ArrayList<Phoneme> (asString.size ());
+
+        for (final String phoneme : asString) {
             result.add (data.getPhonemes ().get (data.getPhonemesFromText ().get (phoneme.trim ())));
         }
 
-        Word word = new Word (line.getKey ().toString ());
+        final Word word = new Word (line.getKey ().toString ());
         data.getWordsAndPhonemes ().put (word, result);
         data.getImages ().put (word.getWord (), line.getKey ().toString ());
     }
 
-    public static Map<String, Pattern> buildPatternsFromText (Map<Pattern, Phoneme> phonemes) {
+    public static Map<String, Pattern> buildPatternsFromText (final Map<Pattern, Phoneme> phonemes) {
 
-        Map<String, Pattern> phonemeAsTextToPattern = new HashMap<String, Pattern> ();
-        
-        for (Entry<Pattern, Phoneme>  phonemeEntry : phonemes.entrySet ()) {
+        final Map<String, Pattern> phonemeAsTextToPattern = new HashMap<String, Pattern> ();
+
+        for (final Entry<Pattern, Phoneme> phonemeEntry : phonemes.entrySet ()) {
             phonemeAsTextToPattern.put (phonemeEntry.getValue ().getPhoneme (), phonemeEntry.getKey ());
         }
-        
+
         return phonemeAsTextToPattern;
     }
 }

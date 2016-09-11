@@ -1,34 +1,30 @@
 package org.toilelibre.libe.rebus.model.phonemes;
 
 public class Phoneme {
-    
+
     public static final Phoneme EMPTY = new Phoneme ("//");
 
-    private final String phoneme;
+    private final String        phoneme;
 
-    public Phoneme (String phoneme) {
+    public Phoneme (final String phoneme) {
         this.phoneme = phoneme;
     }
 
     public String getPhoneme () {
-        return phoneme;
+        return this.phoneme;
     }
 
     @Override
     public String toString () {
-        return phoneme;
-    }
-    
-    public boolean endsWith (Phoneme otherPhoneme) {
-        return this.phoneme.replace ('/', ' ').trim ().endsWith (
-                otherPhoneme.getPhoneme ().replace ('/', ' ').trim ()) &&
-                otherPhoneme.getPhoneme ().indexOf (' ') == -1;
+        return this.phoneme;
     }
 
-    public boolean startsWith (Phoneme otherPhoneme) {
-        return this.phoneme.replace ('/', ' ').trim ().startsWith (
-                otherPhoneme.getPhoneme ().replace ('/', ' ').trim ()) &&
-                otherPhoneme.getPhoneme ().indexOf (' ') == -1;
+    public boolean endsWith (final Phoneme otherPhoneme) {
+        return this.phoneme.replace ('/', ' ').trim ().endsWith (otherPhoneme.getPhoneme ().replace ('/', ' ').trim ()) && otherPhoneme.getPhoneme ().indexOf (' ') == -1;
     }
-    
+
+    public boolean startsWith (final Phoneme otherPhoneme) {
+        return this.phoneme.replace ('/', ' ').trim ().startsWith (otherPhoneme.getPhoneme ().replace ('/', ' ').trim ()) && otherPhoneme.getPhoneme ().indexOf (' ') == -1;
+    }
+
 }

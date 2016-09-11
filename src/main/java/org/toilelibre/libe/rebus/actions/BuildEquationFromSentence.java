@@ -5,8 +5,8 @@ import java.util.Set;
 import org.toilelibre.libe.rebus.model.context.Data;
 import org.toilelibre.libe.rebus.model.context.Settings;
 import org.toilelibre.libe.rebus.model.fsm.FSM;
-import org.toilelibre.libe.rebus.model.fsm.Pair;
 import org.toilelibre.libe.rebus.model.fsm.FSMPopulator;
+import org.toilelibre.libe.rebus.model.fsm.Pair;
 import org.toilelibre.libe.rebus.model.word.Word;
 import org.toilelibre.libe.rebus.model.word.WordEvaluator;
 
@@ -14,7 +14,7 @@ public class BuildEquationFromSentence {
 
     /**
      * Returns the cost of an equation (or a rebus)
-     * 
+     *
      * @param equation
      *            the equation to consider
      * @return the cost
@@ -25,7 +25,7 @@ public class BuildEquationFromSentence {
 
     /**
      * Transforms a sentence into an equation
-     * 
+     *
      * @param data
      *            the data contains a FSM, the pictures map and the settings
      * @param sentence
@@ -33,17 +33,17 @@ public class BuildEquationFromSentence {
      * @return an equation
      */
     public static String getEquation (final Data data, final String sentence) {
-        String [] wordsAsString = preparse (sentence);
-        StringBuilder resultBuilder = new StringBuilder ();
-        for (String wordAsString : wordsAsString) {
+        final String [] wordsAsString = BuildEquationFromSentence.preparse (sentence);
+        final StringBuilder resultBuilder = new StringBuilder ();
+        for (final String wordAsString : wordsAsString) {
             resultBuilder.append (BuildEquationFromSentence.getEquation (data, new Word (wordAsString)));
         }
         return resultBuilder.toString ();
     }
-    
+
     /**
      * Transforms a word into an equation
-     * 
+     *
      * @param data
      *            the data contains a FSM, the pictures map and the settings
      * @param word
@@ -56,7 +56,7 @@ public class BuildEquationFromSentence {
 
     /**
      * Transforms a word into an equation
-     * 
+     *
      * @param settings
      *            settings choosen by the user
      * @param wfs
@@ -102,7 +102,7 @@ public class BuildEquationFromSentence {
 
     /**
      * Splits a sentence in words, removing punctuation marks
-     * 
+     *
      * @param sentence
      *            the sentence typed by the user
      * @return array of words in String[]

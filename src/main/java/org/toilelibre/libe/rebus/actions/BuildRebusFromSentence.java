@@ -10,38 +10,45 @@ import org.toilelibre.libe.rebus.model.word.Word;
 
 public class BuildRebusFromSentence {
 
-
-    private static String getPhonemesAsString (List<Phoneme> phonemes, int start) {
+    private static String getPhonemesAsString (final List<Phoneme> phonemes, final int start) {
         return phonemes.subList (start, phonemes.size ()).toString ().replace ('[', ' ').replace (']', ' ').trim ();
     }
-    
-    public static List<Word> getRebusFromSentence (Data data, String sentence) {
-        List<Phoneme> phonemes = new ArrayList<Phoneme> ();
-        String [] wordsAsString = sentence.toLowerCase ().split (" ");
-        for (String wordAsString : wordsAsString) {
+
+    public static String [] getRebusFromSentence (final Data data, final String sentence) {
+        final List<Word> words = BuildRebusFromSentence.getWordsRebusFromSentence (data, sentence);
+        final String [] result = new String [words.size ()];
+        int i = 0;
+        for (final Word word : words) {
+            result [i++] = word.getWord ();
+        }
+        return result;
+    }
+
+    public static List<Word> getWordsRebusFromSentence (final Data data, final String sentence) {
+        final List<Phoneme> phonemes = new ArrayList<Phoneme> ();
+        final String [] wordsAsString = sentence.toLowerCase ().split (" ");
+        for (final String wordAsString : wordsAsString) {
             phonemes.addAll (PhonemesIndexer.wordToPhonemes (data, new Word (wordAsString)));
         }
         return BuildRebusFromSentence.getRebus (data, phonemes);
     }
-    
-    static List<Word> getRebus (Data data, List<Phoneme> phonemes) {
+
+    static List<Word> getRebus (final Data data, final List<Phoneme> phonemes) {
         int i = 0;
-        List<Word> result = new ArrayList<Word> ();
+        final List<Word> result = new ArrayList<Word> ();
         while (i < phonemes.size ()) {
-            String phonemesAsString = getPhonemesAsString (phonemes, i);
+            final String phonemesAsString = BuildRebusFromSentence.getPhonemesAsString (phonemes, i);
             Word candidate = null;
             List<Phoneme> candidatePhonemes = null;
-            for (Word attempt : data.getWords ()) {
-                List<Phoneme> attemptPhonemes = PhonemesIndexer.wordToPhonemes (data, attempt);
-                String attemptPhonemesAsString = getPhonemesAsString (attemptPhonemes, 0);
-                if (phonemesAsString.startsWith (attemptPhonemesAsString) &&
-                        (candidate == null || candidatePhonemes == null ||
-                                candidatePhonemes.size () < attemptPhonemes.size ())){
+            for (final Word attempt : data.getWords ()) {
+                final List<Phoneme> attemptPhonemes = PhonemesIndexer.wordToPhonemes (data, attempt);
+                final String attemptPhonemesAsString = BuildRebusFromSentence.getPhonemesAsString (attemptPhonemes, 0);
+                if (phonemesAsString.startsWith (attemptPhonemesAsString) && (candidate == null || candidatePhonemes == null || candidatePhonemes.size () < attemptPhonemes.size ())) {
                     candidate = attempt;
                     candidatePhonemes = PhonemesIndexer.wordToPhonemes (data, candidate);
                 }
             }
-            i+= candidate == null ? 1 : candidatePhonemes.size ();
+            i += candidate == null ? 1 : candidatePhonemes.size ();
             if (candidate != null) {
                 result.add (candidate);
             }

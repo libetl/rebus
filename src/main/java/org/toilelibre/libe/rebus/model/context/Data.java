@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import org.toilelibre.libe.rebus.model.context.Settings;
 import org.toilelibre.libe.rebus.model.fsm.FSM;
 import org.toilelibre.libe.rebus.model.fsm.Pair;
 import org.toilelibre.libe.rebus.model.images.ImageIndexer;
@@ -18,9 +17,9 @@ import org.toilelibre.libe.rebus.model.word.WordIndexer;
 
 /**
  * Contains all concrete data of the program
- * 
+ *
  * @author LiBe
- * 
+ *
  */
 public class Data {
 
@@ -35,16 +34,16 @@ public class Data {
     /**
      * This struct is the owner of all FSMs where we can find deltas between
      * words.
-     * 
+     *
      * The main concept is that simple : replace a sample of letters by a
      * subtraction between two known words.
-     * 
+     *
      * exemple : replace "the" by elephant - plane
-     * 
+     *
      * A FSM is nothing but a forest with paths crossing each other.
-     * 
+     *
      * It is made of data and transitions to other FSMs.
-     * 
+     *
      */
     private final FSM<Set<Pair<Word, Word>>, String> sortedLettersTree;
     /**
@@ -62,7 +61,7 @@ public class Data {
      * Must be called at the beginning of the program. It loads an instance of
      * the map and the FSM.
      */
-    public Data (String imageFileName, String phoneticsFileName, String phonemesFileName) {
+    public Data (final String imageFileName, final String phoneticsFileName, final String phonemesFileName) {
         try {
             this.settings = new Settings ();
             this.images = ImageIndexer.index (Data.class.getClassLoader (), imageFileName);
@@ -77,15 +76,15 @@ public class Data {
     }
 
     public Collection<Word> getWords () {
-        return words.keySet ();
+        return this.words.keySet ();
     }
 
     public Map<Word, List<Phoneme>> getWordsAndPhonemes () {
-        return words;
+        return this.words;
     }
 
     public Map<Pattern, Phoneme> getPhonemes () {
-        return phonemes;
+        return this.phonemes;
     }
 
     public Map<String, String> getImages () {

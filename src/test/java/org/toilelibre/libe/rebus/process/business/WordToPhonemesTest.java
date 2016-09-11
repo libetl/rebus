@@ -11,6 +11,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.toilelibre.libe.rebus.actions.LoadData;
 import org.toilelibre.libe.rebus.model.context.Data;
 import org.toilelibre.libe.rebus.model.phonemes.Phoneme;
 import org.toilelibre.libe.rebus.model.phonemes.PhonemesIndexer;
@@ -21,9 +22,7 @@ public class WordToPhonemesTest {
 
     @BeforeClass
     public static void prepareData () {
-        data = new Data ("src/main/resources/images.txt", 
-                "src/main/resources/eng_phone.txt",
-                "src/main/resources/phonemes.txt");
+        data = LoadData.ensureEnglishDataLoaded ();
     }
 
     @Test

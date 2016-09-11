@@ -12,9 +12,7 @@ public class RebusFromWordTest {
 
     @BeforeClass
     public static void prepareData () {
-        RebusFromWordTest.data = new Data ("src/main/resources/images.txt", 
-                "src/main/resources/eng_phone.txt",
-                "src/main/resources/phonemes.txt");
+        RebusFromWordTest.data = LoadData.ensureEnglishDataLoaded ();
     }
     
     @Test
@@ -25,7 +23,7 @@ public class RebusFromWordTest {
     
     @Test
     public void sea () {
-        System.out.println (BuildRebusFromSentence.getRebusFromSentence (data, "As far as i know"));
+        System.out.println (BuildRebusFromSentence.getWordsRebusFromSentence (data, "As far as i know"));
     }
     @Test
     public void eyeAndWave () {
