@@ -63,13 +63,12 @@ public class WordIndexer {
     public static List<Word> index (String wordsForEquationsFileName) {
         BufferedReader br;
         try {
-            br = new BufferedReader (new InputStreamReader (
-                    new FileInputStream (new File (wordsForEquationsFileName))));
-            Set<String> result = new HashSet<String>(Arrays.asList (br.readLine ().split (" ")));
+            br = new BufferedReader (new InputStreamReader (new FileInputStream (new File (wordsForEquationsFileName))));
+            Set<String> result = new HashSet<String> (Arrays.asList (br.readLine ().split (" ")));
             br.close ();
-            return index(result);
+            return index (result);
         } catch (FileNotFoundException e) {
-            return new ArrayList<Word>(0);
+            return new ArrayList<Word> (0);
         } catch (IOException e) {
             throw new RuntimeException (e);
         }

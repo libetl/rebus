@@ -233,9 +233,9 @@ public class OldUserInterface {
                 final String pictureFile = LoadData.getPicture (picture);
                 Image pictureImage = null;
                 try {
-                    pictureImage = pictureFile == null ? null : ImageIO.read(new URL ("https://openclipart.org/image/250px/svg_to_png/" + pictureFile + ".png"));
-                } catch (MalformedURLException e) {
-                } catch (IOException e) {
+                    pictureImage = pictureFile == null ? null : ImageIO.read (new URL ("https://openclipart.org/image/250px/svg_to_png/" + pictureFile + ".png"));
+                } catch (final MalformedURLException e) {
+                } catch (final IOException e) {
                 }
                 if (pictureImage != null) {
                     jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureImage)));

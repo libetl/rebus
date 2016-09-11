@@ -39,8 +39,9 @@ public class BuildEquationFromSentence {
         final StringBuilder resultBuilder = new StringBuilder ();
         for (final String wordAsString : wordsAsString) {
             resultBuilder.append (BuildEquationFromSentence.getEquation (new Word (wordAsString), data));
+            resultBuilder.append (", ");
         }
-        return resultBuilder.toString ();
+        return resultBuilder.substring (0, resultBuilder.length () - 2).toString ();
     }
 
     /**
