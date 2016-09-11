@@ -6,12 +6,15 @@ import java.awt.Container;
 import java.awt.EventQueue;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.imageio.ImageIO;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.ImageIcon;
@@ -228,13 +231,14 @@ public class OldUserInterface {
 
                 // We add the drawing
                 final String pictureFile = LoadData.getPicture (picture);
-                URL pictureUrl= null;
+                Image pictureImage = null;
                 try {
-                    pictureUrl = pictureFile == null ? null : new URL ("https://openclipart.org/image/250px/svg_to_png/" + pictureFile + ".png");
+                    pictureImage = pictureFile == null ? null : ImageIO.read(new URL ("https://openclipart.org/image/250px/svg_to_png/" + pictureFile + ".png"));
                 } catch (MalformedURLException e) {
+                } catch (IOException e) {
                 }
-                if (pictureUrl != null) {
-                    jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureUrl)));
+                if (pictureImage != null) {
+                    jpTextsAndDrawings.add (new JLabel (new ImageIcon (pictureImage)));
                 } else {
                     jpTextsAndDrawings.add (new JLabel (picture));
                 }
