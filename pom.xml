@@ -30,7 +30,7 @@
 							<finalName>${project.build.finalName}-ui</finalName>
 							<archive>
 								<manifest>
-									<mainClass>org.toilelibre.libe.rebus.MakeARebus</mainClass>
+									<mainClass>org.toilelibre.libe.rebus.OldUserInterface</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>

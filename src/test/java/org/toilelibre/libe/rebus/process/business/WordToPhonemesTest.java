@@ -8,13 +8,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.toilelibre.libe.rebus.init.PhonemesIndexer;
-import org.toilelibre.libe.rebus.objects.Data;
-import org.toilelibre.libe.rebus.objects.structs.Phoneme;
-
-import org.junit.Assert;
+import org.toilelibre.libe.rebus.model.context.Data;
+import org.toilelibre.libe.rebus.model.phonemes.Phoneme;
+import org.toilelibre.libe.rebus.model.phonemes.PhonemesIndexer;
 
 public class WordToPhonemesTest {
     
@@ -22,9 +21,12 @@ public class WordToPhonemesTest {
 
     @BeforeClass
     public static void prepareData () {
-        data = new Data ();
+        data = new Data ("src/main/resources/images.txt", 
+                "src/main/resources/eng_phone.txt",
+                "src/main/resources/phonemes.txt");
     }
 
+    @Test
     public void fileToPhonemes () throws IOException {
         new File ("src/main/resources/phonemes.txt").delete ();
         BufferedReader br =
