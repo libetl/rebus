@@ -166,10 +166,6 @@ public class OldUserInterface {
             OldUserInterface.resultPanels.removeAll ();
 
             // Here we launch the threads
-            final JPanel jpbox = new JPanel ();
-            jpbox.setBorder (new LineBorder (new Color (0, 0, 0)));
-            jpbox.setLayout (new GridLayout (2, 1, 0, 0));
-            OldUserInterface.resultPanels.add (jpbox);
             new Thread () {
                 @Override
                 /**
@@ -180,6 +176,10 @@ public class OldUserInterface {
                     final String [] words = BuildRebusFromSentence.getRebusFromSentence (OldUserInterface.textField.getText ());
                     // We write it
                     for (final String word : words) {
+                        final JPanel jpbox = new JPanel ();
+                        jpbox.setBorder (new LineBorder (new Color (0, 0, 0)));
+                        jpbox.setLayout (new GridLayout (2, 1, 0, 0));
+                        OldUserInterface.resultPanels.add (jpbox);
                         final JLabel jlabelsResult = new JLabel ("?");
                         jlabelsResult.setVerticalTextPosition (SwingConstants.BOTTOM);
                         jlabelsResult.setText ("(" + word + ")");
